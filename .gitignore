@@ -1,5 +1,6 @@
 # Config Files
 config.php
+sftp-config.json
 
 # Admin
 admin/*

@@ -2,9 +2,10 @@
 <html lang="fr">
 	<head>
 		<meta doctype="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>[ASN] - Libre et sécurité à 42</title>
-		<link rel="stylesheet" href="includes/css/bootstrap-theme.min.css">
+		<!--link rel="stylesheet" href="includes/css/bootstrap-theme.min.css"-->
 		<link rel="stylesheet" href="includes/css/bootstrap.min.css">
 		<link rel="stylesheet" href="includes/css/font-awesome.min.css">
 		<link rel="stylesheet" href="includes/css/style.css">
