@@ -8,6 +8,12 @@ a {
     color: #00B7FF;
 }
 
+/* ---- AJOUT BOOTSTRAP ---- */
+
+.center-block {
+    text-align: center;
+}
+
 /* ---- HEADER ---- */
 
 .name_header {
@@ -34,4 +40,10 @@ a {
 
 #nav1 {
 	padding-top: 10px;
+}
+
+/* ---- CONTACT ---- */
+
+.list-height-55 {
+    line-height: 55px;
 }
