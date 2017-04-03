@@ -4,6 +4,7 @@
 	<meta>
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta charset="UTF-8">
 	<title>[ASN] - Libre et sécurité à 42</title>
 	<link href="includes/css/bootstrap.min.css" rel="stylesheet">
 	<link href="includes/css/font-awesome.min.css" rel="stylesheet">
@@ -37,7 +38,7 @@
 			</div>
 		</div>
 	</nav>
-	<div class="container">
+	<div id="container" class="container animate-in">
 <!--
 **** Event (notification) :
 **** class alert-[danger|warning|success|info|default] : 
@@ -49,10 +50,6 @@
 **** 	<b>titre</b> text
 **** </div>
 -->
-		<div class="alert alert-dismissible alert-danger">
-			<button type="button" class="close" data-dismiss="alert">&times;</button>
-			<b>titre</b> text
-		</div>
 		<div class="row jumbotron">
 			<h1>Libre et sécurité</h1>
 			<p class="lead">Deux mondes étroitement liés, mais tout deux indépendant. l'ASN vous propose un voyage au coeur de ces deux contrées aux travers d'atelier pratique, démonstration, "cours", tuto ect..</p>
@@ -93,6 +90,11 @@
 	<script src="includes/js/1.12.4-jquery.min.js">
 	</script> 
 	<script src="includes/js/bootstrap.min.js">
+	</script>
+	<script>
+		window.addEventListener("beforeunload", function () {
+		  document.getElementById("container").classList.add("animate-out");
+		});
 	</script>
 </body>
 </html>

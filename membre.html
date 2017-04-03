@@ -4,6 +4,7 @@
 	<meta>
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta charset="UTF-8">
 	<title>[ASN] - Libre et sécurité à 42</title>
 	<link href="includes/css/bootstrap.min.css" rel="stylesheet">
 	<link href="includes/css/font-awesome.min.css" rel="stylesheet">
@@ -37,7 +38,7 @@
 			</div>
 		</div>
 	</nav>
-	<div class="container">
+	<div id="container" class="container animate-in">
 <!--
 **** Event (notification) :
 **** class alert-[danger|warning|success|info|default] : 
@@ -49,10 +50,6 @@
 **** 	<b>titre</b> text
 **** </div>
 -->
-		<div class="alert alert-dismissible alert-danger">
-			<button type="button" class="close" data-dismiss="alert">&times;</button>
-			<b>titre</b> text
-		</div>
 		<div class="row jumbotron">
 			<div class="col-lg-12¨">
 				<h2>Devenir membre</h2>
@@ -73,6 +70,11 @@
 	<script src="includes/js/1.12.4-jquery.min.js">
 	</script> 
 	<script src="includes/js/bootstrap.min.js">
+	</script>
+	<script>
+		window.addEventListener("beforeunload", function () {
+		  document.getElementById("container").classList.add("animate-out");
+		});
 	</script>
 </body>
 </html>
