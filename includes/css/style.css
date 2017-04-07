@@ -1,5 +1,5 @@
 body {
-	padding-top: 100px;
+    padding-top: 100px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
     background: url(../../images/shattered-island.gif);
 }
@@ -38,8 +38,8 @@ a {
 /* ---- HEADER ---- */
 
 .name_header {
-	color: black;
-	font-size: 20px;
+    color: black;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -51,16 +51,16 @@ a {
 }
 
 .navbar-header {
-	min-height: 75px;
+    min-height: 75px;
 }
 
 .nav, .nav li a {
-	min-height: 75px;
-	vertical-align: center;
+    min-height: 75px;
+    vertical-align: center;
 }
 
 #nav1 {
-	padding-top: 10px;
+    padding-top: 10px;
 }
 
 /* ---- CONTACT ---- */
