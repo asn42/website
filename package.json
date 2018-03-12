@@ -1,0 +1,38 @@
+{
+  "name": "asn-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Association Sans Nom website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asn42/website.git"
+  },
+  "keywords": [
+    "Association Sans Nom",
+    "ASN",
+    "sansnom.org",
+    "website",
+    "security",
+    "Free software",
+    "lock picking",
+    "association",
+    "42",
+    "42born2code",
+    "student",
+    "42school",
+    "42-school"
+  ],
+  "author": {
+    "name": "Association Sans Nom",
+    "url": "https://sansnom.org/"
+  },
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/asn42/website/issues"
+  },
+  "homepage": "https://github.com/asn42/website#readme"
+}
