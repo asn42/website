@@ -3,36 +3,36 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Accueil - Association Sans Nom - Libre et sécurité à 42</title>
-        <meta name="description" content="Présentation de l&#x27;ASN, l&#x27;association étudiante de 42 pour tout ce qui touche au Libre et à la sécurité !">
+        <title>{% block title %}{{ section.title }}{% endblock title %}</title>
+        <meta name="description" content="{% block description %}{{ section.description }}{% endblock description %}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="manifest" href="&#x2F;site.webmanifest">
-        <link rel="apple-touch-icon" href="&#x2F;icon.png">
-        <link rel="icon" href="&#x2F;favicon.ico">
+        <link rel="manifest" href="{{ get_url(path="site.webmanifest", trailing_slash=false) }}">
+        <link rel="apple-touch-icon" href="{{ get_url(path="icon.png", trailing_slash=false) }}">
+        <link rel="icon" href="{{ get_url(path="favicon.ico", trailing_slash=false) }}">
 
-        <link rel="stylesheet" href="&#x2F;main.css">
+        <link rel="stylesheet" href="{{ get_url(path="main.css", trailing_slash=false) }}">
     </head>
     <body>
 
         <nav>
-            <a href="&#x2F;">
+            <a href="{{ config.base_url }}">
                 <img src="/images/logo.svg" alt="Logo ASN">
                 <div>
                     <h1>Association Sans Nom</h1>
                     <p>Libre et Sécurité à 42</p>
                 </div>
             </a>
-            <a href="&#x2F;contact&#x2F;">Nous contacter</a>
-            <a href="&#x2F;membre&#x2F;">Devenir Membre</a>
+            <a href="{{ get_url(path="./contact/index.md") }}">Nous contacter</a>
+            <a href="{{ get_url(path="./membre/index.md") }}">Devenir Membre</a>
         </nav>
 
-        <main class="container">
-        
+        <main class="container{% block extra_content_class %}{% endblock extra_content_class %}">
+        {% block content %}
         <section>
             <h2>Libre et sécurité</h2>
             <p>Le Libre et la sécurité partagent des valeurs provenant du hacking&nbsp;: étudier le fonctionnement des choses, les améliorer, trouver des failles pour les détourner de leur usage premier, partager ses découvertes avec ses pairs et le reste du monde. Nous vous invitons à faire vivre ces valeurs avec l'Association Sans Nom à travers des ateliers, des conférences et d'autres activités internes ou publiques, ainsi que la gestion de services pour et par les membres eux-mêmes.</p>
-            <p><a href="#activites" class="btn-primary">Qu'est-ce qu'on y fait&nbsp;?</a> <a href="&#x2F;membre&#x2F;" class="btn-success">Où est-ce que je signe&nbsp;?</a></p>
+            <p><a href="#activites" class="btn-primary">Qu'est-ce qu'on y fait&nbsp;?</a> <a href="{{ get_url(path="./membre/index.md") }}" class="btn-success">Où est-ce que je signe&nbsp;?</a></p>
         </section>
 
         <section>
@@ -78,12 +78,12 @@
 
                 <div>
                     <h3 id="proposer-une-activite">Proposer une activité</h3>
-                    <p>Si vous avez une idée à proposer, un atelier, une conférence, un partenariat… <a href="&#x2F;contact&#x2F;">envoyez-nous un message</a> par courrier électronique ou sur slack. Vous pouvez également venir en discuter lors d'une de nos réunions.</p>
+                    <p>Si vous avez une idée à proposer, un atelier, une conférence, un partenariat… <a href="{{ get_url(path="./contact/index.md") }}">envoyez-nous un message</a> par courrier électronique ou sur slack. Vous pouvez également venir en discuter lors d'une de nos réunions.</p>
                 </div>
             </div>
         </section>
 
-        
+        {% endblock content %}
 
         </main>
 
