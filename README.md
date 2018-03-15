@@ -4,6 +4,17 @@ for all Free- and security-related stuff !
 
 ![ASN logo](static/images/logo.svg)
 
+## Requirement
+
+* Get the latest version of Gutenberg static site generator [from the official
+website](https://www.getgutenberg.io/documentation/getting-started/installation/).
+
+## Build the static site
+
+``` sh
+gutenberg build
+```
+
 ## License
 
     asn-website - Association Sans Nom website
@@ -23,3 +34,10 @@ for all Free- and security-related stuff !
     
     You should have received a copy of the GNU Affero Public License
     along with asn-website.  If not, see <https://www.gnu.org/licenses/>.
+
+### Copyleft icon
+
+The copyleft icon is a modified version of [a Font Awesome Free
+icon](https://fontawesome.com/icons/copyright?style=regular).
+It is released under [Creative Commons BY 4.0
+License](https://creativecommons.org/licenses/by/4.0/).
