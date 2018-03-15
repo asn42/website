@@ -35,6 +35,17 @@ gutenberg build
     You should have received a copy of the GNU Affero Public License
     along with asn-website.  If not, see <https://www.gnu.org/licenses/>.
 
+### Roboto font
+
+Roboto font, designed by Christian Robertson, is released under [Apache 2.0
+license](http://www.apache.org/licenses/LICENSE-2.0) by Google.
+
+### Normalize.css
+
+[Normalize.css](http://necolas.github.io/normalize.css/) is released under the
+[MIT license](https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
+by Nicolas Gallagher and Jonathan Neal.
+
 ### Copyleft icon
 
 The copyleft icon is a modified version of [a Font Awesome Free

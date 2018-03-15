@@ -1,0 +1,61 @@
+{% extends "index.html" %}
+{% block title %}{{ page.title }}{% endblock title %}
+{% block description %}{{ page.description }}{% endblock description %}
+
+{% block content %}
+
+
+        <section>
+            <h2>Nous Contacter</h2>
+            <p>Il y a plusieurs moyens possibles de nous contacter&nbsp;:</p>
+            <ul>
+                <li>Par messagerie électronique&nbsp;: <a href="mailto:bureau [ @ ] sansnom.org" class="btn-primary">nous envoyer un courriel</a></li>
+                <li>Sur le slack de 42&nbsp;:
+                    <ul>
+                        <li>L'association&nbsp;:<a href="https://42born2code.slack.com/messages/asn-/" class="btn-primary">/open #asn-</a></li>
+                        <li>Le Libre&nbsp;:<a href="https://42born2code.slack.com/messages/asn-libre/" class="btn-primary">/open #asn-libre</a></li>
+                        <li>La sécurité physique&nbsp;:<a href="https://42born2code.slack.com/messages/asn-lockpicking/" class="btn-primary">/open #asn-lockpicking</a></li>
+                        <li>La sécurité informatique&nbsp;:<a href="https://42born2code.slack.com/messages/asn-secu/" class="btn-primary">/open #asn-secu</a></li>
+                    </ul>
+                </li>
+                <li>Sur Github&nbsp;: <a href="https://github.com/asn42" class="btn-primary">@asn42</a></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="equipe">L'Équipe</h2>
+
+            <div id="trombi" class="blocks">
+                <div>
+                    <img src="{{ get_url(path="/images/members/pk.png", trailing_slash=false) }}" class="img-circle" />
+                    <h3>apachkof</h3>
+                    <p>président</p>
+                </div>
+
+                <div>
+                    <img src="{{ get_url(path="/images/members/lbopp.png", trailing_slash=false) }}" class="img-circle" />
+                    <h3>lbopp</h3>
+                    <p>trésorier</p>
+                </div>
+
+                <div>
+                    <img src="{{ get_url(path="/images/members/dbourdon.jpg", trailing_slash=false) }}" class="img-circle" />
+                    <h3>dbourdon</h3>
+                    <p>secrétaire général</p>
+                </div>
+
+                <div>
+                    <img src="{{ get_url(path="/images/members/bruh.jpg", trailing_slash=false) }}" class="img-circle" />
+                    <h3>vmercadi</h3>
+                    <p>vice-président</p>
+                </div>
+
+                <div>
+                    <img src="{{ get_url(path="/images/members/nidzik.png", trailing_slash=false) }}" class="img-circle" />
+                    <h3>nidzik</h3>
+                    <p>trésorier adjoint</p>
+                </div>
+            </div>
+        </section>
+
+{% endblock content %}
