@@ -7,7 +7,7 @@ source_file="$source_dir/statuts.md"
 target_dir="$(pwd)/../../content/statuts"
 target_file="$target_dir/index.md"
 
-lastchange="$(git log -1 --format="%aI" -- $source_file)"
+lastchange="$(git log -1 --format="%aI" -- "$source_file")"
 
 mkdir -p "$target_dir"
 
