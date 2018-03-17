@@ -1,0 +1,17 @@
+{% extends "index.html" %}
+
+{% block extra_nav_class %}{% endblock extra_nav_class %}
+{% block extra_content_class %}content--reversed{% endblock extra_content_class %}
+
+{% block content %}
+{% set parent_section = get_section(path="ateliers-pentest/_index.md") %}
+<nav><a href="{{parent_section.permalink}}">Retour à la liste des ateliers pentest</a></nav>
+<section>
+{{section.content | safe}}
+    <ul>
+        {% for page in section.pages %}
+        <li><a href="{{page.permalink}}">write-up de {{page.extra.author}}</a></li>
+        {% endfor %}
+    </ul>
+</section>
+{% endblock content %}

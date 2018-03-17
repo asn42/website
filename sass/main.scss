@@ -102,6 +102,7 @@ body {
   color: #aaa;
 }
 
+main > nav,
 main > article,
 main > section {
   background-color: rgba(50, 150, 230, .2);
@@ -267,10 +268,13 @@ a.btn-dark:hover {
 	background-image: linear-gradient(to bottom, #474646, #0d0d0d);
 }
 
+nav a,
 article a,
 section a {
   color: #ea6;
 }
+nav a:active,
+nav a:hover,
 article a:active,
 article a:hover,
 section a:active,
@@ -360,6 +364,7 @@ body > nav img {
 
 body > nav,
 body > footer,
+main > nav,
 main > article,
 main > section {
   padding: 5px 4%;
@@ -377,6 +382,7 @@ body > footer {
 @media (min-width: 576px) {
   body > nav,
   body > footer,
+  main > nav,
   main > article,
   main > section {
     padding: .5em 4%;
@@ -438,6 +444,7 @@ body > footer {
 @media (min-width: 768px) {
   body > nav,
   body > footer,
+  main > nav,
   main > article,
   main > section {
     padding: .5em 3.5%;
@@ -464,6 +471,7 @@ body > footer {
 @media (min-width: 992px) {
   body > nav,
   body > footer,
+  main > nav,
   main > article,
   main > section {
     padding: .5em 3.5%;
@@ -492,6 +500,7 @@ body > footer {
 @media (min-width: 1200px) {
   body > nav,
   body > footer,
+  main > nav,
   main > article,
   main > section {
     padding: .5em 3%;
