@@ -11,6 +11,20 @@ website](https://www.getgutenberg.io/documentation/getting-started/installation/
 
 ## Build the static site
 
+### Get the submodules
+
+``` sh
+git submodule update --init
+```
+
+### Update the submodules (optional)
+
+``` sh
+git submodule update --remote
+```
+
+### Create the files in `/public`
+
 ``` sh
 gutenberg build
 ```
