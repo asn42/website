@@ -1,0 +1,11 @@
+{% extends "index.html" %}
+{% block title %}{{ page.title }}{% endblock title %}
+{% block description %}{{ page.description }}{% endblock description %}
+
+{% block content %}
+
+        <section>
+{{page.content | safe}}
+        </section>
+
+{% endblock content %}
