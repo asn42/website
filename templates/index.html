@@ -3,36 +3,36 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>{% block title %}{{ section.title }}{% endblock title %}</title>
-        <meta name="description" content="{% block description %}{{ section.description }}{% endblock description %}">
+        <title>{% block title %}{{section.title | safe}}{% endblock title %} - {{config.title | safe}}</title>
+        <meta name="description" content="{% block description %}{{section.description | safe}}{% endblock description %}{{config.description | safe}}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="manifest" href="{{ get_url(path="site.webmanifest", trailing_slash=false) }}">
-        <link rel="apple-touch-icon" href="{{ get_url(path="icon.png", trailing_slash=false) }}">
-        <link rel="icon" href="{{ get_url(path="favicon.ico", trailing_slash=false) }}">
+        <link rel="manifest" href="{{ get_url(path="site.webmanifest", trailing_slash=false) | safe}}">
+        <link rel="apple-touch-icon" href="{{ get_url(path="icon.png", trailing_slash=false) | safe}}">
+        <link rel="icon" href="{{ get_url(path="favicon.ico", trailing_slash=false) | safe}}">
 
-        <link rel="stylesheet" href="{{ get_url(path="main.css", trailing_slash=false) }}">
+        <link rel="stylesheet" href="{{ get_url(path="main.css", trailing_slash=false) | safe}}">
     </head>
     <body>
 
         <nav>
-            <a href="{{ config.base_url }}">
+            <a href="{{ config.base_url | safe}}">
                 <img src="/images/logo.svg" alt="Logo ASN">
                 <div>
                     <h1>Association Sans Nom</h1>
                     <p>Libre et Sécurité à 42</p>
                 </div>
             </a>
-            <a href="{{ get_url(path="./contact/index.md") }}">Nous contacter</a>
-            <a href="{{ get_url(path="./membre/index.md") }}">Devenir Membre</a>
+            <a href="{{ get_url(path="./contact/index.md") | safe}}">Nous contacter</a>
+            <a href="{{ get_url(path="./membre/index.md") | safe}}">Devenir Membre</a>
         </nav>
-
-        <main class="container{% block extra_content_class %}{% endblock extra_content_class %}">
-        {% block content %}
+{% block extra_nav %}{% endblock extra_nav %}
+        <main class="container">
+{% block content %}
         <section>
             <h2>Libre et sécurité</h2>
             <p>Le Libre et la sécurité partagent des valeurs provenant du hacking&nbsp;: étudier le fonctionnement des choses, les améliorer, trouver des failles pour les détourner de leur usage premier, partager ses découvertes avec ses pairs et le reste du monde. Nous vous invitons à faire vivre ces valeurs avec l'Association Sans Nom à travers des ateliers, des conférences et d'autres activités internes ou publiques, ainsi que la gestion de services pour et par les membres eux-mêmes.</p>
-            <p><a href="#activites" class="btn-primary">Qu'est-ce qu'on y fait&nbsp;?</a> <a href="{{ get_url(path="./membre/index.md") }}" class="btn-success">Où est-ce que je signe&nbsp;?</a></p>
+            <p><a href="#activites" class="btn-primary">Qu'est-ce qu'on y fait&nbsp;?</a> <a href="{{ get_url(path="./membre/index.md") | safe}}" class="btn-success">Où est-ce que je signe&nbsp;?</a></p>
         </section>
 
         <section>
@@ -63,7 +63,7 @@
             <div class="blocks flex-4col">
                 <div>
                     <h3 id="ateliers">Ateliers</h3>
-                    <p>Des ateliers lock picking ont lieu environ un samedi sur deux à 42 (annoncés sur #asn-lockpicking). Des <a href="{{ get_url(path="./ateliers-pentest/_index.md") }}">ateliers d'initiation au pentesting</a> ont commencé début 2018.</p>
+                    <p>Des ateliers lock picking ont lieu environ un samedi sur deux à 42 (annoncés sur #asn-lockpicking). Des <a href="{{ get_url(path="./ateliers-pentest/_index.md") | safe}}">ateliers d'initiation au pentesting</a> ont commencé début 2018.</p>
                 </div>
 
                 <div>
@@ -78,12 +78,11 @@
 
                 <div>
                     <h3 id="proposer-une-activite">Proposer une activité</h3>
-                    <p>Si vous avez une idée à proposer, un atelier, une conférence, un partenariat… <a href="{{ get_url(path="./contact/index.md") }}">envoyez-nous un message</a> par courrier électronique ou sur slack. Vous pouvez également venir en discuter lors d'une de nos réunions.</p>
+                    <p>Si vous avez une idée à proposer, un atelier, une conférence, un partenariat… <a href="{{ get_url(path="./contact/index.md") | safe}}">envoyez-nous un message</a> par courrier électronique ou sur slack. Vous pouvez également venir en discuter lors d'une de nos réunions.</p>
                 </div>
             </div>
         </section>
-
-        {% endblock content %}
+{% endblock content %}
 
         </main>
 

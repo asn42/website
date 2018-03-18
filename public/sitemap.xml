@@ -6,14 +6,29 @@
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest01/edgaunt/</loc>
+            <loc>/statuts/</loc>
+            
+                <lastmod>2017-10-24T18:23:50+02:00</lastmod>
             
         </url>
     
         <url>
-            <loc>/statuts/</loc>
+            <loc>/ateliers-pentest/pentest01/fmaury-bwaegene/</loc>
             
-                <lastmod>2017-10-24T18:23:50+02:00</lastmod>
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest01/brchaib/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest01/tbailleul-msabwat/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest01/edgaunt/</loc>
             
         </url>
     
@@ -28,11 +43,6 @@
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest01/fmaury-bwaegene/</loc>
-            
-        </url>
-    
-        <url>
             <loc>/ateliers-pentest/model-write-up/</loc>
             
                 <lastmod>2018-03-18</lastmod>
@@ -40,17 +50,7 @@
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest01/tbailleul-msabwat/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>/contact/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>/ateliers-pentest/pentest01/brchaib/</loc>
+            <loc>/ateliers-pentest/pentest01/nidzik/</loc>
             
         </url>
     
@@ -60,17 +60,13 @@
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest01/nidzik/</loc>
+            <loc>/contact/</loc>
             
         </url>
     
     
         <url>
-            <loc>/</loc>
-        </url>
-    
-        <url>
-            <loc>/ateliers-pentest/</loc>
+            <loc>/ateliers-pentest/pentest01/</loc>
         </url>
     
         <url>
@@ -78,7 +74,11 @@
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest01/</loc>
+            <loc>/</loc>
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/</loc>
         </url>
     
     

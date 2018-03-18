@@ -1,14 +1,13 @@
 {% extends "index.html" %}
-
-{% block extra_nav_class %}{% endblock extra_nav_class %}
-{% block extra_content_class %}content--reversed{% endblock extra_content_class %}
+{% block title %}{{section.title | safe}}{% endblock title %}
+{% block description %}{{section.description | safe}}{% endblock description %}
 
 {% block content %}
 <section>
 {{section.content | safe}}
     <ul>
         {% for page in section.pages %}
-        <li><a href="{{page.permalink}}">{{page.title}}</a></li>
+        <li><a href="{{page.permalink | safe}}">{{page.title}}</a></li>
         {% endfor %}
     </ul>
 </section>

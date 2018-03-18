@@ -4,7 +4,7 @@ base_url = "/"
 
 # Used in RSS by default
 title = "Association Sans Nom - Libre et sécurité à 42"
-description = "ASN, association étudiante de 42 pour tout ce qui touche au Libre et à la sécurité !"
+description = "ASN, l'association étudiante de 42 pour tout ce qui touche au Libre et à la sécurité !"
 
 # the default language, used in RSS and coming i18n
 default_language = "fr"

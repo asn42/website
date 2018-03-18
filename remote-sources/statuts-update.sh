@@ -13,8 +13,8 @@ mkdir -p "$target_dir"
 
 cat << EOF > "$target_file"
 +++
-title = "Statuts - Association Sans Nom - Libre et sécurité à 42"
-description = "Statuts de l'ASN, l'association étudiante de 42 pour tout ce qui touche au Libre et à la sécurité !"
+title = "Statuts"
+description = "Statuts de l'"
 date = $lastchange
 
 template = "page.html"
