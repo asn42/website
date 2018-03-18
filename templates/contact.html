@@ -1,10 +1,8 @@
 {% extends "index.html" %}
-{% block title %}{{ page.title }}{% endblock title %}
-{% block description %}{{ page.description }}{% endblock description %}
+{% block title %}{{page.title | safe}}{% endblock title %}
+{% block description %}{{page.description | safe}}{% endblock description %}
 
 {% block content %}
-
-
         <section>
             <h2>Nous Contacter</h2>
             <p>Il y a plusieurs moyens possibles de nous contacter&nbsp;:</p>
@@ -27,35 +25,34 @@
 
             <div id="trombi" class="blocks">
                 <div>
-                    <img src="{{ get_url(path="/images/members/pk.png", trailing_slash=false) }}" class="img-circle" />
+                    <img src="{{ get_url(path="/images/members/pk.png", trailing_slash=false) | safe}}" class="img-circle" />
                     <h3>apachkof</h3>
                     <p>président</p>
                 </div>
 
                 <div>
-                    <img src="{{ get_url(path="/images/members/lbopp.png", trailing_slash=false) }}" class="img-circle" />
+                    <img src="{{ get_url(path="/images/members/lbopp.png", trailing_slash=false) | safe}}" class="img-circle" />
                     <h3>lbopp</h3>
                     <p>trésorier</p>
                 </div>
 
                 <div>
-                    <img src="{{ get_url(path="/images/members/dbourdon.jpg", trailing_slash=false) }}" class="img-circle" />
+                    <img src="{{ get_url(path="/images/members/dbourdon.jpg", trailing_slash=false) | safe}}" class="img-circle" />
                     <h3>dbourdon</h3>
                     <p>secrétaire général</p>
                 </div>
 
                 <div>
-                    <img src="{{ get_url(path="/images/members/bruh.jpg", trailing_slash=false) }}" class="img-circle" />
+                    <img src="{{ get_url(path="/images/members/bruh.jpg", trailing_slash=false) | safe}}" class="img-circle" />
                     <h3>vmercadi</h3>
                     <p>vice-président</p>
                 </div>
 
                 <div>
-                    <img src="{{ get_url(path="/images/members/nidzik.png", trailing_slash=false) }}" class="img-circle" />
+                    <img src="{{ get_url(path="/images/members/nidzik.png", trailing_slash=false) | safe}}" class="img-circle" />
                     <h3>nidzik</h3>
                     <p>trésorier adjoint</p>
                 </div>
             </div>
         </section>
-
 {% endblock content %}

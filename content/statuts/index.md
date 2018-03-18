@@ -1,6 +1,6 @@
 +++
-title = "Statuts - Association Sans Nom - Libre et sécurité à 42"
-description = "Statuts de l'ASN, l'association étudiante de 42 pour tout ce qui touche au Libre et à la sécurité !"
+title = "Statuts"
+description = "Statuts de l'"
 date = 2017-10-24T18:23:50+02:00
 
 template = "page.html"

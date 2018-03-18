@@ -1,21 +1,15 @@
 {% extends "index.html" %}
-{% block title %}Write up de {{page.extra.author }}{% endblock title %}
-{% block description %}{{page.description}}{% endblock description %}
+{% block title %}Write-up de {{page.extra.author}}{% endblock title %}
 
-{% block content %}
-    {% set parent_section = get_section(path="ateliers-pentest/_index.md") %}
-    {% for subsection in parent_section.subsections %}
-        {% for page in subsection.pages %}
-            {% if current_path == page.path %}
-                {% set section = subsection %}
-        <nav><a href="{{section.permalink}}">Retour à la liste des write-ups pour cet atelier pentest</a></nav>
+{% block description %}{% set parent_section = get_section(path="ateliers-pentest/_index.md") %}{% for subsection in parent_section.subsections %}{% for page in subsection.pages %}{% if current_path == page.path %}{% set section = subsection %}Write-up de {{page.extra.author}} pour l'{{section.description | safe | lower}}{% endif %}{% endfor %}{% endfor %}{% endblock description %}
 
+{% block extra_nav %}{% set parent_section = get_section(path="ateliers-pentest/_index.md") %}{% for subsection in parent_section.subsections %}{% for page in subsection.pages %}{% if current_path == page.path %}{% set section = subsection %}
+<nav><a href="{{section.permalink | safe}}">Retour à la page du {{section.title | safe | lower}}</a></nav>
+{% endif %}{% endfor %}{% endfor %}{% endblock extra_nav %}
+
+{% block content %}{% set parent_section = get_section(path="ateliers-pentest/_index.md") %}{% for subsection in parent_section.subsections %}{% for page in subsection.pages %}{% if current_path == page.path %}{% set section = subsection %}
         <section>
             score: {{ page.extra.points }} / {{ section.extra.points }}
 {{page.content | safe}}
         </section>
-
-            {% endif %}
-        {% endfor %}
-    {% endfor %}
-{% endblock content %}
+{% endif %}{% endfor %}{% endfor %}{% endblock content %}
