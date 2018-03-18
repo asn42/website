@@ -1,12 +1,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>/contact/</loc>
+            <loc>/ateliers-pentest/pentest01/wil/</loc>
             
         </url>
     
         <url>
-            <loc>/membre/</loc>
+            <loc>/ateliers-pentest/pentest01/edgaunt/</loc>
             
         </url>
     
@@ -17,9 +17,68 @@
             
         </url>
     
+        <url>
+            <loc>/membre/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest01/nbenny/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest01/fmaury-bwaegene/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/model-write-up/</loc>
+            
+                <lastmod>2018-03-18</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest01/tbailleul-msabwat/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/contact/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest01/brchaib/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest01/vmercadi/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest01/nidzik/</loc>
+            
+        </url>
+    
     
         <url>
             <loc>/</loc>
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/</loc>
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest02/</loc>
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest01/</loc>
         </url>
     
     
