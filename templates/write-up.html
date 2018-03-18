@@ -1,0 +1,21 @@
+{% extends "index.html" %}
+{% block title %}Write up de {{page.extra.author }}{% endblock title %}
+{% block description %}{{page.description}}{% endblock description %}
+
+{% block content %}
+    {% set parent_section = get_section(path="ateliers-pentest/_index.md") %}
+    {% for subsection in parent_section.subsections %}
+        {% for page in subsection.pages %}
+            {% if current_path == page.path %}
+                {% set section = subsection %}
+        <nav><a href="{{section.permalink}}">Retour à la liste des write-ups pour cet atelier pentest</a></nav>
+
+        <section>
+            score: {{ page.extra.points }} / {{ section.extra.points }}
+{{page.content | safe}}
+        </section>
+
+            {% endif %}
+        {% endfor %}
+    {% endfor %}
+{% endblock content %}
