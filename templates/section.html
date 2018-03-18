@@ -1,4 +1,6 @@
 {% extends "index.html" %}
+{% block title %}{{section.title | safe}}{% endblock title %}
+{% block description %}{{section.description | safe}}{% endblock description %}
 
 {% block content %}
 <section>
@@ -6,11 +8,11 @@
     <ul>
     {% for subsection in section.subsections %}
         <li>
-            <a href="{{subsection.permalink}}">{{subsection.title}}</a>
+            <a href="{{subsection.permalink | safe}}">{{subsection.title}}</a>
             <ul>
                 {% for page in subsection.pages %}
                     <li>
-                        <a href="{{page.permalink}}">{{page.title}}</a>
+                        <a href="{{page.permalink | safe}}">{{page.title}}</a>
                     </li>
                 {% endfor %}
             </ul>
