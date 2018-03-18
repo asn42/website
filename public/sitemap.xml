@@ -1,7 +1,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
+            <loc>/ateliers-pentest/pentest01/nbenny/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/membre/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest01/vmercadi/</loc>
+            
+        </url>
+    
+        <url>
             <loc>/ateliers-pentest/pentest01/wil/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/contact/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest01/edgaunt/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/model-write-up/</loc>
+            
+                <lastmod>2018-03-18</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest01/nidzik/</loc>
             
         </url>
     
@@ -27,46 +64,9 @@
             
         </url>
     
-        <url>
-            <loc>/ateliers-pentest/pentest01/edgaunt/</loc>
-            
-        </url>
     
         <url>
-            <loc>/membre/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>/ateliers-pentest/pentest01/nbenny/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>/ateliers-pentest/model-write-up/</loc>
-            
-                <lastmod>2018-03-18</lastmod>
-            
-        </url>
-    
-        <url>
-            <loc>/ateliers-pentest/pentest01/nidzik/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>/ateliers-pentest/pentest01/vmercadi/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>/contact/</loc>
-            
-        </url>
-    
-    
-        <url>
-            <loc>/ateliers-pentest/pentest01/</loc>
+            <loc>/</loc>
         </url>
     
         <url>
@@ -74,11 +74,11 @@
         </url>
     
         <url>
-            <loc>/</loc>
+            <loc>/ateliers-pentest/</loc>
         </url>
     
         <url>
-            <loc>/ateliers-pentest/</loc>
+            <loc>/ateliers-pentest/pentest01/</loc>
         </url>
     
     
