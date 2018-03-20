@@ -1,7 +1,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>/ateliers-pentest/pentest01/nbenny/</loc>
+            <loc>/statuts/</loc>
+            
+                <lastmod>2017-10-24T18:23:50+02:00</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest01/brchaib/</loc>
             
         </url>
     
@@ -11,22 +18,31 @@
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest01/vmercadi/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>/ateliers-pentest/pentest01/wil/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>/contact/</loc>
+            <loc>/ateliers-pentest/pentest01/nbenny/</loc>
             
         </url>
     
         <url>
             <loc>/ateliers-pentest/pentest01/edgaunt/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/comptes-rendus/reunions/2017-05-12-reunion/</loc>
+            
+                <lastmod>2017-05-12</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>/comptes-rendus/reunions/2017-10-07-reunion/</loc>
+            
+                <lastmod>2017-10-07</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest01/wil/</loc>
             
         </url>
     
@@ -43,19 +59,24 @@
         </url>
     
         <url>
-            <loc>/statuts/</loc>
-            
-                <lastmod>2017-10-24T18:23:50+02:00</lastmod>
-            
-        </url>
-    
-        <url>
             <loc>/ateliers-pentest/pentest01/fmaury-bwaegene/</loc>
             
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest01/brchaib/</loc>
+            <loc>/comptes-rendus/reunions/2017-04-17-reunion/</loc>
+            
+                <lastmod>2017-04-17</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>/contact/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest01/vmercadi/</loc>
             
         </url>
     
@@ -66,11 +87,19 @@
     
     
         <url>
-            <loc>/</loc>
+            <loc>/ateliers-pentest/pentest02/</loc>
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest02/</loc>
+            <loc>/comptes-rendus/</loc>
+        </url>
+    
+        <url>
+            <loc>/comptes-rendus/reunions/</loc>
+        </url>
+    
+        <url>
+            <loc>/</loc>
         </url>
     
         <url>
