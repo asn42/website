@@ -1,29 +1,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>/statuts/</loc>
-            
-                <lastmod>2017-10-24T18:23:50+02:00</lastmod>
+            <loc>/contact/</loc>
             
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest01/brchaib/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>/membre/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>/ateliers-pentest/pentest01/nbenny/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>/ateliers-pentest/pentest01/edgaunt/</loc>
+            <loc>/ateliers-pentest/pentest01/wil/</loc>
             
         </url>
     
@@ -42,24 +25,7 @@
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest01/wil/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>/ateliers-pentest/model-write-up/</loc>
-            
-                <lastmod>2018-03-18</lastmod>
-            
-        </url>
-    
-        <url>
             <loc>/ateliers-pentest/pentest01/nidzik/</loc>
-            
-        </url>
-    
-        <url>
-            <loc>/ateliers-pentest/pentest01/fmaury-bwaegene/</loc>
             
         </url>
     
@@ -71,7 +37,14 @@
         </url>
     
         <url>
-            <loc>/contact/</loc>
+            <loc>/membre/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/model-write-up/</loc>
+            
+                <lastmod>2018-03-18</lastmod>
             
         </url>
     
@@ -81,7 +54,34 @@
         </url>
     
         <url>
+            <loc>/ateliers-pentest/pentest01/edgaunt/</loc>
+            
+        </url>
+    
+        <url>
             <loc>/ateliers-pentest/pentest01/tbailleul-msabwat/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest01/brchaib/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest01/fmaury-bwaegene/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/ateliers-pentest/pentest01/nbenny/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/statuts/</loc>
+            
+                <lastmod>2017-10-24T18:23:50+02:00</lastmod>
             
         </url>
     
@@ -91,11 +91,15 @@
         </url>
     
         <url>
+            <loc>/comptes-rendus/reunions/</loc>
+        </url>
+    
+        <url>
             <loc>/comptes-rendus/</loc>
         </url>
     
         <url>
-            <loc>/comptes-rendus/reunions/</loc>
+            <loc>/ateliers-pentest/pentest01/</loc>
         </url>
     
         <url>
@@ -104,10 +108,6 @@
     
         <url>
             <loc>/ateliers-pentest/</loc>
-        </url>
-    
-        <url>
-            <loc>/ateliers-pentest/pentest01/</loc>
         </url>
     
     
