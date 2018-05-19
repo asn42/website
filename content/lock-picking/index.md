@@ -18,13 +18,16 @@ En fonction du type de la serrures, différentes technique seront disponible afi
 
 ## Le lock picking à l'Association Sans Nom
 
+![Un atelier lockpicking à l'ASN](./lockpicking01.jpg)
+
+
 Dans le cadre des ateliers à l'ASN, nous présentons le fonctionnement de serrures, leur défauts, ainsi que les alternatives qui ont été crée afin de parer à ces défauts.
 
 Nous utilisons principalement des serrures paracentrique, du fait de leurs simplicité de fonctionnement, d'achat de matériel et d'accessibilité à de nouvelle serrures.
 
 Nous utilisons aussi des méthodes de crochetage avec crochet afin de préserver un maximum le matériel, mais explorons aussi les méthodes dites "Brute force" sur des serrures en fin de vie, y compris pour le lock picking.
 
-Enfin, le crochetage présenté en atelier est à pour seul et unique but récréatif, pratiquer sur des serrures dédié uniquement aux atelier, dans le cadre de la loi. Nous décourageons et n'accepton pas l'utilisation de ces pratiques en dehors du cadre légale. 
+Enfin, le crochetage présenté en atelier est à pour seul et unique but récréatif, pratiquer sur des serrures dédié uniquement aux atelier, dans le cadre de la loi. Nous décourageons et n'accepton pas l'utilisation de ces pratiques en dehors du cadre légale.
 
 
 ### Ateliers réguliers
