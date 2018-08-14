@@ -81,6 +81,13 @@
         </url>
     
         <url>
+            <loc>/lock-picking/</loc>
+            
+                <lastmod>2017-03-21</lastmod>
+            
+        </url>
+    
+        <url>
             <loc>/membre/</loc>
             
         </url>
@@ -116,7 +123,6 @@
         <url>
             <loc>/comptes-rendus/reunions/</loc>
         </url>
-    
     
     
 </urlset>
