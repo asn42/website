@@ -1,7 +1,7 @@
 +++
 title = "Statuts"
 description = "Statuts de l'"
-date = 2018-11-08T08:51:11+01:00
+date = 2018-11-08T09:08:33+01:00
 
 template = "page.html"
 render = true
@@ -259,5 +259,6 @@ Les Statuts sont disponibles sur simple demande, ainsi que le Règlement Intéri
 ## Membres fondateurs, dispositions transitoires ##
 
 Les cinq membres fondateurs sont chargés de désigner les dirigeants de l’Association pour le premier exercice, jusqu’à la tenue de la première Assemblée Générale.
+
 Fait à Paris le 12 octobre 2017 par les membres fondateurs.
 Modifié pour la dernière fois le 3 novembre 2018.
