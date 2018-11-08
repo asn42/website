@@ -1,7 +1,7 @@
 +++
 title = "Statuts"
 description = "Statuts de l'"
-date = 2017-10-24T18:23:50+02:00
+date = 2018-11-08T08:51:11+01:00
 
 template = "page.html"
 render = true
@@ -61,10 +61,11 @@ Les cotisations sont réglées :
 
 - par chèque libellé au nom de l’Association adressé au siège de l’Association, à l’attention du Trésorier,
 - ou par virement bancaire sur le compte bancaire de l’Association,
-- ou en espèces ou par chèque, contre remise d’un justificatif du Trésorier de l’Association,
-- ou par carte bancaire, si l’Association a mis en place un tel mode de règlement.
+- ou en espèces ou par chèque, contre remise d’un justificatif du Trésorier de l’Association ou d'un membre du Bureau,
+- ou par carte bancaire, si l’Association a mis en place un tel mode de règlement,
+- ou par tout autre moyen indiqué par l'Association.
 
-Le Bureau peut proposer une réduction ou une exemption de cotisation pour des membres dont les faibles moyens financiers présenteraient un obstacle à l’adhésion, sur présentation d’un justificatif. Pour bénéficier de ces conditions préférentielles, l’adhérent doit en faire la demande en présentant les justificatifs nécessaires auprès du Bureau, qui a toute latitude pour statuer.  
+Le Bureau peut proposer une réduction ou une exemption de cotisation pour des membres dont les faibles moyens financiers présenteraient un obstacle à l’adhésion. Pour bénéficier de ces conditions préférentielles, l’adhérent doit en faire la demande en présentant les justificatifs nécessaires auprès du Bureau, qui a toute latitude pour statuer.  
 Sauf quand les conditions donnant droit au tarif préférentiel sont par nature définitives, l’adhérent doit présenter un justificatif régulièrement pour pouvoir continuer à bénéficier de ces conditions préférentielles.
 
 La participation aux activités de l’Association est possible pour des personnes qui ne sont pas membres, sur décision du Bureau.
@@ -257,5 +258,6 @@ Les Statuts sont disponibles sur simple demande, ainsi que le Règlement Intéri
 
 ## Membres fondateurs, dispositions transitoires ##
 
-Les six membres fondateurs sont chargés de désigner les dirigeants de l’Association pour le premier exercice, jusqu’à la tenue de la première Assemblée Générale.
-Fait à Paris le 12 octobre 2017, établi en sept exemplaires originaux par les membres fondateurs.
+Les cinq membres fondateurs sont chargés de désigner les dirigeants de l’Association pour le premier exercice, jusqu’à la tenue de la première Assemblée Générale.
+Fait à Paris le 12 octobre 2017 par les membres fondateurs.
+Modifié pour la dernière fois le 3 novembre 2018.
