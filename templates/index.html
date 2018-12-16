@@ -16,15 +16,16 @@
     <body>
 
         <nav>
-            <a href="{{ config.base_url | safe}}">
-                <img src="/images/logo.svg" alt="Logo ASN">
+            <a href="{{ get_url(path="./_index.md") | safe}}">
+                <img src="{{ get_url(path="images/logo.svg", trailing_slash=false) | safe}}" alt="Logo ASN">
                 <div>
                     <h1>Association Sans Nom</h1>
                     <p>Libre et Sécurité à 42</p>
                 </div>
             </a>
             <a href="{{ get_url(path="./contact/index.md") | safe}}">Nous contacter</a>
-            <a href="{{ get_url(path="./membre/index.md") | safe}}">Devenir Membre</a>
+            <a href="{{ get_url(path="./activites/index.md") | safe}}">Activités</a>
+            <a href="{{ get_url(path="./_index.md") | safe}}#adhesion">Devenir membre</a>
             <a href="{{ get_url(path="./statuts/index.md") | safe}}">Statuts</a>
         </nav>
 {% block extra_nav %}{% endblock extra_nav %}
@@ -33,7 +34,7 @@
         <section>
             <h2>Libre et sécurité</h2>
             <p>Le Libre et la sécurité partagent des valeurs provenant du hacking&nbsp;: étudier le fonctionnement des choses, les améliorer, trouver des failles pour les détourner de leur usage premier, partager ses découvertes avec ses pairs et le reste du monde. Nous vous invitons à faire vivre ces valeurs avec l'Association Sans Nom à travers des ateliers, des conférences et d'autres activités internes ou publiques, ainsi que la gestion de services pour et par les membres eux-mêmes.</p>
-            <p><a href="#activites" class="btn-primary">Qu'est-ce qu'on y fait&nbsp;?</a> <a href="{{ get_url(path="./membre/index.md") | safe}}" class="btn-success">Où est-ce que je signe&nbsp;?</a></p>
+            <p><a href="{{ get_url(path="./activites/index.md") | safe}}" class="btn-primary">Qu'est-ce qu'on y fait&nbsp;?</a> <a  href="#adhesion" class="btn-success">Où est-ce que je signe&nbsp;?</a></p>
         </section>
 
         <section>
@@ -58,33 +59,12 @@
             </div>
         </section>
 
-        <section id="activites">
-            <h2>Activités</h2>
-
-            <div class="blocks flex-4col">
-                <div>
-                    <h3 id="ateliers">Ateliers</h3>
-                    <p>Des <a href="{{ get_url(path="./lock-picking/index.md") | safe}}">ateliers lock picking</a> ont lieu environ un samedi sur deux à 42 (annoncés sur #asn-lockpicking). Des <a href="{{ get_url(path="./ateliers-pentest/_index.md") | safe}}">ateliers d'initiation au pentesting</a> ont commencé début 2018.</p>
-                </div>
-
-                <div>
-                    <h3 id="conferences">Conférences</h3>
-                    <p>Nous avons organisé une <a href="https://www.youtube.com/watch?v=oVZEblXS4gc">conférence d'introduction générale à la sécurité</a> par deux étudiants de 42, ainsi qu'une <a href="https://www.youtube.com/watch?v=DYSw5IwWP4o">conférence d'initiation à la cryptographie</a> par un étudiant et un invité. Une conférence d'introduction au Logiciel Libre et à l'Open Source est prévue le 19 janvier 2019 à 15h.</p>
-                </div>
-
-                <div>
-                    <h3 id="partenariats-et-evenements-exterieurs">Partenariats et évènements extérieurs</h3>
-                    <p>Nous avons participé en tant que bénévoles à <a href="https://lehack.org/">leHACK</a> (anciennement Nuit du Hack) depuis 2017 et allons de nouveau le faire en 2019. Nous avons tenu un stand et aidé à l'organisation de l'atelier lock picking à <a href="https://passageenseine.fr/">Pas Sage en Seine</a> en 2017. Nous organisons un voyage groupé au <a href="https://fosdem.org/">FOSDEM</a> pour les étudiants de 42.</p>
-                </div>
-
-                <div>
-                    <h3 id="proposer-une-activite">Proposer une activité</h3>
-                    <p>Si vous avez une idée à proposer, un atelier, une conférence, un partenariat… <a href="{{ get_url(path="./contact/index.md") | safe}}">envoyez nous un message</a> par courrier électronique ou sur slack. Vous pouvez également venir en discuter lors d'une de nos réunions.</p>
-                </div>
-            </div>
+        <section id="adhesion">
+            <h2>Devenir membre</h2>
+            <p>Bien que certaines activités de l'association soient ouvertes au public, nous n'acceptons comme adhérents que des personnes ayant un lien avec 42 (étudiants, anciens étudiants, staff…).</p>
+            <p>Pour nous rejoindre, il faut accepter <a href="{{ get_url(path="./statuts/index.md") | safe}}">les statuts de l'association</a> et remettre une cotisation de 15 euros à un des membres du Bureau (en échange d'un justificatif, si vous le demandez) en lui indiquant votre nom. Le Bureau valide ensuite (sauf exception) l'adhésion et vous faites partie de l'association !</p>
         </section>
 {% endblock content %}
-
         </main>
 
         <footer id="footer">
