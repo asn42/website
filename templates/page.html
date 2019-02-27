@@ -1,9 +1,18 @@
-{% extends "index.html" %}
-{% block title %}{{page.title | safe}}{% endblock title %}
-{% block description %}{{page.description | safe}}{% endblock description %}
-
+{% extends "layout.html" %}
+{% block page_title %}{{ page.title | safe }}{% endblock page_title %}
+{% block page_description %}{{ page.description | safe }}{% endblock page_description %}
+{% block nav %}
+  {% for ancestor_path in page.ancestors %}
+    {% set ancestor = get_section(path=ancestor_path) %}
+    <a href="{{ancestor.permalink | safe}}">{{ancestor.title | safe | lower}}</a>
+  {% endfor %}
+  {% if page.section %}
+    <a href="{{page.section.permalink | safe}}">{{page.section.title | safe | lower}}</a>
+  {% endif %}
+    <a>{{page.title | safe | lower}}</a>
+{% endblock nav %}
 {% block content %}
-        <section>
-{{page.content | safe}}
-        </section>
+<section id="page">
+{{ page.content | safe }}
+</section>
 {% endblock content %}

@@ -36,6 +36,11 @@ video {
   vertical-align: middle;
 }
 
+iframe {
+  width: 100%;
+  min-height: 180px;
+}
+
 fieldset {
   border: 0;
   margin: 0;
@@ -120,7 +125,8 @@ a:hover {
 }
 
 a[href^="mailto:"]:before {
-  content: "📧 ";
+  content: "📧";
+  padding-right: .5em;
 }
 
 /** Fake buttons **/
@@ -282,6 +288,22 @@ section a:hover {
   color: #fb7;
 }
 
+blockquote {
+  background-color: rgba(255, 255, 255, .4);
+  color: #222;
+  border-left: .5em solid #666;
+  border-radius: 3px;
+  padding: 0.5em .8em;
+}
+
+blockquote a {
+  color: #850;
+}
+blockquote a:active,
+blockquote a:hover {
+  color: #730;
+}
+
 body > nav {
   display: flex;
   flex-flow: column wrap;
@@ -300,13 +322,28 @@ body > nav > a {
   box-shadow: 0 0 5px rgba(100, 100, 100, .4);
 }
 
+body > nav#context > a {
+  font-size: .8em;
+  padding-top: .1em;
+  padding-bottom: .1em;
+}
+
+body > nav#context > a:first-child::before {
+    content: "";
+}
+body > nav#context > a::before {
+  content: "⤷";
+  padding-right: .5em;
+}
+
 body > nav > a:active,
 body > nav > a:hover {
   background-color: rgba(30, 30, 30, .4);
   box-shadow: 0 0 5px rgba(80, 80, 80, .4);
 }
 
-body > nav a:first-child {
+body > nav#menu a:first-child,
+body > nav#context a:last-child {
   border-radius: 3px;
   background-color: rgba(20, 20, 20, .4);
   box-shadow: 0 0 5px rgba(80, 80, 80, .4);
@@ -416,6 +453,10 @@ body > footer {
     height: 100%;
   }
 
+  body > nav#context > a::before {
+    content: "⤇";
+    padding-right: .5em;
+  }
   .blocks {
     display: flex;
     flex-flow: row wrap;
@@ -439,6 +480,9 @@ body > footer {
     width: 30%;
   }
 
+  iframe {
+    min-height: 400px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -465,6 +509,10 @@ body > footer {
   .flex-8col > *,
   .flex-10col > * {
     width: 23%;
+  }
+
+  iframe {
+    min-height: 650px;
   }
 }
 
@@ -495,6 +543,10 @@ body > footer {
   .flex-10col > * {
     width: 19%;
   }
+
+  iframe {
+    min-height: 750px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -505,6 +557,10 @@ body > footer {
   main > section {
     padding: .5em 3%;
     margin: .5em 8%;
+  }
+
+  iframe {
+    min-height: 850px;
   }
 }
 

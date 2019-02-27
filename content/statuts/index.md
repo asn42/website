@@ -1,12 +1,6 @@
 +++
 title = "Statuts"
 description = "Statuts de l'"
-date = 2018-11-08T09:08:33+01:00
-
-template = "page.html"
-render = true
-
-[extra]
 +++
 
 Statuts de l’Association Sans Nom
@@ -56,6 +50,7 @@ Toute demande d’agrément d’un nouveau membre doit être adressée par écri
 Le Bureau statue sur la demande d’adhésion et décide d’agréer ou non le postulant.  
 Le refus d’admission n’a pas à être motivé.  
 L’accession et le maintien de la qualité de membre sont soumis au paiement d’une cotisation annuelle dont le montant est fixé annuellement par le Bureau et au respect des Statuts et du Règlement Intérieur de l’Association, s’il existe.
+L'adhésion est valable jusqu'au 31 janvier suivant le paiement de la cotisation, ou une année supplémentaire si celui-ci a lieu en novembre ou décembre.
 
 Les cotisations sont réglées :
 
@@ -126,6 +121,8 @@ Un membre du Bureau peut être révoqué par l’Assemblée Générale.
 Outre le cas de démission et de révocation, les fonctions des membres du Bureau cessent immédiatement par décès, incapacité, perte des droits civiques, perte de la qualité d’adhérent.
 
 En cas de poste vacant, le Bureau peut remplacer un de ses membres immédiatement par cooptation. Cette désignation est entérinée par un vote à l’Assemblée Générale suivante.
+
+Les membres du Bureau peuvent échanger leur poste sur décision du Bureau.
 
 ## Pouvoirs du Président et du Bureau ##
 
@@ -261,4 +258,4 @@ Les Statuts sont disponibles sur simple demande, ainsi que le Règlement Intéri
 Les cinq membres fondateurs sont chargés de désigner les dirigeants de l’Association pour le premier exercice, jusqu’à la tenue de la première Assemblée Générale.
 
 Fait à Paris le 12 octobre 2017 par les membres fondateurs.
-Modifié pour la dernière fois le 3 novembre 2018.
+Modifié pour la dernière fois le 26 janvier 2019.

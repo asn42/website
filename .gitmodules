@@ -1,9 +1,3 @@
 [submodule "remote-sources/statuts"]
 	path = remote-sources/statuts
 	url = https://github.com/asn42/statuts.git
-[submodule "content/ateliers-pentest"]
-	path = content/ateliers-pentest
-	url = https://github.com/asn42/ateliers-pentest.git
-[submodule "content/comptes-rendus"]
-	path = content/comptes-rendus
-	url = https://github.com/asn42/comptes-rendus.git

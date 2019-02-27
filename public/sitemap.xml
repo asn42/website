@@ -1,89 +1,187 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
         <url>
-            <loc>/activites/</loc>
+            <loc>/activités/ateliers-pentest/pentest01/brchaib/</loc>
             
         </url>
     
         <url>
-            <loc>/ateliers-pentest/model-write-up/</loc>
-            
-                <lastmod>2018-03-18</lastmod>
+            <loc>/activités/ateliers-pentest/pentest01/edgaunt/</loc>
             
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest01/brchaib/</loc>
+            <loc>/activités/ateliers-pentest/pentest01/fmaury-bwaegene/</loc>
             
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest01/edgaunt/</loc>
+            <loc>/activités/ateliers-pentest/pentest01/nbenny/</loc>
             
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest01/fmaury-bwaegene/</loc>
+            <loc>/activités/ateliers-pentest/pentest01/nidzik/</loc>
             
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest01/nbenny/</loc>
+            <loc>/activités/ateliers-pentest/pentest01/tbailleul-msabwat/</loc>
             
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest01/nidzik/</loc>
+            <loc>/activités/ateliers-pentest/pentest01/vmercadi/</loc>
             
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest01/tbailleul-msabwat/</loc>
+            <loc>/activités/ateliers-pentest/pentest01/wil/</loc>
             
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest01/vmercadi/</loc>
+            <loc>/activités/conférences/dns-bortzmeyer/</loc>
+            
+                <lastmod>2019-01-24</lastmod>
             
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest01/wil/</loc>
+            <loc>/activités/conférences/introduction-cryptographie/</loc>
+            
+                <lastmod>2018-06-06</lastmod>
             
         </url>
     
         <url>
-            <loc>/comptes-rendus/reunions/2017-04-17-reunion/</loc>
+            <loc>/activités/conférences/introduction-ctf/</loc>
+            
+                <lastmod>2018-04-23</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>/activités/conférences/introduction-libre-open-source/</loc>
+            
+                <lastmod>2019-01-10</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>/activités/conférences/introduction-securite-informatique/</loc>
+            
+                <lastmod>2017-02-10</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>/activités/conférences/presentation-asn-2018/</loc>
+            
+                <lastmod>2018-11-21</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>/activités/fosdem/voyage-2017/</loc>
+            
+                <lastmod>2017-02-02</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>/activités/fosdem/voyage-2018/</loc>
+            
+                <lastmod>2018-02-01</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>/activités/fosdem/voyage-2019/</loc>
+            
+                <lastmod>2019-01-31</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>/activités/le_hack/lehack-i/</loc>
+            
+                <lastmod>2019-07-06</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>/activités/le_hack/ndh-xv/</loc>
+            
+                <lastmod>2017-06-24</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>/activités/le_hack/ndh-xvi/</loc>
+            
+                <lastmod>2018-06-30</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>/activités/lock-picking/session-42/</loc>
+            
+                <lastmod>2019-03-09</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>/activités/passage_en_seine/pses-2017/</loc>
+            
+                <lastmod>2017-06-29</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>/activités/proposer_une_activité.md/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>/activités/réunions/2017-04-17-reunion/</loc>
             
                 <lastmod>2017-04-17</lastmod>
             
         </url>
     
         <url>
-            <loc>/comptes-rendus/reunions/2017-05-12-reunion/</loc>
+            <loc>/activités/réunions/2017-05-12-reunion/</loc>
             
                 <lastmod>2017-05-12</lastmod>
             
         </url>
     
         <url>
-            <loc>/comptes-rendus/reunions/2017-10-07-reunion/</loc>
+            <loc>/activités/réunions/2017-10-07-reunion/</loc>
             
                 <lastmod>2017-10-07</lastmod>
             
         </url>
     
         <url>
-            <loc>/comptes-rendus/reunions/2018-04-07-reunion/</loc>
+            <loc>/activités/réunions/2018-04-07-reunion/</loc>
             
                 <lastmod>2018-04-07</lastmod>
             
         </url>
     
         <url>
-            <loc>/comptes-rendus/reunions/2018-11-03-reunion/</loc>
+            <loc>/activités/réunions/2018-11-03-reunion/</loc>
             
                 <lastmod>2018-11-03</lastmod>
+            
+        </url>
+    
+        <url>
+            <loc>/activités/réunions/2019-01-26-assemblee-generale/</loc>
+            
+                <lastmod>2019-01-26</lastmod>
             
         </url>
     
@@ -93,16 +191,7 @@
         </url>
     
         <url>
-            <loc>/lock-picking/</loc>
-            
-                <lastmod>2017-03-21</lastmod>
-            
-        </url>
-    
-        <url>
             <loc>/statuts/</loc>
-            
-                <lastmod>2018-11-08T09:08:33+01:00</lastmod>
             
         </url>
     
@@ -112,23 +201,43 @@
         </url>
     
         <url>
-            <loc>/ateliers-pentest/</loc>
+            <loc>/activités/</loc>
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest01/</loc>
+            <loc>/activités/ateliers-pentest/</loc>
         </url>
     
         <url>
-            <loc>/ateliers-pentest/pentest02/</loc>
+            <loc>/activités/ateliers-pentest/pentest01/</loc>
         </url>
     
         <url>
-            <loc>/comptes-rendus/</loc>
+            <loc>/activités/ateliers-pentest/pentest02/</loc>
         </url>
     
         <url>
-            <loc>/comptes-rendus/reunions/</loc>
+            <loc>/activités/conférences/</loc>
+        </url>
+    
+        <url>
+            <loc>/activités/fosdem/</loc>
+        </url>
+    
+        <url>
+            <loc>/activités/le_hack/</loc>
+        </url>
+    
+        <url>
+            <loc>/activités/lock-picking/</loc>
+        </url>
+    
+        <url>
+            <loc>/activités/passage_en_seine/</loc>
+        </url>
+    
+        <url>
+            <loc>/activités/réunions/</loc>
         </url>
     
     

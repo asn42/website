@@ -6,8 +6,8 @@ for all Free- and security-related stuff !
 
 ## Requirement
 
-* Get the latest version of Gutenberg static site generator [from the official
-website](https://www.getgutenberg.io/documentation/getting-started/installation/).
+* Get the latest version of zola static site generator [from the official
+website](https://www.getzola.org/documentation/getting-started/installation/).
 
 ## Build the static site
 
@@ -21,13 +21,18 @@ git submodule update --init
 
 ``` sh
 git submodule update --remote
+```
+
+### Add the frontmatter to statuts.md
+
+```
 remote-sources/statuts-update.sh
 ```
 
 ### Create the files in `/public`
 
 ``` sh
-gutenberg build
+zola build
 ```
 
 ## License
@@ -38,9 +43,9 @@ gutenberg build
     This file is part of asn-website.
     
     asn-website is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+    it under the terms of the GNU Affero General Public License as
+    published by the Free Software Foundation, either version 3 of the
+    License, or (at your option) any later version.
     
     asn-website is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of

@@ -1,0 +1,13 @@
+{% extends "page.html" %}
+{% block content %}
+<section id="points">
+  {% set section_path = page.ancestors | last %}
+  {% set section = get_section(path=section_path) %}
+  {% if page.extra.points %}
+score: {{ page.extra.points }} / {{ section.extra.points }}
+  {% endif %}
+</section>
+<section id="writeup">
+{{ super() }}
+</section>
+{% endblock content %}

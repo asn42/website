@@ -1,55 +1,23 @@
-# The URL the site will be built for
 # https://sansnom.org
 base_url = "/"
 
-# Used in RSS by default
 title = "Association Sans Nom - Libre et sécurité à 42"
 description = "ASN, l'association étudiante de 42 pour tout ce qui touche au Libre et à la sécurité !"
 
-# the default language, used in RSS and coming i18n
 default_language = "fr"
+author = "Association Sans Nom"
 
-# Theme name to use
-# theme = ""
-
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme
-# supported by Gutenberg
 highlight_code = true
-
-# Which theme to use for the code highlighting.
-# See below for list of accepted values
 highlight_theme = "base16-ocean-dark"
-
-# Whether to generate a RSS feed automatically
-generate_rss = false
-
-# The number of articles to include in the RSS feed
-rss_limit = 20
-
-# Whether to generate a tags page and individual
-# tag pages for pages with tags
-generate_tags_pages = false
-
-# Whether to generate a categories page and individual
-# category pages for pages with a category
-generate_categories_pages = false
-
-# Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
-# A list of glob patterns specifying asset files to ignore when
-# processing the content directory. 
-# Defaults to none, which means all asset files are copied over to the public
-# folder.
-# Example:
-#     ignored_content = ["*.{graphml,xlsx}", "temp.*"]
+generate_rss = true
+taxonomies = [
+    {name = "activities", rss = true},
+]
+
+build_search_index = true
+
 ignored_content = []
 
-# Optional translation object. The key if present should be a language code
-[translations]
-
-# You can put any kind of data in there and it will be accessible in all
-# templates
 [extra]
-

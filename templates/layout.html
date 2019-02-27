@@ -1,0 +1,51 @@
+{#% import "post_macros.html" as post_macros %#}
+<!doctype html>
+<html lang="{% block lang %}{{ config.default_language }}{% endblock lang %}">
+    <head>
+        <meta charset="utf-8">
+        <title>{% block title %}{% block page_title %}{% endblock page_title %} - {{config.title | safe}}{% endblock title %}</title>
+        <meta name="description" content="{% block description %}{% block page_description %}{% endblock page_description %}{{config.description | safe}}{% endblock description %}">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="manifest" href="{{ get_url(path="site.webmanifest", trailing_slash=false) | safe}}">
+        <link rel="apple-touch-icon" href="{{ get_url(path="icon.png", trailing_slash=false) | safe}}">
+        <link rel="icon" href="{{ get_url(path="favicon.ico", trailing_slash=false) | safe}}">
+{% if config.generate_rss %}{% block rss %}
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml") }}">
+{% endblock rss %}{% endif %}
+{% block css %}
+        <link rel="stylesheet" href="{{ get_url(path="main.css", trailing_slash=false) | safe}}">
+{% endblock css %}
+    </head>
+    <body>
+
+        <nav id="menu">
+            <a href="{{ get_url(path="./_index.md") | safe}}">
+                <img src="{{ get_url(path="images/logo.svg", trailing_slash=false) | safe}}" alt="Logo ASN">
+                <div>
+                    <h1>Association Sans Nom</h1>
+                    <p>Libre et Sécurité à 42</p>
+                </div>
+            </a>
+            <a href="{{ get_url(path="./contact/index.md") | safe}}">Nous contacter</a>
+            <a href="{{ get_url(path="./activités/_index.md") | safe}}">Activités</a>
+            <a href="{{ get_url(path="./_index.md") | safe}}#adherer">Devenir membre</a>
+            <a href="{{ get_url(path="./statuts/index.md") | safe}}">Statuts</a>
+        </nav>
+        <nav id="context">
+{% block nav %}{% endblock nav %}
+        </nav>
+        <main class="container">
+{% block content %}
+{% endblock content %}
+        </main>
+{% block footer %}
+        <footer id="footer">
+            <p><span class="copyleft">Copyleft</span> 2017-2018 Association Sans Nom et contributeurs - <a href="https://github.com/asn42/website">code source</a></p>
+        </footer>
+{% endblock footer %}
+
+{% block js %}
+{% endblock js %}
+    </body>
+</html>
