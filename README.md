@@ -21,6 +21,11 @@ git submodule update --init
 
 ``` sh
 git submodule update --remote
+```
+
+### Add the frontmatter to statuts.md
+
+```
 remote-sources/statuts-update.sh
 ```
 

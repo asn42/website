@@ -1,23 +1,36 @@
-{% extends "index.html" %}
-{% block title %}{{section.title | safe}}{% endblock title %}
-{% block description %}{{section.description | safe}}{% endblock description %}
-
+{% extends "layout.html" %}
+{% block page_title %}{{ section.title | safe }}{% endblock page_title %}
+{% block page_description %}{{ section.description | safe }}{% endblock page_description %}
+{% block nav %}
+  {% for ancestor_path in section.ancestors %}
+    {% set ancestor = get_section(path=ancestor_path) %}
+    <a href="{{ancestor.permalink | safe}}">{{ancestor.title | safe | lower}}</a>
+  {% endfor %}
+    <a>{{section.title | safe | lower}}</a>
+{% endblock nav %}
 {% block content %}
-<section>
-{{section.content | safe}}
+<section id="section">
+{{ section.content | safe }}
+  {% if section.subsections %}
+    {% if section.extra.subsections_title %}
+    <h2>{{ section.extra.subsections_title }}</h2>
+    {% endif %}
     <ul>
-    {% for subsection in section.subsections %}
-        <li>
-            <a href="{{subsection.permalink | safe}}">{{subsection.title}}</a>
-            <ul>
-                {% for page in subsection.pages %}
-                    <li>
-                        <a href="{{page.permalink | safe}}">{{page.title}}</a>
-                    </li>
-                {% endfor %}
-            </ul>
-        </li>
+    {% for subsection_path in section.subsections | reverse %}
+    {% set subsection = get_section(path=subsection_path) %}
+    <li><a href="{{ subsection.permalink | safe }}">{{ subsection.title }}</a>{% if subsection.date %} ({{ subsection.date | date(format="%F") }}){% endif %}</li>
     {% endfor %}
     </ul>
+  {% endif %}
+  {% if section.pages %}
+    {% if section.extra.subpages_title %}
+    <h2>{{ section.extra.subpages_title }}</h2>
+    {% endif %}
+    <ul>
+    {% for page in section.pages %}
+    <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a>{% if page.date %} ({{ page.date | date(format="%F") }}){% endif %}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
 </section>
 {% endblock content %}
