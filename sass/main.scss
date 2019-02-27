@@ -36,6 +36,11 @@ video {
   vertical-align: middle;
 }
 
+iframe {
+  width: 100%;
+  min-height: 180px;
+}
+
 fieldset {
   border: 0;
   margin: 0;
@@ -475,6 +480,9 @@ body > footer {
     width: 30%;
   }
 
+  iframe {
+    min-height: 400px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -501,6 +509,10 @@ body > footer {
   .flex-8col > *,
   .flex-10col > * {
     width: 23%;
+  }
+
+  iframe {
+    min-height: 650px;
   }
 }
 
@@ -531,6 +543,10 @@ body > footer {
   .flex-10col > * {
     width: 19%;
   }
+
+  iframe {
+    min-height: 750px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -541,6 +557,10 @@ body > footer {
   main > section {
     padding: .5em 3%;
     margin: .5em 8%;
+  }
+
+  iframe {
+    min-height: 850px;
   }
 }
 
