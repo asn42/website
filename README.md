@@ -6,8 +6,8 @@ for all Free- and security-related stuff !
 
 ## Requirement
 
-* Get the latest version of Gutenberg static site generator [from the official
-website](https://www.getgutenberg.io/documentation/getting-started/installation/).
+* Get the latest version of zola static site generator [from the official
+website](https://www.getzola.org/documentation/getting-started/installation/).
 
 ## Build the static site
 
@@ -32,7 +32,7 @@ remote-sources/statuts-update.sh
 ### Create the files in `/public`
 
 ``` sh
-gutenberg build
+zola build
 ```
 
 ## License
