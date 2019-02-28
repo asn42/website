@@ -15,3 +15,6 @@ Captation vidéo et montage par [Studios_42](https://studios.42.fr/).
 
 Cette vidéo est sous licence
 [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).
+
+Les [diapos](bortzmeyer-securite-noms-domaines.pdf) sont sous licence
+[Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr). 

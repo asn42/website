@@ -15,3 +15,6 @@ Captation vidéo et montage par [Studios_42](https://studios.42.fr/).
 
 Cette vidéo est sous licence
 [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).
+
+- [Diapos de la première partie](bien.pptx)
+- [Diapos de la partie Web](Présentation_des_différentes_vulnérabilités_WEB.pdf)
