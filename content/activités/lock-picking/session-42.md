@@ -1,7 +1,7 @@
 +++
 title = "Session de lock picking à 42"
 description = "Quarante deuxième ateliers de sécurité physique de l'"
-date = 2019-03-09
+date = 2019-03-02
 [extra]
 place = "Heart of Code (42)"
 +++
