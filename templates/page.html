@@ -12,6 +12,33 @@
     <a>{{page.title | safe | lower}}</a>
 {% endblock nav %}
 {% block content %}
+<section id="date">
+{% if page.date %}
+  {{ page.date
+     | date(format="%A %d %B %Y")
+     | replace(from="Monday", to="lundi")
+     | replace(from="Tuesday", to="mardi")
+     | replace(from="Wednesday", to="mercredi")
+     | replace(from="Thursday", to="jeudi")
+     | replace(from="Friday", to="vendredi")
+     | replace(from="Saturday", to="samedi")
+     | replace(from="Sunday", to="dimanche")
+     | replace(from="January", to="janvier")
+     | replace(from="February", to="février")
+     | replace(from="March", to="mars")
+     | replace(from="April", to="avril")
+     | replace(from="May", to="mai")
+     | replace(from="June", to="juin")
+     | replace(from="July", to="juillet")
+     | replace(from="August", to="août")
+     | replace(from="September", to="septembre")
+     | replace(from="October", to="octobre")
+     | replace(from="November", to="novembre")
+     | replace(from="December", to="décembre")
+	 | capitalize
+   }}
+   {% endif %}
+</section>
 <section id="page">
 {{ page.content | safe }}
 </section>
