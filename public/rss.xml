@@ -176,6 +176,19 @@ Les implications que cela pourrait avoir pour l&#x27;ASN ont été discutées.&l
                 <description>&lt;h2 id=&quot;dns-quand-il-y-a-des-problemes-dns-et-securite&quot;&gt;DNS, quand il y a des problèmes (DNS et sécurité)&lt;&#x2F;h2&gt;
 &lt;p&gt;Conférence donnée par &lt;a href=&quot;https:&#x2F;&#x2F;www.bortzmeyer.org&#x2F;&quot;&gt;Stéphane Bortzmeyer&lt;&#x2F;a&gt;.
 Captation vidéo et montage par &lt;a href=&quot;https:&#x2F;&#x2F;studios.42.fr&#x2F;&quot;&gt;Studios_42&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Tout le monde connait le DNS, Domain Name System, le protocole qui permet
+d&#x27;accéder à une grande base de données répartie, dont les clés sont les noms de
+domaine. Quand le DNS marche, tout va bien. Quand il y a des problèmes, par
+exemple de sécurité, c&#x27;est la catastrophe, car le DNS est à la base de la très
+grande majorité des transactions sur l&#x27;Internet.&lt;&#x2F;p&gt;
+&lt;p&gt;Après un rappel rapide du DNS, on parlera ici des pannes, de la manière
+d&#x27;améliorer la robustesse, des détournements, de la façon dont on peut
+améliorer la sécurité. Avec comme études de cas le détournement du domaine de
+Wikileaks, le détournement du portail de Fox-IT, le détournement de
+MyEtherWallet, les pannes et problèmes des résolveurs DNS d&#x27;Orange, la panne
+d&#x27;un domaine de tête entier, .pf, le détournement de linux.org, etc.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
 &lt;div &gt;
     &lt;iframe src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;LHv6uU9Gpos&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;
     &lt;&#x2F;iframe&gt;
@@ -195,6 +208,21 @@ Captation vidéo et montage par &lt;a href=&quot;https:&#x2F;&#x2F;studios.42.fr
                 <description>&lt;h2 id=&quot;conference-d-introduction-au-logiciel-libre-et-a-l-open-source&quot;&gt;Conférence d&#x27;Introduction au Logiciel Libre et à l&#x27;Open Source&lt;&#x2F;h2&gt;
 &lt;p&gt;Conférence donnée par &lt;a href=&quot;https:&#x2F;&#x2F;adrien.pachkoff.com&#x2F;&quot;&gt;Adrien Pachkoff&lt;&#x2F;a&gt;
 (président de l&#x27;Association Sans Nom).&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Les logiciels libres, vous en utilisez tous les jours, même si vous
+l&#x27;ignorez, alors autant découvrir ce que c&#x27;est et comment ça fonctionne. Que
+ce soit Firefox, VLC, LibreOffice, vim, ou plus discrètement Linux ou Minix
+de votre toaster connecté, et du code BSD dans OS X, vous ne pouvez pas y
+échapper !&lt;&#x2F;p&gt;
+&lt;p&gt;Nous ferons un historique de l&#x27;arrivée du droit d&#x27;auteur dans le monde du
+logiciel. Nous vous raconterons une petite anecdote sur la naissance du
+Logiciel Libre. Nous parlerons du Logiciel Libre, de l&#x27;Open Source, de la
+Free Software Foundation et de l&#x27;Open Source Initiative. Nous expliquerons ce
+que sont les licences libres et de ce qu&#x27;elles permettent concrètement, en
+prenant en exemple des projets existants. Nous verrons que le mouvement du
+logiciel libre a étendu son influence hors du domaine logiciel (art,
+éducation, langues, cartographie...).&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
 &lt;p&gt;La &lt;a href=&quot;https:&#x2F;&#x2F;tv.42.fr&#x2F;video&#x2F;wHq99D2n5opgMaLPd&quot;&gt;vidéo de cette conférence&lt;&#x2F;a&gt; n&#x27;est
 pour l&#x27;instant visible que par les étudiants de 42.
 Captation vidéo et montage par &lt;a href=&quot;https:&#x2F;&#x2F;studios.42.fr&#x2F;&quot;&gt;Studios_42&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
@@ -272,6 +300,16 @@ fois-ci.&lt;&#x2F;p&gt;
 &lt;p&gt;Conférence donnée par &lt;a href=&quot;https:&#x2F;&#x2F;dylanbourdon.fr&#x2F;&quot;&gt;Dylan Bourdon&lt;&#x2F;a&gt; (secrétaire de
 l&#x27;Association Sans Nom) et &lt;a href=&quot;https:&#x2F;&#x2F;pierre.dhuy.net&#x2F;&quot;&gt;Pierre d&#x27;Huy&lt;&#x2F;a&gt; (Devoteam).
 Captation vidéo et montage par &lt;a href=&quot;https:&#x2F;&#x2F;studios.42.fr&#x2F;&quot;&gt;Studios_42&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Une conf sans math complexe et incompréhensible !&lt;&#x2F;p&gt;
+&lt;p&gt;Venez découvrir l&#x27;évolution de la crypto, comprendre les différences entre
+algos et leurs utilisations, et appliquons celle-ci dans un exemple, les
+mails chiffrés.&lt;&#x2F;p&gt;
+&lt;p&gt;Il n&#x27;est pas important de savoir créer un algorithme de cryptographie pour
+faire une application sécurisé, mais il est nécessaire de comprendre les
+bases de fonctionnement de celle-ci pour en faire une bonne utilisation.&lt;&#x2F;p&gt;
+&lt;p&gt;Vous verrez, la crypto c&#x27;est cool.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
 &lt;div &gt;
     &lt;iframe src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;DYSw5IwWP4o&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;
     &lt;&#x2F;iframe&gt;
@@ -290,6 +328,17 @@ Captation vidéo et montage par &lt;a href=&quot;https:&#x2F;&#x2F;studios.42.fr
 &lt;p&gt;Conférence donnée par Corentin Bayet et Lucas Arrive, de
 &lt;a href=&quot;https:&#x2F;&#x2F;www.synacktiv.com&#x2F;en&#x2F;company.html&quot;&gt;Synacktiv&lt;&#x2F;a&gt;.
 Captation vidéo et montage par &lt;a href=&quot;https:&#x2F;&#x2F;studios.42.fr&#x2F;&quot;&gt;Studios_42&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Si vous avez épuisé les projets de sécurité de 42, si vous en avez marre de
+faire du Root-Me tout seul dans votre coin, ou si vous êtes juste intéressé
+par la sécurité informatique, il est peut être temps de vous lancer dans le
+CTF ! Participer à des compétitions de Capture The Flag est l’un des
+meilleurs moyens pour évoluer dans le domaine de la sécurité informatique,
+tant soit bien techniquement que socialement.&lt;&#x2F;p&gt;
+&lt;p&gt;Si vous hésitez à vous lancer, cette intervention pourra vous aider.
+Et si vous êtes déjà amateurs de CTF, venez partager vos expériences avec
+d’autres étudiants, ou recruter dans votre équipe !&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
 &lt;div &gt;
     &lt;iframe src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;qcLDU3OSCrY&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;
     &lt;&#x2F;iframe&gt;
@@ -577,6 +626,10 @@ Si ça se passe bien, l&#x27;expérience pourra être renouvelée, et on pourrai
                 <description>&lt;h2 id=&quot;conference-d-introduction-generale-a-la-securite-informatique&quot;&gt;Conférence d&#x27;introduction générale à la sécurité informatique&lt;&#x2F;h2&gt;
 &lt;p&gt;Conférence donnée par Xavier Coquand et Anthony Bouvet.
 Captation vidéo et montage par &lt;a href=&quot;https:&#x2F;&#x2F;studios.42.fr&#x2F;&quot;&gt;Studios_42&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Pour sa première conférence, l&#x27;Association Sans Nom vous propose une
+présentation des différents domaines de la sécurité informatique.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
 &lt;div &gt;
     &lt;iframe src=&quot;https:&#x2F;&#x2F;www.youtube.com&#x2F;embed&#x2F;oVZEblXS4gc&quot; webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;
     &lt;&#x2F;iframe&gt;
