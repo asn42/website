@@ -10,6 +10,15 @@ place = "Heart of Code (42)"
 
 Conférence donnée par Frédéric Urbain de [Framasoft](https://framasoft.org/).
 
+> Après la campagne Dégooglisons Internet, initiée en réaction à la mainmise des
+> grandes entreprises américaines sur le Web, Framasoft poursuit ses travaux
+> d'éducation populaire en faveur du logiciel libre, et de la culture libre en
+> général.
+> 
+> À l'heure où de nombreuses grandes entreprises confirment leur attachement à
+> l'open-source, est-ce que l'accès au code est la seule condition pour libérer
+> le logiciel ?
+
 La vidéo sera mise en ligne environ une semaine après la conférence.
 
 [Les diapos](conférence_à_l_école_42.odp) ([version PDF](conférence_à_l_école_42.pdf)) sont sous licence
