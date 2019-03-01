@@ -16,7 +16,7 @@ taxonomies = [
     {name = "activities", rss = true},
 ]
 
-build_search_index = true
+build_search_index = false
 
 ignored_content = []
 
