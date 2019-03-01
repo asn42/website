@@ -35,6 +35,9 @@ remote-sources/statuts-update.sh
 zola build
 ```
 
+Note: Apple's HFS+ file system handles accented characters in filenames weirdly.
+At 42, it should work on `/sgoinfre/goinfre/Perso/xlogin/`.
+
 ## License
 
     asn-website - Association Sans Nom website
