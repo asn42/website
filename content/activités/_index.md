@@ -14,7 +14,7 @@ partenariat…](./proposer_une_activité.md) ?
 
 ## Ateliers
 
-Des [ateliers lock picking](./activités/lock-picking/_index.md) ont lieu environ un samedi sur deux à 42 (annoncés sur #asn-lockpicking). Des [ateliers d'initiation au pentesting](./activités/ateliers-pentest/_index.md) ont commencé début 2018.
+Des [ateliers lock picking](./activités/lock-picking/_index.md) ont lieu environ un samedi sur deux à 42 (annoncés sur <a href="{{ slack42(channel="asn-lockpicking") }}">#asn-lockpicking</a>). Des [ateliers d'initiation au pentesting](./activités/ateliers-pentest/_index.md) ont commencé début 2018.
 
 {{ new_section() }}
 

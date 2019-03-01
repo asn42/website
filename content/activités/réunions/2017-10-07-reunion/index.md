@@ -27,7 +27,7 @@ Toute personne intéressée par l’ASN peut venir et participer aux éventuels 
 Plusieurs projets sont en cours de préparation :
 - Atelier sur l’import de jeux de données ouvertes de data.gouv.fr sur OpenStreetMap. Si le concept vous intéresse, faite coucou à Adrien (@pk)
 - Atelier trouver un "good first bug" et faire son premier patch sur un projet libre (avec [Janitor](https://janitor.technology/), et peut-être son créateur Jan)
-- Table ronde  sur l’auto hébergement : l’idée est d’échanger entre personnes gérant ou souhaitant héberger et gérer elles-même leur site(s) web, leurs mails, leur messagerie instantanée, et/ou autres services divers, que ça soit sur un raspberry pi derrière leur box internet, un vps, un serveur dédiée ou autre. On pourrait partager ses problèmes (oui, même les problèmes d’iptable), ses solutions, les pistes qui semblent prometteuses, les outils qui ont l'air sympa… On vous donne rendez vous sur slack, sur le chanel #asn-libre
+- Table ronde  sur l’auto hébergement : l’idée est d’échanger entre personnes gérant ou souhaitant héberger et gérer elles-même leur site(s) web, leurs mails, leur messagerie instantanée, et/ou autres services divers, que ça soit sur un raspberry pi derrière leur box internet, un vps, un serveur dédiée ou autre. On pourrait partager ses problèmes (oui, même les problèmes d’iptable), ses solutions, les pistes qui semblent prometteuses, les outils qui ont l'air sympa… On vous donne rendez vous sur slack, sur le chanel <a href="{{ slack42(channel="asn-libre") }}">#asn-libre</a>
 
 
 ### Lockpicking :
@@ -37,7 +37,7 @@ Les ateliers vont pouvoir reprendre doucement, avec une commande groupée prévu
 
 ### ASN challenge :
 
-Vous vous rappelez peut être des [challenges](https://asn.borntocode.in/challenges/) pour remporter des places pour la nuit du hack. Le site va être mis à jour pour ajouter les réponses afin de comprendre ceux qui vous ont fait suer.
+Vous vous rappelez peut être des [challenges](https://wargame2017.sansnom.org/) pour remporter des places pour la nuit du hack. Le site va être mis à jour pour ajouter les réponses afin de comprendre ceux qui vous ont fait suer.
 
 
 ### Dashlane / Ovh :

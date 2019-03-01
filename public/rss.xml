@@ -28,7 +28,8 @@
 &lt;h3 id=&quot;specificites-de-la-session&quot;&gt;Spécificités de la session&lt;&#x2F;h3&gt;
 &lt;p&gt;Rien de spécial d&#x27;annoncé pour l&#x27;instant : crochetage de serrures paracentriques.
 Il est toujours possible que quelqu&#x27;un amène du matériel particulier (pick gun, lecteur RFID…).
-Si vous avez des idées, n&#x27;hésitez pas à en discuter sur #asn-lockpicking.&lt;&#x2F;p&gt;
+Si vous avez des idées, n&#x27;hésitez pas à en discuter sur &lt;a href=&quot;https:&#x2F;&#x2F;42born2code.slack.com&#x2F;messages&#x2F;asn-lockpicking
+&quot;&gt;#asn-lockpicking&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;generalites&quot;&gt;Généralités&lt;&#x2F;h3&gt;
 &lt;p&gt;Vous pouvez amener du matériel si vous voulez, mais ce n&#x27;est pas obligatoire.
 Si vous n&#x27;en avez pas, on vous en prêtera.
@@ -368,12 +369,13 @@ Toute personne intéressée par l’ASN peut venir et participer aux éventuels 
 &lt;ul&gt;
 &lt;li&gt;Atelier sur l’import de jeux de données ouvertes de data.gouv.fr sur OpenStreetMap. Si le concept vous intéresse, faite coucou à Adrien (@pk)&lt;&#x2F;li&gt;
 &lt;li&gt;Atelier trouver un &amp;quot;good first bug&amp;quot; et faire son premier patch sur un projet libre (avec &lt;a href=&quot;https:&#x2F;&#x2F;janitor.technology&#x2F;&quot;&gt;Janitor&lt;&#x2F;a&gt;, et peut-être son créateur Jan)&lt;&#x2F;li&gt;
-&lt;li&gt;Table ronde  sur l’auto hébergement : l’idée est d’échanger entre personnes gérant ou souhaitant héberger et gérer elles-même leur site(s) web, leurs mails, leur messagerie instantanée, et&#x2F;ou autres services divers, que ça soit sur un raspberry pi derrière leur box internet, un vps, un serveur dédiée ou autre. On pourrait partager ses problèmes (oui, même les problèmes d’iptable), ses solutions, les pistes qui semblent prometteuses, les outils qui ont l&#x27;air sympa… On vous donne rendez vous sur slack, sur le chanel #asn-libre&lt;&#x2F;li&gt;
+&lt;li&gt;Table ronde  sur l’auto hébergement : l’idée est d’échanger entre personnes gérant ou souhaitant héberger et gérer elles-même leur site(s) web, leurs mails, leur messagerie instantanée, et&#x2F;ou autres services divers, que ça soit sur un raspberry pi derrière leur box internet, un vps, un serveur dédiée ou autre. On pourrait partager ses problèmes (oui, même les problèmes d’iptable), ses solutions, les pistes qui semblent prometteuses, les outils qui ont l&#x27;air sympa… On vous donne rendez vous sur slack, sur le chanel &lt;a href=&quot;https:&#x2F;&#x2F;42born2code.slack.com&#x2F;messages&#x2F;asn-libre
+&quot;&gt;#asn-libre&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
 &lt;h3 id=&quot;lockpicking&quot;&gt;Lockpicking :&lt;&#x2F;h3&gt;
 &lt;p&gt;Les ateliers vont pouvoir reprendre doucement, avec une commande groupée prévue pour novembre &#x2F; décembres (plus de détails a venir)&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;asn-challenge&quot;&gt;ASN challenge :&lt;&#x2F;h3&gt;
-&lt;p&gt;Vous vous rappelez peut être des &lt;a href=&quot;https:&#x2F;&#x2F;asn.borntocode.in&#x2F;challenges&#x2F;&quot;&gt;challenges&lt;&#x2F;a&gt; pour remporter des places pour la nuit du hack. Le site va être mis à jour pour ajouter les réponses afin de comprendre ceux qui vous ont fait suer.&lt;&#x2F;p&gt;
+&lt;p&gt;Vous vous rappelez peut être des &lt;a href=&quot;https:&#x2F;&#x2F;wargame2017.sansnom.org&#x2F;&quot;&gt;challenges&lt;&#x2F;a&gt; pour remporter des places pour la nuit du hack. Le site va être mis à jour pour ajouter les réponses afin de comprendre ceux qui vous ont fait suer.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;dashlane-ovh&quot;&gt;Dashlane &#x2F; Ovh :&lt;&#x2F;h3&gt;
 &lt;p&gt;Tout n’est pas mort. Nous allons reprendre contact et relancer les choses après l’officialisation de l’association. Des events pourrait vite arriver.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;born2ctf&quot;&gt;Born2CTF :&lt;&#x2F;h3&gt;
@@ -492,7 +494,7 @@ Chaque membre du bureau a un rôle propre (président, secrétaire général, tr
 Des membres peuvent être référents&#x2F;responsables d&#x27;une branche sans forcément faire partie du bureau. C&#x27;est vers eux que se tourneront les gens qui veulent organiser des activités dans les domaines en questions (et qui pourront les rediriger vers les bonnes personnes au besoin).&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;taches-prioritaires&quot;&gt;Tâches prioritaires&lt;&#x2F;h3&gt;
 &lt;ol&gt;
-&lt;li&gt;Il faut finaliser les statuts avant le début du mois prochain &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;asn&#x2F;statuts&quot;&gt;asn42&#x2F;statuts&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;Il faut finaliser les statuts avant le début du mois prochain &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;asn42&#x2F;statuts&quot;&gt;asn42&#x2F;statuts&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
 &lt;li&gt;Le président et le trésorier doivent ouvrir un compte chez une banque (si possible avec déjà des sous dessus :-P).&lt;&#x2F;li&gt;
 &lt;li&gt;Des personnes du futur bureau vont prendre rendez-vous avec la Maison des Initiatives Étudiantes, et on va postuler pour le Kit à se Lancer.&lt;&#x2F;li&gt;
 &lt;li&gt;Il faudrait avoir rapidement une version du site à mettre en ligne, notamment pour expliquer aux gens comment participer. Ça se passe sur github &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;asn42&#x2F;website&quot;&gt;asn42&#x2F;website&lt;&#x2F;a&gt; sous forme de pull-requests et d&#x27;issues. Ce sont de simples pages en HTML, CSS (utilisant bootstrap) et JavaScript. Les contributions ne nécessitent donc pas un niveau technique élevé et sont grandement appréciées.&lt;&#x2F;li&gt;
