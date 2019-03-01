@@ -6,7 +6,7 @@ title = "ASN"
 
 Le Libre et la sécurité partagent des valeurs provenant du hacking&nbsp;: étudier le fonctionnement des choses, les améliorer, trouver des failles pour les détourner de leur usage premier, partager ses découvertes avec ses pairs et le reste du monde. Nous vous invitons à faire vivre ces valeurs avec l'Association Sans Nom à travers des ateliers, des conférences et d'autres activités internes ou publiques, ainsi que la gestion de services pour et par les membres eux-mêmes.
 
-{% button(link="/activités") %}Qu'est-ce qu'on y fait&nbsp;?{% end %} {% button(link="/#adherer" class="btn-success") %}Où est-ce que je signe&nbsp;?{% end %}
+<a href="/activités" class="{{ button() }}">Qu'est-ce qu'on y fait&nbsp;?</a> <a href="/#adherer" class="{{ button(type="success") }}">Où est-ce que je signe&nbsp;?</a>
 
 {{ new_section() }}
 

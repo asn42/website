@@ -25,8 +25,9 @@ doute vous conseiller sur la marche à suivre pour le faire de votre côté.
 
 [Envoyez-nous un message](./contact/index.md) en précisant le sujet de la
 conférence et le ou les intervenant.
-Nous pouvons aussi en discuter lors d'une des réunions de l'association, [d'un
-évènement ou d'un atelier](./activités/_index.md).
+Nous pouvons aussi en discuter lors d'une des
+[réunions](./activités/réunions/_index.md) de l'association, d'un [évènement ou
+d'un atelier](./activités/_index.md).
 
 ### Le rôle de l'ASN
 

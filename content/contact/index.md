@@ -7,13 +7,13 @@ description = "Contacter l'"
 
 Il y a plusieurs moyens possibles de nous contacter&nbsp;:
 
-- Par messagerie électronique&nbsp;: {% button(link="mailto:bureau [ @ ] sansnom.org") %}nous envoyer un courrier électronique{% end %}
+- Par messagerie électronique&nbsp;: <a href="mailto:{{ mail(to="bureau") }}" class="{{ button() }}">nous envoyer un courrier électronique</a>
 - Sur le slack de 42&nbsp;:
-  - L'association&nbsp;:{% button(link="https://42born2code.slack.com/messages/association-sans-nom/") %}/open #association-sans-nom{% end %}
-  - Le Libre&nbsp;:{% button(link="https://42born2code.slack.com/messages/asn-libre/") %}/open #asn-libre{% end %}
-  - La sécurité physique&nbsp;:{% button(link="https://42born2code.slack.com/messages/asn-lockpicking/") %}/open #asn-lockpicking{% end %}
-  - La sécurité informatique&nbsp;:{% button(link="https://42born2code.slack.com/messages/asn-secu/") %}/open #asn-secu{% end %}
-- Sur Github&nbsp;: {% button(link="https://github.com/asn42") %}@asn42{% end %}
+  - L'association&nbsp;:<a href="{{ slack42(channel="association-sans-nom") }}" class="{{ button() }}">/open #association-sans-nom</a>
+  - Le Libre&nbsp;:<a href="{{ slack42(channel="asn-libre") }}" class="{{ button() }}">/open #asn-Libre</a>
+  - La sécurité physique&nbsp;:<a href="{{ slack42(channel="asn-lockpicking") }}" class="{{ button() }}">/open #asn-lockpicking</a>
+  - La sécurité informatique&nbsp;:<a href="{{ slack42(channel="asn-secu") }}" class="{{ button() }}">/open #asn-secu</a>
+- Sur Github&nbsp;: <a href="https://github.com/asn42" class="{{ button() }}">@asn42</a>
 
 {{ new_section() }}
 

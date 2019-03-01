@@ -14,7 +14,7 @@ Nous n'avons pas compté combien ont été faits jusque là, alors on va dire qu
 
 Rien de spécial d'annoncé pour l'instant&nbsp;: crochetage de serrures paracentriques.
 Il est toujours possible que quelqu'un amène du matériel particulier (pick gun, lecteur RFID…).
-Si vous avez des idées, n'hésitez pas à en discuter sur #asn-lockpicking.
+Si vous avez des idées, n'hésitez pas à en discuter sur <a href="{{ slack42(channel="asn-lockpicking") }}">#asn-lockpicking</a>.
 
 ### Généralités
 

@@ -24,7 +24,7 @@ Des membres peuvent être référents/responsables d'une branche sans forcément
 
 ### Tâches prioritaires
 
-1. Il faut finaliser les statuts avant le début du mois prochain [asn42/statuts](https://github.com/asn/statuts).
+1. Il faut finaliser les statuts avant le début du mois prochain [asn42/statuts](https://github.com/asn42/statuts).
 2. Le président et le trésorier doivent ouvrir un compte chez une banque (si possible avec déjà des sous dessus :-P).
 3. Des personnes du futur bureau vont prendre rendez-vous avec la Maison des Initiatives Étudiantes, et on va postuler pour le Kit à se Lancer.
 4. Il faudrait avoir rapidement une version du site à mettre en ligne, notamment pour expliquer aux gens comment participer. Ça se passe sur github [asn42/website](https://github.com/asn42/website) sous forme de pull-requests et d'issues. Ce sont de simples pages en HTML, CSS (utilisant bootstrap) et JavaScript. Les contributions ne nécessitent donc pas un niveau technique élevé et sont grandement appréciées.
