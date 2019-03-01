@@ -12,8 +12,8 @@
     <a>{{page.title | safe | lower}}</a>
 {% endblock nav %}
 {% block content %}
-<section id="date">
 {% if page.date %}
+<section id="date">
   {{ page.date
      | date(format="%A %d %B %Y")
      | replace(from="Monday", to="lundi")
@@ -37,8 +37,8 @@
      | replace(from="December", to="décembre")
 	 | capitalize
    }}
-   {% endif %}
 </section>
+{% endif %}
 <section id="page">
 {{ page.content | safe }}
 </section>
