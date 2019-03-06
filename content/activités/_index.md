@@ -20,7 +20,7 @@ Des [ateliers lock picking](./activités/lock-picking/_index.md) ont lieu enviro
 
 ## Conférences
 
-Nous avons organisé une [conférence d'introduction générale à la sécurité](./activités/conférences/introduction_securité_informatique/index.md) par deux étudiants de 42, ainsi qu'une [conférence d'initiation à la cryptographie](./activités/conférences/introduction_cryptographie.md) par un étudiant et un invité, et donné une conférence d'[introduction au Logiciel Libre et à l'Open Source](./activités/conférences/introduction_libre_open_source.md). Synacktiv a donné une [conférence sur le CTF](./activités/conférences/introduction_ctf.md), et Stéphane Bortzmeyer a donné [une conférence sur DNS et de sécurité](./activités/conférences/dns_bortzmeyer/index.md).
+Nous avons organisé une [conférence d'introduction générale à la sécurité](./activités/conférences/introduction_securité_informatique/index.md) par deux étudiants de 42, ainsi qu'une [conférence d'initiation à la cryptographie](./activités/conférences/introduction_cryptographie/index.md) par un étudiant et un invité, et donné une conférence d'[introduction au Logiciel Libre et à l'Open Source](./activités/conférences/introduction_libre_open_source.md). Synacktiv a donné une [conférence sur le CTF](./activités/conférences/introduction_ctf.md), et Stéphane Bortzmeyer a donné [une conférence sur DNS et de sécurité](./activités/conférences/dns_bortzmeyer/index.md).
 
 {{ new_section() }}
 

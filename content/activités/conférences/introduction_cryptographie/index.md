@@ -27,4 +27,9 @@ Captation vidéo et montage par [Studios_42](https://studios.42.fr/).
 {{ youtube(id="DYSw5IwWP4o") }}
 
 Cette vidéo est sous licence
-[Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).
+[Creative Commons BY-SA
+4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).
+
+Les [diapos](crypto.odp) ([version PDF](crypto.pdf)) sont disponibles sous la
+licence [Creative Commons BY-SA
+4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).
