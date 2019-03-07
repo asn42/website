@@ -11,21 +11,11 @@ website](https://www.getzola.org/documentation/getting-started/installation/).
 
 ## Build the static site
 
-### Get the submodules
+### Update the statutes (optional)
 
 ``` sh
 git submodule update --init
-```
-
-### Update the submodules (optional)
-
-``` sh
 git submodule update --remote
-```
-
-### Add the frontmatter to statuts.md
-
-```
 remote-sources/statuts-update.sh
 ```
 
