@@ -19,6 +19,16 @@ git submodule update --remote
 remote-sources/statuts-update.sh
 ```
 
+### Try the website locally
+
+``` sh
+zola serve
+```
+
+and go to [127.0.0.1:1111](http://127.0.0.1:1111/) in a browser.
+It should rebuild and then reload the website in the browser automatically each
+time you change files.
+
 ### Create the files in `/public`
 
 ``` sh
