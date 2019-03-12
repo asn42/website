@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Inconsolata Regular'), local('Inconsolata-Regular'),
+       url('/fonts/inconsolata-v17-latin-ext_latin-regular.woff2') format('woff2'),
+       url('/fonts/inconsolata-v17-latin-ext_latin-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Inconsolata Bold'), local('Inconsolata-Bold'),
+       url('/fonts/inconsolata-v17-latin-ext_latin-700.woff2') format('woff2'),
+       url('/fonts/inconsolata-v17-latin-ext_latin-700.woff') format('woff');
+}

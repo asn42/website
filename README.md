@@ -58,10 +58,53 @@ At 42, it should work on `/sgoinfre/goinfre/Perso/xlogin/`.
     You should have received a copy of the GNU Affero Public License
     along with asn-website.  If not, see <https://www.gnu.org/licenses/>.
 
-### Roboto font
+### Cadman font
 
-Roboto font, designed by Christian Robertson, is released under [Apache 2.0
-license](http://www.apache.org/licenses/LICENSE-2.0) by Google.
+Copyright (c) 2018, Paul Miller.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+### Graduate font
+
+Copyright (c) 2012 by Eduardo Tunni (http://www.tipo.net.ar), with Reserved Font
+Name “Graduate”
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+### Inconsolata font
+
+Copyright (c) 2006 (regular style) and 2012 (bold style) by The Inconsolata
+Project Authors.
+
+Regular style, Raphael Linus Levien.
+Bold style by Kirill Tkachev and the Cyreal foundry.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+### Salsa font
+
+Copyright (c) 2011 by John Vargas Beltrán (john.vargasbeltran@gmail.com),
+with Reserved Font Name Salsa.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: http://scripts.sil.org/OFL
+
+### Special Elite font
+
+Copyright (c) 2010 by Brian J. Bonislawsky and Astigmatic (astigmatic.com)
+
+This Font Software is licensed under the Apache License, Version 2.0.
+This license is available at http://www.apache.org/licenses/LICENSE-2.0
+
+### Suez One font
+
+Copyright (c) 2016 by Michal Sahar.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is available with a FAQ at: http://scripts.sil.org/OFL
 
 ### Normalize.css
 
