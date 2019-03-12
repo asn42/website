@@ -1,20 +1,68 @@
 @import 'normalize';
-@import 'roboto';
+
+@import 'cadman';
+@import 'graduate';
+@import 'inconsolata';
+@import 'salsa';
+@import 'special_elite';
+@import 'suez_one';
+
+
+$asn-family: 'Salsa', sans-serif;
+$asn-color: #eff;
+
+$big-title-family: 'Suez One', sans-serif;
+$small-title-family: 'Graduate', serif;
+
+$text-family: 'Cadman', sans-serif;
+
+$code-family: "Inconsolata", monospace;
+$quote-family: 'Special Elite', serif;
+
+$text-color: #aaa;
+$dark-text-color: #aaa;
+$inverted-text-color: #222;
+
+$link-color: #b73;
+$link-hover-color: #d95;
+$inverted-link-color: #850;
+$inverted-link-hover-color: #730;
+
+$title-color: #eff;
+
+$bg-color: #444;
+$bg-image: "/images/pattern_dark.svg";
+
+$bg-overlay: rgba(50, 150, 230, .2);
+$dark-bg-overlay: rgba(120, 120, 120, .2);
+$inverted-bg-overlay: rgba(255, 255, 255, .5);
+$selected-bg: #eee;
+$inverted-border-color: #666;
 
 html {
-  color: #222;
+  color: $text-color;
   font-size: 1em;
-  font-family: 'robotoregular';
+  font-family: $text-family;
   line-height: 1.4;
+  background-color: $bg-color;
+  background-image: url($bg-image);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+pre {
+  font-family: $code-family;
 }
 
 ::-moz-selection {
-  background: #b3d4fc;
+  color: $inverted-text-color;
+  background: $inverted-bg-overlay;
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  color: $inverted-text-color;
+  background: $selected-bg;
   text-shadow: none;
 }
 
@@ -99,34 +147,52 @@ textarea {
 
 /****************************************************************************/
 
-body {
-  background-color: #444;
-  background-image: url("/images/pattern_dark.svg");
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  color: #aaa;
-}
-
 main > nav,
 main > article,
 main > section {
-  background-color: rgba(50, 150, 230, .2);
+  background-color: $bg-overlay;
   border-radius: 3px;
-  color: #cdd;
+  color: #dee;
 }
 
 a {
-  color: #b73;
+  color: $link-color;
   transition: color .5s, background .5s;
 }
 a:active,
 a:hover {
-  color: #d95;
+  color: $link-hover-color;
 }
 
 a[href^="mailto:"]:before {
   content: "📧";
   padding-right: .5em;
+}
+
+h1 { font-size: 2.4em; }
+h2 { font-size: 1.9em; }
+h3 { font-size: 1.3em; }
+h4 { font-size: 1em; }
+h5 { font-size: .8em; }
+h6 { font-size: .7em; }
+
+main > article h1,
+main > section h1,
+main > article h2,
+main > section h2 {
+  font-family: $big-title-family;
+  color: $title-color;
+}
+main > article h3,
+main > section h3,
+main > article h4,
+main > section h4,
+main > article h5,
+main > section h5,
+main > article h6,
+main > section h6 {
+  font-family: $small-title-family;
+  color: $title-color;
 }
 
 /** Fake buttons **/
@@ -261,17 +327,17 @@ a.btn-light:hover {
 }
 
 a.btn-dark {
-	color: #d2d2d2;
-	border-color: #424242;
-	background-color: #26759e;
-	background-image: linear-gradient(to bottom, #535353, #1a1a1a);
+  color: #d2d2d2;
+  border-color: #424242;
+  background-color: #26759e;
+  background-image: linear-gradient(to bottom, #535353, #1a1a1a);
 }
 a.btn-dark:active,
 a.btn-dark:hover {
-	color: #d8d9d9;
-	border-color: #353535;
-	background-color: #26759e;
-	background-image: linear-gradient(to bottom, #474646, #0d0d0d);
+  color: #d8d9d9;
+  border-color: #353535;
+  background-color: #26759e;
+  background-image: linear-gradient(to bottom, #474646, #0d0d0d);
 }
 
 nav a,
@@ -289,20 +355,24 @@ section a:hover {
 }
 
 blockquote {
-  background-color: rgba(255, 255, 255, .4);
-  color: #222;
-  border-left: .5em solid #666;
+  background-color: $inverted-bg-overlay;
+  color: $inverted-text-color;
+  font-family: $quote-family;
+  border-left: .5em solid $inverted-border-color;
   border-radius: 3px;
   padding: 0.5em .8em;
   margin: .5em 2%;
 }
 
-blockquote a {
-  color: #850;
+blockquote a,
+a::selection {
+  color: $inverted-link-color;
 }
 blockquote a:active,
-blockquote a:hover {
-  color: #730;
+blockquote a:hover,
+a:active::selection,
+a:hover::selection {
+  color: $inverted-link-hover-color;
 }
 
 body > nav {
@@ -330,7 +400,7 @@ body > nav#context > a {
 }
 
 body > nav#context > a:first-child::before {
-    content: "";
+  content: "";
 }
 body > nav#context > a::before {
   content: "⤷";
@@ -356,6 +426,11 @@ body > nav p,
 body > nav img {
   margin: 0;
   font-size: 1em;
+}
+
+body > nav h1 {
+  color: $asn-color;
+  font-family: $asn-family;
 }
 
 body > nav img {
