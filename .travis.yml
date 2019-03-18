@@ -10,6 +10,7 @@ after_success: |
   [ $TRAVIS_PULL_REQUEST = false ] &&
   zola build &&
   git checkout --orphan static &&
+  git rm .gitignore &&
   git rm --cached -r . &&
   git add public &&
   git commit -m 'Site statique'
