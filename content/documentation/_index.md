@@ -51,7 +51,7 @@ Il nous arrive régulièrement d'[organiser des ateliers à
 42](./documentation/activités/atelier_à_42.md), mais aussi de temps en temps
 d'[organiser des voyages groupés](./documentation/activités/voyage_groupé.md)
 pour les étudiants ou de [représenter l'Association Sans
-Nom]() à des évènements
+Nom](./documentation/activités/évènement_extérieur.md) à des évènements
 extérieurs.
 
 {{ new_section() }}
