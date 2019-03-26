@@ -1,6 +1,7 @@
 +++
 title = "Nos activités"
 description = "Les activités de l'"
+sort_by="weight"
 [extra]
 subsections_title = "Activités de l'ASN"
 +++

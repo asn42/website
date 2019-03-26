@@ -2,6 +2,7 @@
 title = "leHACK"
 description = "Bénévolat à leHACK avec l'"
 sort_by = "date"
+weight = 30
 [extra]
 subpages_title = "leHACK / Nuid du Hack"
 +++
