@@ -30,7 +30,9 @@ Bureau](./documentation/association/elections.md) chaque année au cours d'une
 [Assemblée Générale](./documentation/association/assemblée_générale.md).
 
 Nous allons aussi reprendre certains points des [statuts](./statuts/index.md)
-concernant l'[adhésion et la cotisation]() ou l'[utilisation des services]().
+concernant l'[adhésion et la
+cotisation](./documentation/association/adhésion_et_cotisation.md) ou
+l'[utilisation des services]().
 
 {{ new_section() }}
 
