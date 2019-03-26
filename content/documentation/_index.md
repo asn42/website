@@ -1,6 +1,7 @@
 +++
 title = "Documentation"
 description = "La documentation à propos de, ou produite par l'"
+sort_by="weight"
 [extra]
 subsections_title = "Catégories"
 +++
