@@ -6,7 +6,7 @@ title = "ASN"
 
 Le Libre et la sécurité partagent des valeurs provenant du hacking&nbsp;: étudier le fonctionnement des choses, les améliorer, trouver des failles pour les détourner de leur usage premier, partager ses découvertes avec ses pairs et le reste du monde. Nous vous invitons à faire vivre ces valeurs avec l'Association Sans Nom à travers des ateliers, des conférences et d'autres activités internes ou publiques, ainsi que la gestion de services pour et par les membres eux-mêmes.
 
-<a href="/activités" class="{{ button() }}">Qu'est-ce qu'on y fait&nbsp;?</a> <a href="/#adherer" class="{{ button(type="success") }}">Où est-ce que je signe&nbsp;?</a>
+<a href="/activités" class="{{ button() }}">Qu'est-ce qu'on y fait&nbsp;?</a> <a href="/adherer/" class="{{ button(type="success") }}">Où est-ce que je signe&nbsp;?</a>
 
 {{ new_section() }}
 
@@ -40,28 +40,3 @@ La sécurité ne se limite pas aux logiciels, n'oublions pas la sécurité physi
 
 </div>
 </div>
-
-{{ new_section(id="adherer") }}
-
-## Devenir membre
-
-Bien que certaines activités de l'association soient ouvertes au public, nous n'acceptons comme adhérents que des personnes ayant un lien avec 42 (étudiants, anciens étudiants, staff…).
-
-Pour nous rejoindre, commencez par [nous envoyer une demande par courrier
-électronique](./contact/index.md). Par exemple :
-
-> Bonjour,
-> 
-> Je souhaite rejoindre l'Association Sans Nom et j'accepte de respecter
-> [ses statuts](./statuts/index.md).
-> 
-> --
-> Prénom Nom
-
-Ensuite, il reste à verser une cotisation de 15 euros. Deux possibilités :
-
-- la remettre à un membre du Bureau en lui précisant votre nom
-- faire un virement sur le compte de l'association (demandez-nous un RIB)
-
-Le Bureau valide ensuite (sauf exception) l'adhésion et vous faites partie de
-l'association !
