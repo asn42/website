@@ -68,7 +68,8 @@ comment [gérer votre projet de logiciel libre et trouver des
 contributeurs](./documentation/logiciel_libre/mon_logiciel_libre.md).
 Mais peut-être cherchez vous simplement [des logiciels libres à
 utiliser](./documentation/logiciel_libre/utiliser.md), ou [des ressources et
-des informations sur le logiciel libre]().
+des informations sur le logiciel
+libre](./documentation/logiciel_libre/ressources.md).
 
 {{ new_section() }}
 
