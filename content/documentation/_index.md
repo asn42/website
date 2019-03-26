@@ -59,7 +59,8 @@ extérieurs.
 ## Logiciel Libre
 
 Nous avons préparé un guide pour vous aider à [trouver un bon premier bug à
-résoudre et faire une contribution à un logiciel Libre]().
+résoudre et faire une contribution à un logiciel
+Libre](./documentation/logiciel_libre/comment_contribuer.md).
 Vous vous demandez peut-être [si vous pouvez être payé pour vos contributions à
 des logiciels Libres]() comment [gérer votre projet de logiciel libre et
 trouver des contributeurs]().
