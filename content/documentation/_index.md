@@ -70,13 +70,13 @@ résoudre et faire une contribution à un logiciel
 Libre](./documentation/logiciel_libre/comment_contribuer.md).
 Vous vous demandez peut-être [si vous pouvez être payé pour vos contributions à
 des logiciels
-Libres](./documentation/logiciel_libre/contribution_rémunérée.md) ou
+Libres](./documentation/logiciel_libre/contribution_rémunérée.md)<!-- ou
 comment [gérer votre projet de logiciel libre et trouver des
 contributeurs](./documentation/logiciel_libre/mon_logiciel_libre.md).
 Mais peut-être cherchez vous simplement [des logiciels libres à
 utiliser](./documentation/logiciel_libre/utiliser.md), ou [des ressources et
 des informations sur le logiciel
-libre](./documentation/logiciel_libre/ressources.md).
+libre](./documentation/logiciel_libre/ressources.md)-->.
 
 {{ new_section() }}
 
@@ -86,9 +86,9 @@ Nous pouvons essayer de vous donner des pistes si vous voulez [vous lancer dans
 la sécurité](./documentation/sécurité/débuter.md), ou si vous voulez
 [travailler dans la sécurité
 informatique](./documentation/sécurité/professionnalisation.md).
-Vous pouvez aussi aller voir les [sources
+<!--Vous pouvez aussi aller voir les [sources
 d'information](./documentation/sécurité/ressources.md) que nous avons rassemblé
-sur le sujet.
+sur le sujet.-->
 
 {{ new_section() }}
 
@@ -97,10 +97,10 @@ sur le sujet.
 Lors des [ateliers lock picking](./activités/lock-picking/_index.md), nous
 expliquons le fonctionnement des cadenas et serrures à goupilles cylindriques
 (à clé paracentrique) ou à code, et une ou deux techniques pour les [ouvrir
-avec un kit](./documentation/lock_picking/paracentrique.md) ou [avec une simple
+avec un kit](./documentation/lock_picking/paracentrique.md)<!-- ou [avec une simple
 cannette](./documentation/lock_picking/canette.md) ou [sans
 outils](./documentation/lock_picking/cadenas_à_code.md) pour ce dernier.
 Nous prévoyons également d'essayer de [fabriquer des outils
-nous-mêmes](./documentation/lock_picking/créer_ses_outils.md).
+nous-mêmes](./documentation/lock_picking/créer_ses_outils.md)-->.
 
 {{ new_section() }}
