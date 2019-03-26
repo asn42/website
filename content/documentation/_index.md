@@ -27,7 +27,7 @@ déjà [modifié les
 statuts](./documentation/association/modification_des_statuts.md) plusieurs
 fois et nous [élisons un nouveau
 Bureau](./documentation/association/elections.md) chaque année au cours d'une
-[Assemblée Générale]().
+[Assemblée Générale](./documentation/association/assemblée_générale.md).
 
 Nous allons aussi reprendre certains points des [statuts](./statuts/index.md)
 concernant l'[adhésion et la cotisation]() ou l'[utilisation des services]().
