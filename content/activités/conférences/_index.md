@@ -8,4 +8,4 @@ subpages_title = "Les conférences"
 
 ## Proposer une conférence
 
-Si vous voulez [proposer une conférence, c'est par ici](./proposer_une_activité.md).
+Si vous voulez [proposer une conférence, c'est par ici](./documentation/proposer_une_activité/index.md).

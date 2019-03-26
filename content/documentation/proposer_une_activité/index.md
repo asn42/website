@@ -1,7 +1,6 @@
 +++
 title = "Proposer une activité"
 description = "Proposer une conférence ou un atelier à l'"
-path = "/activités/proposer_une_activité"
 +++
 
 ## Proposer une conférence ou un atelier
