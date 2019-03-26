@@ -62,7 +62,8 @@ Nous avons préparé un guide pour vous aider à [trouver un bon premier bug à
 résoudre et faire une contribution à un logiciel
 Libre](./documentation/logiciel_libre/comment_contribuer.md).
 Vous vous demandez peut-être [si vous pouvez être payé pour vos contributions à
-des logiciels Libres]() comment [gérer votre projet de logiciel libre et
+des logiciels Libres](./documentation/logiciel_libre/contribution_rémunérée.md)
+comment [gérer votre projet de logiciel libre et
 trouver des contributeurs]().
 Mais peut-être cherchez vous simplement [des logiciels libres à utiliser](), ou
 [des ressources et des informations sur le logiciel libre]().
