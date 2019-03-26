@@ -20,17 +20,21 @@
     <body>
 
         <nav id="menu">
-            <a href="{{ get_url(path="./_index.md") | safe}}">
-                <img src="{{ get_url(path="images/logo.svg", trailing_slash=false) | safe}}" alt="Logo ASN">
-                <div>
-                    <h1>Association Sans Nom</h1>
-                    <p>Libre et Sécurité à 42</p>
-                </div>
-            </a>
-            <a href="{{ get_url(path="./contact/index.md") | safe}}">Nous contacter</a>
-            <a href="{{ get_url(path="./activités/_index.md") | safe}}">Activités</a>
-            <a href="{{ get_url(path="./_index.md") | safe}}#adherer">Devenir membre</a>
-            <a href="{{ get_url(path="./statuts/index.md") | safe}}">Statuts</a>
+            <div id="logo">
+                <a href="{{ get_url(path="./_index.md") | safe}}">
+                    <img src="{{ get_url(path="images/logo.svg", trailing_slash=false) | safe}}" alt="Logo ASN">
+                    <div>
+                        <h1>Association Sans Nom</h1>
+                        <p>Libre et Sécurité à 42</p>
+                    </div>
+                </a>
+            </div>
+            <div id="menulinks">
+                <a href="{{ get_url(path="./contact/index.md") | safe}}">Nous contacter</a>
+                <a href="{{ get_url(path="./activités/_index.md") | safe}}">Activités</a>
+                <a href="{{ get_url(path="./_index.md") | safe}}#adherer">Devenir membre</a>
+                <a href="{{ get_url(path="./statuts/index.md") | safe}}">Statuts</a>
+            </div>
         </nav>
         <nav id="context">
 {% block nav %}{% endblock nav %}
