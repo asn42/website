@@ -41,7 +41,7 @@ trouvé une équipe pour former le premier Bureau. pk a rédigé les
 [statuts](./statuts/index.md) en s'inspirant de ceux d'autres associations.
 
 Il s'est encore passé pas mal de temps avant que nous n'arrivions à ouvrir un
-compte en banque (il fallait se
+[compte en banque](./documentation/association/banque.md) (il fallait se
 déplacer physiquement dans une agence pour avoir une réponse) et que nous
 ouvrions les
 adhésions.
