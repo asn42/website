@@ -47,8 +47,9 @@ Vous voulez nous proposer [un atelier ou une
 conférence](./documentation/activités/proposer_une_activité/index.md) ? Voyons
 si ça peut fonctionner et ce que nous pouvons faire ensemble !
 
-Il nous arrive régulièrement d'[organiser des ateliers à 42](), mais aussi de
-temps en temps d'[organiser des voyages groupés]() pour les étudiants ou de
+Il nous arrive régulièrement d'[organiser des ateliers à
+42](./documentation/activités/atelier_à_42.md), mais aussi de temps en temps
+d'[organiser des voyages groupés]() pour les étudiants ou de
 [représenter l'Association Sans Nom]() à des évènements extérieurs.
 
 {{ new_section() }}
