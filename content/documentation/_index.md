@@ -18,7 +18,8 @@ Documenter maintenant, c'est le meilleur moyen d'éviter les problèmes futurs.
 
 ## L'association
 
-On ne risque pas de [créer l'association]() une nouvelle fois.
+On ne risque pas de [créer
+l'association](./documentation/association/création.md) une nouvelle fois.
 On ne va probablement par [ouvrir un compte bancaire]() de plus ou avoir besoin
 d'une autre [assurance](), mais nous avons déjà [modifié les statuts]()
 plusieurs fois nous [élisons un nouveau Bureau]() chaque année au cours d'une
