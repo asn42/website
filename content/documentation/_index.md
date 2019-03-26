@@ -77,7 +77,8 @@ libre](./documentation/logiciel_libre/ressources.md).
 
 Nous pouvons essayer de vous donner des pistes si vous voulez [vous lancer dans
 la sécurité](./documentation/sécurité/débuter.md), ou si vous voulez
-[travailler dans la sécurité informatique]().
+[travailler dans la sécurité
+informatique](./documentation/sécurité/professionnalisation.md).
 Vous pouvez aussi aller voir les [sources d'information]() que nous avons
 rassemblé sur le sujet.
 
