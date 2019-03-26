@@ -93,6 +93,7 @@ expliquons le fonctionnement des cadenas et serrures à goupilles cylindriques
 avec un kit](./documentation/lock_picking/paracentrique.md) ou [avec une simple
 cannette](./documentation/lock_picking/canette.md) ou [sans
 outils](./documentation/lock_picking/cadenas_à_code.md) pour ce dernier.
-Nous prévoyons également d'essayer de [fabriquer des outils nous-mêmes]().
+Nous prévoyons également d'essayer de [fabriquer des outils
+nous-mêmes](./documentation/lock_picking/créer_ses_outils.md).
 
 {{ new_section() }}
