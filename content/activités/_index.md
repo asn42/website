@@ -8,7 +8,7 @@ subsections_title = "Activités de l'ASN"
 ## Proposer une activité
 
 Vous avez [une idée à proposer, un atelier, une conférence, un
-partenariat…](./documentation/proposer_une_activité/index.md) ?
+partenariat…](./documentation/activités/proposer_une_activité/index.md) ?
 
 {{ new_section() }}
 

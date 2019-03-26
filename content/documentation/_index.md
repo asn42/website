@@ -2,7 +2,7 @@
 title = "Documentation"
 description = "La documentation à propos de, ou produite par l'"
 [extra]
-subpages_title = "Documentations"
+subsections_title = "Catégories"
 +++
 
 # Documentations
@@ -36,8 +36,8 @@ concernant l'[adhésion et la cotisation]() ou l'[utilisation des services]().
 ## Activité
 
 Vous voulez nous proposer [un atelier ou une
-conférence](./documentation/proposer_une_activité/index.md) ? Voyons si ça peut
-fonctionner et ce que nous pouvons faire ensemble !
+conférence](./documentation/activités/proposer_une_activité/index.md) ? Voyons
+si ça peut fonctionner et ce que nous pouvons faire ensemble !
 
 Il nous arrive régulièrement d'[organiser des ateliers à 42](), mais aussi de
 temps en temps d'[organiser des voyages groupés]() pour les étudiants ou de
