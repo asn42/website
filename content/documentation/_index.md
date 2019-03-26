@@ -66,8 +66,9 @@ des logiciels
 Libres](./documentation/logiciel_libre/contribution_rémunérée.md) ou
 comment [gérer votre projet de logiciel libre et trouver des
 contributeurs](./documentation/logiciel_libre/mon_logiciel_libre.md).
-Mais peut-être cherchez vous simplement [des logiciels libres à utiliser](), ou
-[des ressources et des informations sur le logiciel libre]().
+Mais peut-être cherchez vous simplement [des logiciels libres à
+utiliser](./documentation/logiciel_libre/utiliser.md), ou [des ressources et
+des informations sur le logiciel libre]().
 
 {{ new_section() }}
 
