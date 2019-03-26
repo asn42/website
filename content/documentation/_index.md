@@ -23,8 +23,10 @@ l'association](./documentation/association/création.md) une nouvelle fois.
 On ne va probablement par [ouvrir un compte
 bancaire](./documentation/association/banque.md) de plus ou avoir besoin d'une
 autre [assurance](./documentation/association/assurance.md), mais nous avons
-déjà [modifié les statuts]()
-plusieurs fois nous [élisons un nouveau Bureau]() chaque année au cours d'une
+déjà [modifié les
+statuts](./documentation/association/modification_des_statuts.md) plusieurs
+fois et nous [élisons un nouveau
+Bureau]() chaque année au cours d'une
 [Assemblée Générale]().
 
 Nous allons aussi reprendre certains points des [statuts](./statuts/index.md)
