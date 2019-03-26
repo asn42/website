@@ -11,7 +11,7 @@
 $asn-family: 'Salsa', sans-serif;
 $asn-color: #eff;
 
-$big-title-family: 'Suez One', sans-serif;
+$big-title-family: 'Suez One', serif;
 $small-title-family: 'Graduate', serif;
 
 $text-family: 'Cadman', sans-serif;
@@ -152,7 +152,6 @@ main > article,
 main > section {
   background-color: $bg-overlay;
   border-radius: 3px;
-  color: #dee;
 }
 
 a {
@@ -193,6 +192,11 @@ main > article h6,
 main > section h6 {
   font-family: $small-title-family;
   color: $title-color;
+}
+
+main > article img,
+main > section img {
+  max-width: 100%;
 }
 
 /** Fake buttons **/
