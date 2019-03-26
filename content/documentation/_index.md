@@ -89,8 +89,9 @@ sur le sujet.
 
 Lors des [ateliers lock picking](./activités/lock-picking/_index.md), nous
 expliquons le fonctionnement des cadenas et serrures à goupilles cylindriques
-(à clé paracentrique) ou à code, et une ou deux techniques pour les [ouvrir avec
-un kit]() ou [avec une simple cannette]() ou [sans outils]() pour ce dernier.
+(à clé paracentrique) ou à code, et une ou deux techniques pour les [ouvrir
+avec un kit](./documentation/lock_picking/paracentrique.md) ou [avec une simple
+cannette]() ou [sans outils]() pour ce dernier.
 Nous prévoyons également d'essayer de [fabriquer des outils nous-mêmes]().
 
 {{ new_section() }}

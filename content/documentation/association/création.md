@@ -29,8 +29,8 @@ Les canaux correspondants furent créés sur [le slack de
 elle-même.
 
 dbourdon qui s'était pris d'intérêt pour le lock picking, organisa un achat
-groupé de matériel et commença a organiser [des ateliers à
-42](./activités/lock-picking/_index.md).
+groupé de [matériel](./documentation/lock_picking/paracentrique.md) et commença
+a organiser [des ateliers à 42](./activités/lock-picking/_index.md).
 
 Une première [conférence d'introduction à la
 sécurité](./activités/conférences/introduction_securité_informatique/index.md)
