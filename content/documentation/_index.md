@@ -14,6 +14,9 @@ l'Association Sans Nom et ses activités, ou le Libre et la sécurité en géné
 
 Documenter maintenant, c'est le meilleur moyen d'éviter les problèmes futurs. 
 
+> <span style="color:#b55; font-weight:bold">La documentation est toute fraiche.
+> Les pages vides vont être remplies, et les autres améliorées.</span>
+
 {{ new_section() }}
 
 ## L'association
