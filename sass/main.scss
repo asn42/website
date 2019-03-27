@@ -52,6 +52,7 @@ html {
 
 pre {
   font-family: $code-family;
+  padding: .5em;
 }
 
 ::-moz-selection {
@@ -484,6 +485,7 @@ main > section {
 /** Footer **/
 
 body > footer {
+  color: $dark-text-color;
   text-align: right;
 }
 

@@ -7,7 +7,7 @@ description = "Contacter l'"
 
 Il y a plusieurs moyens possibles de nous contacter&nbsp;:
 
-- Par messagerie électronique&nbsp;: <a href="mailto:{{ mail(to="bureau") }}" class="{{ button() }}">nous envoyer un courrier électronique</a>
+- Par messagerie électronique&nbsp;: <a href="mailto:{{ mail(to="bureau") }}" class="{{ button(type="success") }}">nous envoyer un courrier électronique</a>
 - Sur le slack de 42&nbsp;:
   - L'association&nbsp;:<a href="{{ slack42(channel="association-sans-nom") }}" class="{{ button() }}">/open #association-sans-nom</a>
   - Le Libre&nbsp;:<a href="{{ slack42(channel="asn-libre") }}" class="{{ button() }}">/open #asn-Libre</a>
