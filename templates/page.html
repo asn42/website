@@ -43,3 +43,5 @@
 {{ page.content | safe }}
 </section>
 {% endblock content %}
+
+{%block source %} (<a href="{{ config.extra.source_root | safe }}{{ page.relative_path | safe }}">cette page</a>){% endblock %}
