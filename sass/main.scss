@@ -175,6 +175,19 @@ a[href^="mailto:"]:before {
   padding-right: .5em;
 }
 
+main > article a[href^="http"]:not([href^="http://127.0.0.1:1111"]):not([href^="https://sansnom.org"]):after,
+main > section a[href^="http"]:not([href^="http://127.0.0.1:1111"]):not([href^="https://sansnom.org"]):after {
+  content: "";
+  padding: .2em 0 0 1em;
+  mask: url("/images/outside_link.svg") no-repeat right top;
+  -webkit-mask: url("/images/outside_link.svg") no-repeat right top;
+  background-color: #aaa;
+}
+
+main > section blockquote a[href^="http"]:not([href^="http://127.0.0.1:1111"]):not([href^="https://sansnom.org"]):after {
+  background-color: #666;
+}
+
 h1 { font-size: 2.4em; }
 h2 { font-size: 1.9em; }
 h3 { font-size: 1.3em; }
