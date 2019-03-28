@@ -22,4 +22,5 @@ ignored_content = []
 
 [extra]
 
-source_root = "https://github.com/asn42/website/blob/master/content/"
+source_root = "https://github.com/asn42/website/blob/master/content"
+source_ssh = "git@github.com:asn42/website.git"

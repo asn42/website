@@ -2,6 +2,10 @@
 A static website for Association Sans Nom, the 42 student association
 for all Free- and security-related stuff !
 
+Vous pouvez trouver la [documentation en
+français](https://sansnom.org/documentation/services/website-sansnom-org/) sur
+le site.
+
 ![ASN logo](static/images/logo.svg)
 
 ## Requirement
