@@ -35,7 +35,7 @@ Bureau](./documentation/association/elections.md) chaque année au cours d'une
 
 Nous allons aussi reprendre certains points des [statuts](./statuts/index.md)
 concernant l'[adhésion et la
-cotisation](./documentation/association/adhésion_et_cotisation.md) ou
+cotisation](./documentation/association/adhésion_et_cotisation/index.md) ou
 l'[utilisation des
 services](./documentation/association/utiliser_les_services.md).
 

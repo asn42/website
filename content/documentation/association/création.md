@@ -44,7 +44,7 @@ Il s'est encore passé pas mal de temps avant que nous n'arrivions à ouvrir un
 [compte en banque](./documentation/association/banque.md) (il fallait se
 déplacer physiquement dans une agence pour avoir une réponse) et que nous
 ouvrions [les
-adhésions](./documentation/association/adhésion_et_cotisation.md).
+adhésions](./documentation/association/adhésion_et_cotisation/index.md).
 
 Pendant ce temps, nous avons continué à organiser des [ateliers de lock
 picking](./activités/lock-picking/_index.md) et [de

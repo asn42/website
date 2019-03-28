@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="760.2mm" height="222.38mm" version="1.1" viewBox="0 0 760.2 222.38" xmlns="http://www.w3.org/2000/svg">
+ <path d="m616.94 1v48.532h-609.54v104.61h609.54v56.579l142.26-104.86z" stroke-width="1.0939"/>
+ <g font-family="sans-serif" font-size="14.111px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
+  <text transform="rotate(-55)" x="-99.415016" y="211.92674" style="line-height:1.25" xml:space="preserve"><tspan x="-99.415016" y="211.92674" font-size="14.111px" stroke-width=".26458">Janvier</tspan></text>
+  <text transform="rotate(-55)" x="-79.751137" y="240.12778" style="line-height:1.25" xml:space="preserve"><tspan x="-79.751137" y="240.12778" font-size="14.111px" stroke-width=".26458">Février</tspan></text>
+  <text transform="rotate(-55)" x="-46.942822" y="265.14746" style="line-height:1.25" xml:space="preserve"><tspan x="-46.942822" y="265.14746" font-size="14.111px" stroke-width=".26458">Mars</tspan></text>
+  <text transform="rotate(-55)" x="-24.740095" y="294.22287" style="line-height:1.25" xml:space="preserve"><tspan x="-24.740095" y="294.22287" font-size="14.111px" stroke-width=".26458">Avril</tspan></text>
+  <text transform="rotate(-55)" x="0.19716172" y="321.17749" style="line-height:1.25" xml:space="preserve"><tspan x="0.19716172" y="321.17749" font-size="14.111px" stroke-width=".26458">Mai</tspan></text>
+  <text transform="rotate(-55)" x="20.827562" y="349.74149" style="line-height:1.25" xml:space="preserve"><tspan x="20.827562" y="349.74149" font-size="14.111px" stroke-width=".26458">Juin</tspan></text>
+  <text transform="rotate(-55)" x="28.303179" y="382.35916" style="line-height:1.25" xml:space="preserve"><tspan x="28.303179" y="382.35916" font-size="14.111px" stroke-width=".26458">Juillet</tspan></text>
+  <text transform="rotate(-55)" x="53.703266" y="409.30569" style="line-height:1.25" xml:space="preserve"><tspan x="53.703266" y="409.30569" font-size="14.111px" stroke-width=".26458">Aout</tspan></text>
+  <text transform="rotate(-55)" x="44.454243" y="445.60028" style="line-height:1.25" xml:space="preserve"><tspan x="44.454243" y="445.60028" font-size="14.111px" stroke-width=".26458">Sptembre</tspan></text>
+  <text transform="rotate(-55)" x="75.288506" y="471.29401" style="line-height:1.25" xml:space="preserve"><tspan x="75.288506" y="471.29401" font-size="14.111px" stroke-width=".26458">Octobre</tspan></text>
+  <text transform="rotate(-55)" x="81.089592" y="503.7464" style="line-height:1.25" xml:space="preserve"><tspan x="81.089592" y="503.7464" font-size="14.111px" stroke-width=".26458">Novembre</tspan></text>
+  <text transform="rotate(-55)" x="105.36149" y="531.24652" style="line-height:1.25" xml:space="preserve"><tspan x="105.36149" y="531.24652" font-size="14.111px" stroke-width=".26458">Décenbre</tspan></text>
+  <text transform="rotate(-55)" x="141.55623" y="556.06927" style="line-height:1.25" xml:space="preserve"><tspan x="141.55623" y="556.06927" font-size="14.111px" stroke-width=".26458">Janvier</tspan></text>
+  <text transform="rotate(-55)" x="-159.88167" y="159.60364" style="line-height:1.25" xml:space="preserve"><tspan x="-159.88167" y="159.60364" font-size="14.111px" stroke-width=".26458">Novembre</tspan></text>
+  <text transform="rotate(-55)" x="-135.60979" y="187.10394" style="line-height:1.25" xml:space="preserve"><tspan x="-135.60979" y="187.10394" font-size="14.111px" stroke-width=".26458">Décenbre</tspan></text>
+  <text transform="rotate(-55)" x="161.22012" y="584.27039" style="line-height:1.25" xml:space="preserve"><tspan x="161.22012" y="584.27039" font-size="14.111px" stroke-width=".26458">Février</tspan></text>
+  <text transform="rotate(-55)" x="-165.68275" y="127.15128" style="line-height:1.25" xml:space="preserve"><tspan x="-165.68275" y="127.15128" font-size="14.111px" stroke-width=".26458">Octobre</tspan></text>
+ </g>
+ <rect x="64.438" y="138.84" width="503.79" height="6.9756" fill="#0f0"/>
+ <rect x="63.927" y="101.52" width="2.0228" height="44.299" fill="#0f0"/>
+ <rect x="265.9" y="127.29" width="302.33" height="6.8876" fill="#00aad4"/>
+ <rect x="265.46" y="101.81" width="1.5119" height="32.364" fill="#00aad4"/>
+ <rect x="566.72" y="112.7" width="1.5119" height="33.11" fill="#0f0"/>
+ <rect x="566.72" y="110.59" width="1.5119" height="23.586" fill="#00aad4"/>
+ <rect x="566.72" y="100.53" width="1.5119" height="23.586" fill="#f06"/>
+ <g font-family="sans-serif" font-size="12.7px" letter-spacing="0px" stroke-width=".26458" text-anchor="middle" word-spacing="0px">
+  <text x="64.947723" y="65.755783" fill="#00ff00" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="64.947723" y="65.755783">Ariane adhère</tspan><tspan x="64.947723" y="81.630783">et cotise le</tspan><tspan x="64.947723" y="97.505783">11 novembre</tspan></text>
+  <text x="271.61514" y="65.755783" fill="#00aad4" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="271.61514" y="65.755783">Brahim adhère</tspan><tspan x="271.61514" y="81.630783">et cotise le</tspan><tspan x="271.61514" y="97.505783">8 mai novembre</tspan></text>
+  <text x="421.06714" y="63.293922" fill="#ff0066" text-align="center" style="line-height:1.25" xml:space="preserve"><tspan x="421.06714" y="63.293922">Cécile adhère</tspan><tspan x="421.06714" y="79.168922">et cotise le</tspan><tspan x="421.06714" y="95.043922">9 septembre</tspan></text>
+ </g>
+ <rect x="407.62" y="117.23" width="160.62" height="6.8876" fill="#f06"/>
+ <rect x="407.01" y="100.53" width="1.5119" height="23.585" fill="#f06"/>
+ <text x="567.18994" y="63.293922" fill="#ffffff" font-family="sans-serif" font-size="12.7px" letter-spacing="0px" stroke-width=".26458" text-align="center" text-anchor="middle" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="567.18994" y="63.293922">Fin de validité de</tspan><tspan x="567.18994" y="79.168922">leur cotisation</tspan><tspan x="567.18994" y="95.043922">le 31 janvier</tspan></text>
+</svg>
