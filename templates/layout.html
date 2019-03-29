@@ -46,7 +46,7 @@
         </main>
 {% block footer %}
         <footer id="footer">
-            <p><span class="copyleft">Copyleft</span> 2017-2019 Association Sans Nom et contributeurs - <a href="https://github.com/asn42/website">code source</a>{%block source %}{% endblock %} - <a href="{{ get_url(path="./documentation/services/website_sansnom_org.md") | safe}}">documentation</a></p>
+            <p><span class="copyleft">Copyleft</span> 2017-2019 Association Sans Nom et contributeurs - <a href="{{ config.extra.source_root | safe }}">code source</a>{%block source %}{% endblock %} - <a href="{{ get_url(path="./documentation/services/website_sansnom_org.md") | safe}}">documentation</a></p>
         </footer>
 {% endblock footer %}
 

@@ -7,9 +7,9 @@ description = "Documentation à propos du site de l'"
 
 ## Code source
 
-Le code source de ce site web est [disponible sur
-Github](https://github.com/asn42/website). Il y a un lien vers la source des
-différentes pages [en bas de celles-ci](#footer).
+Le code source de ce site web est {% source_link() %}disponible sur Github{%
+end %}. Il y a un lien vers la source des différentes pages [en bas de
+celles-ci](#footer).
 
 
 ## Prérequis
@@ -66,7 +66,7 @@ Pour soumettre une contribution,
 
 - [faites un fork](https://guides.github.com/activities/forking/) du {% source_link() %}dépôt{% end %}
 - [clonez-le](https://www.git-scm.com/docs/git-clone)
-- [ajoutez comme remote](https://help.github.com/en/articles/adding-a-remote) le dépôt original `git add remote upstream https://github.com/asn42/website.git`
+- [ajoutez comme remote](https://help.github.com/en/articles/adding-a-remote) le dépôt original `git add remote upstream {{ source_link() }}.git`
 - créez [une nouvelle brabche](https://git-scm.com/docs/git-branch) et [passez dedans](https://git-scm.com/docs/git-checkout) pour travailler. Modifiez ensuite le contenu ou le code en essayant de faire des [commits](https://git-scm.com/docs/git-commit) explicites, puis [faites une pull request](https://help.github.com/en/articles/creating-a-pull-request) (si besoin, [mettez à jour](https://git-scm.com/docs/git-pull#Documentation/git-pull.txt---rebasefalsetruemergespreserveinteractive) votre branche en récupérant les nouveaux commits du dépôt original).
 
 {{ new_section() }}

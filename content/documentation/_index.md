@@ -44,8 +44,8 @@ services](./documentation/association/utiliser_les_services.md).
 ## Les services
 
 Pour l'instant, vous pouvez consuter [la documentation concernant ce
-site](./documentation/services/website_sansnom_org.md) et trouver [ses sources
-sur Github](https://github.com/asn42/website).
+site](./documentation/services/website_sansnom_org.md) et trouver {%
+source_link() %}ses sources sur Github{% end %}.
 
 Nous documenterons l'installation et le fonctionnement de nos services
 lorsqu'ils seront mis en place.

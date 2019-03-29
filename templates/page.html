@@ -44,4 +44,4 @@
 </section>
 {% endblock content %}
 
-{%block source %} (<a href="{{ config.extra.source_root | safe }}/{{ page.relative_path | safe }}">cette page</a>){% endblock %}
+{%block source %} (<a href="{{ config.extra.source_root | safe }}{{ config.extra.source_path | safe }}/{{ page.relative_path | safe }}">cette page</a>){% endblock %}
