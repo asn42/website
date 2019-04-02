@@ -32,6 +32,8 @@ Lors des challenges ponctuels, il n'est pas rare qu'après une étape de qualifi
 
 Lorsqu'on commence à maîtriser certains outils et techniques, il peut être intéressant de se frotter aux challenges dits « réalistes », voire aux bug bounties.
 
+## Aller plus loin
+
 ### Bug bounties
 
 Les bug bounties ne sont, contrairement aux challenges des CTFs et wargames, pas des épreuves préparées spécialement. Il n'y a pas un objectif précis mais uniquement un périmètre défini et quelques règles (souvent pas de DOS ou autres pratiques pouvant interrompre le service). Plus les bugs trouvés sont simples et critiques, plus ils rapportent de points (et d'argent).
