@@ -22,22 +22,23 @@ Documenter maintenant, c'est le meilleur moyen d'éviter les problèmes futurs.
 
 ## L'association
 
-On ne risque pas de [créer
-l'association](./documentation/association/création.md) une nouvelle fois.
-On ne va probablement par [ouvrir un compte
-bancaire](./documentation/association/banque.md) de plus ou avoir besoin d'une
-autre [assurance](./documentation/association/assurance.md), mais nous avons
-déjà [modifié les
-statuts](./documentation/association/modification_des_statuts.md) plusieurs
-fois et nous [élisons un nouveau
-Bureau](./documentation/association/elections.md) chaque année au cours d'une
-[Assemblée Générale](./documentation/association/assemblée_générale.md).
+L'[histoire de l'ASN](./documentation/association/historique.md) a commencé plus
+d'un an avant [sa création officielle](./documentation/association/création.md).
 
-Nous allons aussi reprendre certains points des [statuts](./statuts/index.md)
-concernant l'[adhésion et la
-cotisation](./documentation/association/adhésion_et_cotisation/index.md) ou
+On n'aura probablement pas besoin de recommencer l'[ouverture d'un compte
+bancaire](./documentation/association/banque.md) ou la [souscription à une
+assurance](./documentation/association/assurance.md) (renouvelée
+automatiquement), mais nous avons déjà [modifié les
+statuts](./documentation/association/modification_des_statuts.md) plusieurs fois
+et nous [élisons un nouveau Bureau](./documentation/association/elections.md)
+chaque année au cours d'une [Assemblée
+Générale](./documentation/association/assemblée_générale.md).
+
+Certains points des [statuts](./statuts/index.md), comme l'[adhésion et la
+cotisation](./documentation/association/adhésion_et_cotisation/index.md), ou
 l'[utilisation des
-services](./documentation/association/utiliser_les_services.md).
+services](./documentation/association/utiliser_les_services.md) méritent sans
+doute quelques éclaircissement.
 
 {{ new_section() }}
 
