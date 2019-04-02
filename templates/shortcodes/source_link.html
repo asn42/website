@@ -1,1 +1,1 @@
-{% if body %}<a href="{{ config.extra.source_root }}/{% if link %}{{ config.extra.source_path }}{{ link }}{% endif %}">{{ body }}</a>{% elif ssh %}{{ config.extra.source_ssh }}{% else %}{{ config.extra.source_root }}{% endif %}
+{% if body %}<a href="{{ config.extra.source_root | safe }}/{% if link %}{{ config.extra.source_path | safe }}{{ link | safe }}{% endif %}">{{ body }}</a>{% elif ssh %}{{ config.extra.source_ssh | safe }}{% else %}{{ config.extra.source_root | safe }}{% endif %}
