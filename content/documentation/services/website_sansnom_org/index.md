@@ -13,7 +13,7 @@ celles-ci](#footer).
 
 ## Soumettre une contribution
 
-Faites une [pull request sur
+Pour proposer une modification, faites une [pull request sur
 github](./documentation/logiciel_libre/pull_request/index.md).
 
 ## Prérequis
@@ -55,7 +55,7 @@ remote-sources/statuts-update.sh
 zola build
 ```
 
-## zola et tera
+## zola et Tera
 
 La documentation de zola [à propos des fichiers
 markdown](https://www.getzola.org/documentation/content/overview/), ainsi que
