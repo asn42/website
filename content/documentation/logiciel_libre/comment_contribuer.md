@@ -35,6 +35,10 @@ Des agrégateurs rassemblent ce genre de bugs / contributions à faire :
 - [Awesome for beginners](https://github.com/MunGell/awesome-for-beginners#readme) liste des projets par langage
 - [24 P[ull] R[equest]](https://24pullrequests.com/) se présente sous forme de calendrier de l'avent.
 
+## Proposez votre contribution
+
+Si le projet utilise Github, [faites une pull request](./documentation/logiciel_libre/pull_request/index.md).
+
 ## Continuer à contribuer
 
 Vous avez franchi la première étape. Vous avez fait votre pull/merge request et vous pensez qu'elle a tout ce qu'il faut pour être intégrée au projet. Vous avez peut-être envie de continuer à contribuer au même projet, mais peut-être aimeriez-vous aussi avoir des suggestion de contributions à de nouveaux projets.
