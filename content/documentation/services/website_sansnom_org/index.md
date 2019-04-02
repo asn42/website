@@ -11,35 +11,25 @@ Le code source de ce site web est {% source_link() %}disponible sur Github{%
 end %}. Il y a un lien vers la source des différentes pages [en bas de
 celles-ci](#footer).
 
+## Soumettre une contribution
+
+Faites une [pull request sur
+github](./documentation/logiciel_libre/pull_request/index.md).
 
 ## Prérequis
 
-Récupérez la dernière version du générateur de site statique zola [depuis son
+Récupérez la dernière version du générateur de site statique _zola_ [depuis son
 site
 officiel](https://www.getzola.org/documentation/getting-started/installation/).
 
-## Générer le site statique manuellement
-
-### Mettre à jour les statuts (optionnel)
-
-``` sh
-git submodule update --init
-git submodule update --remote
-remote-sources/statuts-update.sh
-```
-
-### Générer les fichiers dans `/public`
-
-``` sh
-zola build
-```
+## Générer le site statique
 
 Note: Le système de fichier HFS+ d'Apple gère bizarrement les caractères
 accentués dans les noms de fichiers.
-À 42, ça devrait fonctionner dans un sous-répertoire de
-`/sgoinfre/goinfre/Perso/xlogin/`.
+À 42, ça devrait fonctionner en clonant le dépôt du site dans un
+sous-répertoire de `/sgoinfre/goinfre/Perso/xlogin/`.
 
-## Essayer le site web localement
+### Essayer le site web localement
 
 ``` sh
 zola serve
@@ -48,6 +38,22 @@ zola serve
 et ouvrez [127.0.0.1:1111](http://127.0.0.1:1111/) dans un navigateur.
 Le site devrait être régénéré et rechargé automatiquement à chaque modification
 de fichiers.
+
+### Générer le site statique manuellement
+
+#### Mettre à jour les statuts (optionnel)
+
+``` sh
+git submodule update --init
+git submodule update --remote
+remote-sources/statuts-update.sh
+```
+
+#### Générer les fichiers dans `/public`
+
+``` sh
+zola build
+```
 
 ## zola et tera
 
@@ -59,15 +65,6 @@ de Tera](https://tera.netlify.com/docs/templates/#templates) peuvent être
 utiles (beaucoup de fonctions de Tera ne sont pas explicitées dans la
 documentation de zola mais elles peuvent être utilisées directement dans les
 templates).
-
-## Soumettre une contribution
-
-Pour soumettre une contribution,
-
-- [faites un fork](https://guides.github.com/activities/forking/) du {% source_link() %}dépôt{% end %}
-- [clonez-le](https://www.git-scm.com/docs/git-clone)
-- [ajoutez comme remote](https://help.github.com/en/articles/adding-a-remote) le dépôt original `git add remote upstream {{ source_link() }}.git`
-- créez [une nouvelle brabche](https://git-scm.com/docs/git-branch) et [passez dedans](https://git-scm.com/docs/git-checkout) pour travailler. Modifiez ensuite le contenu ou le code en essayant de faire des [commits](https://git-scm.com/docs/git-commit) explicites, puis [faites une pull request](https://help.github.com/en/articles/creating-a-pull-request) (si besoin, [mettez à jour](https://git-scm.com/docs/git-pull#Documentation/git-pull.txt---rebasefalsetruemergespreserveinteractive) votre branche en récupérant les nouveaux commits du dépôt original).
 
 {{ new_section() }}
 
