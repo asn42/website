@@ -49,11 +49,15 @@ git add remote upstream {{ source_link() }}.git
 
 ## Branche
 
-Créez [une nouvelle branche](https://git-scm.com/docs/git-branch) et [passez
+Après avoir [synchronisé](https://git-scm.com/docs/git-fetch) la branch
+_master_ du remote _upstream_, créez [une nouvelle
+branche](https://git-scm.com/docs/git-branch) depuis celle-ci et [passez
 dessus](https://git-scm.com/docs/git-checkout) pour travailler sur un bug ou
 une fonctionnalité :
 
 ``` sh
+git fetch upstream master
+git checkout upstream/master
 git checkout -b photo_de_chat
 ```
 
