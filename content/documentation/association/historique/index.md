@@ -29,8 +29,8 @@ Les canaux correspondants furent créés sur [le slack de
 elle-même.
 
 dbourdon qui s'était pris d'intérêt pour le lock picking, organisa un achat
-groupé de [matériel](./documentation/lock_picking/paracentrique.md) et commença
-a organiser [des ateliers à 42](./activités/lock-picking/_index.md).
+groupé de [matériel](./documentation/lock_picking/paracentrique/index.md) et
+commença a organiser [des ateliers à 42](./activités/lock-picking/_index.md).
 
 Une première [conférence d'introduction à la
 sécurité](./activités/conférences/introduction_securité_informatique/index.md)
@@ -38,11 +38,11 @@ fut donnée par deux étudiants.
 
 Après pas mal de temps, et une ou deux autres réunions, nous avons fini par
 trouvé une équipe pour former le premier Bureau et [créer
-l'association](./documentation/association/création.md). pk a rédigé les
+l'association](./documentation/association/création/index.md). pk a rédigé les
 [statuts](./statuts/index.md) en s'inspirant de ceux d'autres associations.
 
 Il s'est encore passé pas mal de temps avant que nous n'arrivions à ouvrir un
-[compte en banque](./documentation/association/banque.md) (il fallait se
+[compte en banque](./documentation/association/banque/index.md) (il fallait se
 déplacer physiquement dans une agence pour avoir une réponse) et que nous
 ouvrions [les
 adhésions](./documentation/association/adhésion_et_cotisation/index.md).

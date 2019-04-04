@@ -6,7 +6,7 @@ description = "Documentation à propos des modifications des statuts de l'"
 ## Décision
 
 La décision de modifier les statuts se prend en [Assemblée
-Générale](./documentation/association/assemblée_générale.md), selon les
+Générale](./documentation/association/assemblée_générale/index.md), selon les
 modalités indiquées dans les [statuts](./statuts/index.md).
 
 ## e-modification
