@@ -27,7 +27,7 @@ Nous avons organisé une [conférence d'introduction générale à la sécurité
 
 ## Partenariats et évènements extérieurs
 
-Nous avons participé en tant que bénévoles à [leHACK](./activités/le_hack/_index.md) (anciennement Nuit du Hack) depuis 2017 et allons de nouveau le faire en 2019. Nous avons tenu un stand et aidé à l'organisation de l'atelier lock picking à [Pas Sage en Seine](./activités/passage_en_seine/_index.md) en 2017. Nous organisons un voyage groupé au [FOSDEM](./activités/fosdem/_index.md) pour les étudiants de 42.
+Nous avons participé en tant que bénévoles à [leHack](./activités/le_hack/_index.md) (anciennement Nuit du Hack) depuis 2017 et allons de nouveau le faire en 2019. Nous avons tenu un stand et aidé à l'organisation de l'atelier lock picking à [Pas Sage en Seine](./activités/passage_en_seine/_index.md) en 2017. Nous organisons un voyage groupé au [FOSDEM](./activités/fosdem/_index.md) pour les étudiants de 42.
 
 {{ new_section() }}
 

@@ -13,7 +13,7 @@ Vous pouvez aller à des meetings (discussions autours d'un verre). Ceux de RTFM
 
 Allez voir des conférences, et regardez en sur Internet. Lisez des blogs, des journaux spécialisés, des zines…
 
-Vous pouvez aussi aller à des évènements autours de la sécurité, comme [leHACK](./activités/le_hack/_index.md) (pour lequel on gère le bénévolat d'étudiants de 42) ou l'[ESE](https://ese.esiea.fr/) vers Paris, [GreHack](https://grehack.fr/), le [Sthack](https://www.sthack.fr/), [Ins'Hack](https://inshack.insecurity-insa.fr/) et autres aux quatre coins de la France, ou si vous pouvez vous déplacer en Europe, les [Sécurity BSides](https://www.securitybsides.com/w/page/12194156/FrontPage#Europe) ou [Brucon](https://www.brucon.org/) par exemple.
+Vous pouvez aussi aller à des évènements autours de la sécurité, comme [leHack](./activités/le_hack/_index.md) (pour lequel on gère le bénévolat d'étudiants de 42) ou l'[ESE](https://ese.esiea.fr/) vers Paris, [GreHack](https://grehack.fr/), le [Sthack](https://www.sthack.fr/), [Ins'Hack](https://inshack.insecurity-insa.fr/) et autres aux quatre coins de la France, ou si vous pouvez vous déplacer en Europe, les [Sécurity BSides](https://www.securitybsides.com/w/page/12194156/FrontPage#Europe) ou [Brucon](https://www.brucon.org/) par exemple.
 Évidemment, vous avez tout intérêt à profiter des évènements qui se passent à 42.
 
 ### Capture the flag (CTF) / Wargame
