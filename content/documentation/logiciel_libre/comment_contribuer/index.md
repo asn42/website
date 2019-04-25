@@ -7,7 +7,7 @@ description = "Comment contribuer à des logiciels Libres ? des pistes données
 
 Si vous voulez en savoir plus sur le logiciel Libre et l'open source, vous
 pouvez voir [notre conférence
-d'introduction](./activités/conférences/introduction_libre_open_source.md).
+d'introduction](./activités/conférences/introduction_libre_open_source/index.md).
 
 Il n'y a pas que du code à écrire. On peut contribuer à un projet en écrivant de la documentation, en traduisant le logiciel ou la documentation, en répondant aux questions des utilisateurs, en améliorant le design, etc.
 

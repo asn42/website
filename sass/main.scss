@@ -79,13 +79,15 @@ hr {
 audio,
 canvas,
 iframe,
+.video-youtube,
 img,
 svg,
 video {
   vertical-align: middle;
 }
 
-iframe {
+iframe,
+.video-youtube {
   width: 100%;
   min-height: 180px;
 }
@@ -175,8 +177,8 @@ a[href^="mailto:"]:before {
   padding-right: .5em;
 }
 
-main > article a[href^="http"]:not([href^="http://127.0.0.1:1111"]):not([href^="https://sansnom.org"]):after,
-main > section a[href^="http"]:not([href^="http://127.0.0.1:1111"]):not([href^="https://sansnom.org"]):after {
+main > article a[href^="http"]:not([href^="http://127.0.0.1:1111"]):not([href^="https://sansnom.org"]):not([href^="https://www.youtube.com"]):after,
+main > section a[href^="http"]:not([href^="http://127.0.0.1:1111"]):not([href^="https://sansnom.org"]):not([href^="https://www.youtube.com"]):after {
   content: "";
   padding: .2em 0 0 1em;
   mask: url("/images/outside_link.svg") no-repeat right top;

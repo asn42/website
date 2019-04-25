@@ -19,7 +19,7 @@ Conférence donnée par Frédéric Urbain de [Framasoft](https://framasoft.org/)
 > l'open-source, est-ce que l'accès au code est la seule condition pour libérer
 > le logiciel ?
 
-La vidéo sera mise en ligne environ une semaine après la conférence.
+{{ youtube(id="cCJBUbwxJiY") }}
 
 [Les diapos](conférence_à_l_école_42.odp) ([version PDF](conférence_à_l_école_42.pdf)) sont sous licence
 [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr). 
