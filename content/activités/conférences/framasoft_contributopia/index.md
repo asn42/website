@@ -9,6 +9,7 @@ place = "Heart of Code (42)"
 ## Contributopia l'utopie de la contribution, avec Framasoft
 
 Conférence donnée par Frédéric Urbain de [Framasoft](https://framasoft.org/).
+Captation vidéo et montage par [Studios_42](https://studios.42.fr/).
 
 > Après la campagne Dégooglisons Internet, initiée en réaction à la mainmise des
 > grandes entreprises américaines sur le Web, Framasoft poursuit ses travaux
