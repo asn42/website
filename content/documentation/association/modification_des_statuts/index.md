@@ -11,5 +11,7 @@ modalités indiquées dans les [statuts](./statuts/index.md).
 
 ## e-modification
 
-Les statuts peuvent être modifiés en ligne. C'est gratuit, à moins de modifier
-le nom de l'association, ses objets ou sa domiciliation.
+Les statuts peuvent être [modifiés en
+ligne](https://www.service-public.fr/associations/vosdroits/R37933). C'est
+gratuit, à moins de modifier le nom de l'association, ses objets ou sa
+domiciliation.
