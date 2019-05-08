@@ -3,7 +3,7 @@ title = "Serrures à clé paracentrique"
 description = "Ouvrir un cadenas ou une serrure à clé paracentrique à l'aide de picks avec l'"
 +++
 
-<svg version="1.1" viewBox="800 0 670 500" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" style="max-height:80vh;" viewBox="800 0 670 500" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="gutter">
       <stop stop-color="#999492" offset="0"/>
