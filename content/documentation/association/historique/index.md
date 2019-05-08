@@ -18,7 +18,7 @@ des ateliers de contribution à des logiciels libres… mais faute de temps et
 d'organisation, peu de choses s'étaient faites.
 
 Un jour, en 2017, il a décidé de formaliser les choses et d'organiser [une
-réunion](./activités/réunions/2017-01-17-reunion/index.md) pour savoir ce qui
+réunion](./activités/réunions/réunion_2017-01-17/index.md) pour savoir ce qui
 intéressait les étudiants.
 Un tour de parole a confirmé les intérêts pour le logiciel Libre et la sécurité
 informatique mais aussi fait apparaitre un net intérêt pour le lock picking.
