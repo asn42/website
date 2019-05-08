@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="flyer_asn.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1068">
+      <stop
+         style="stop-color:#ea4b4b;stop-opacity:1"
+         offset="0"
+         id="stop1064" />
+      <stop
+         style="stop-color:#2991ca;stop-opacity:1"
+         offset="1"
+         id="stop1066" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1068"
+       id="linearGradient1070"
+       x1="113.14399"
+       y1="297"
+       x2="113.14399"
+       y2="-9.1066044e-014"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.37291748"
+     inkscape:cx="647.08918"
+     inkscape:cy="421.5946"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:snap-global="true"
+     inkscape:snap-page="true"
+     inkscape:window-width="1536"
+     inkscape:window-height="803"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="opacity:0.635;fill:url(#linearGradient1070);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:3.52777767;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="rect257"
+       width="210"
+       height="297"
+       x="0"
+       y="0" />
+    <g
+       id="g37"
+       transform="matrix(0.48298006,0,0,0.48298006,9.9109345,-0.00514814)">
+      <path
+         id="keyhole"
+         d="M 113.35,122.8 H 92.797 c -1.2842,-6.2503 5.0981,-11.598 5.1383,-16.259 -6.0782,-5.3577 -5.7085,-16.658 5.1383,-16.782 10.847,-0.12398 11.591,10.151 5.1383,16.782 0.20901,4.8085 6.4395,10.343 5.1383,16.259 z"
+         inkscape:connector-curvature="0"
+         style="fill:#6f6f6f;stroke:#292929;stroke-width:3.36549997;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         id="opensource"
+         d="m 92.647,131.85 c 0,0 -19.016,-5.3873 -19.468,-23.425 -0.4521,-18.037 14.41,-27.438 29.563,-27.918 15.153,-0.47913 29.294,11.985 30.134,27.918 0.84036,15.932 -19.475,23.425 -19.475,23.425 l 11.733,29.73 c 0,0 39.426,-15.708 39.493,-53.155 C 164.6931,70.978 141.942,50.663 103.7,50.271 65.458,49.87966 37.723,65.399 38.48,108.564 c 0.75588,43.164 40.607,53.016 40.607,53.016 z"
+         inkscape:connector-curvature="0"
+         style="fill:#3ba337;stroke:#123111;stroke-width:3.36549997;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         d="m 166.67,133.4 17.626,15.116 -21.625,30.415 8.9272,-29.167 -11.996,-5.0587 z"
+         id="bottomrightleg"
+         style="fill:#395582;fill-rule:evenodd;stroke:#182336;stroke-width:3.36549997;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 38.24,140.24 -16.182,18.463 24.98,22.954 -12.276,-24.154 10.917,-7.515 z"
+         id="bottomleftleg"
+         style="fill:#395582;fill-rule:evenodd;stroke:#182336;stroke-width:3.36549997;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 170.76,96.536 23.035,2.9308 -1.3324,37.295 -8.5857,-29.269 -12.801,2.3724 z"
+         id="middlerightleg"
+         style="fill:#395582;fill-rule:evenodd;stroke:#182336;stroke-width:3.36549997;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 31.261,98.61 -24.025,5.0523 6.1985,33.353 4.6809,-26.687 13.242,0.54284 z"
+         id="middleleftleg"
+         style="fill:#395582;fill-rule:evenodd;stroke:#182336;stroke-width:3.36549997;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 153.29,61.873 23.045,-12.396 15.381,35.14 -19.44,-22.461 -9.8196,8.5484 z"
+         id="toprighttleg"
+         style="fill:#395582;fill-rule:evenodd;stroke:#182336;stroke-width:3.36549997;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0" />
+      <path
+         d="M 44.921,64.164 24.065,51.175 6.202,88.483 27.801,64.444 l 9.5716,9.5272 z"
+         id="topleftleg"
+         style="fill:#395582;fill-rule:evenodd;stroke:#182336;stroke-width:3.36549997;stroke-linecap:round;stroke-linejoin:round"
+         inkscape:connector-curvature="0" />
+      <path
+         id="rightmandible"
+         d="m 108.84,18.338 20.436,18.441 -1.4429,11.164 -11.915,-2.7224 2.7624,-9.5265 z"
+         inkscape:connector-curvature="0"
+         style="fill:#e40000;fill-rule:evenodd;stroke:#320d0d;stroke-width:3.36549997;stroke-linecap:round;stroke-linejoin:round" />
+      <path
+         id="leftmandible"
+         d="m 85.917,43.249 -5.113,-7.2641 12.552,-17.645 -23.347,18.023 5.4649,12.845 z"
+         inkscape:connector-curvature="0"
+         style="fill:#e40000;fill-rule:evenodd;stroke:#320d0d;stroke-width:3.36549997;stroke-linecap:round;stroke-linejoin:round" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:7.05555534px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="114.40306"
+       y="27.294771"
+       id="text53"><tspan
+         sodipodi:role="line"
+         id="tspan51"
+         x="114.40306"
+         y="27.294771"
+         style="stroke-width:0.26458332"><tspan
+   style="-inkscape-font-specification:'Liberation Sans Bold';font-family:'Liberation Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+   id="tspan67">A</tspan>ssociation</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:7.05555534px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="113.88345"
+       y="52.655094"
+       id="text61"><tspan
+         sodipodi:role="line"
+         id="tspan59"
+         x="113.88345"
+         y="52.655094"
+         style="stroke-width:0.26458332"><tspan
+   style="-inkscape-font-specification:'Liberation Sans Bold';font-family:'Liberation Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+   id="tspan69">S</tspan>ans</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:7.05555534px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="114.88683"
+       y="77.870735"
+       id="text65"><tspan
+         sodipodi:role="line"
+         id="tspan63"
+         x="114.88683"
+         y="77.870735"
+         style="stroke-width:0.26458332"><tspan
+   style="-inkscape-font-specification:'Liberation Sans Bold';font-family:'Liberation Sans';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal"
+   id="tspan71">N</tspan>om</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:7.05555534px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="13.380744"
+       y="114.38513"
+       id="text75"><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="114.38513"
+         style="stroke-width:0.26458332"
+         id="tspan107">L'Association Sans Nom est une association étudiante de 42 autour du Libre et</tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="121.44069"
+         style="stroke-width:0.26458332"
+         id="tspan215">de la sécurité au sens le plus large possible. Cela comprend le logiciel libre,</tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="128.49625"
+         style="stroke-width:0.26458332"
+         id="tspan217">l'open hardware, l'open data, ainsi que la sécurité logiciel, physique ou humaine.</tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="135.5518"
+         style="stroke-width:0.26458332"
+         id="tspan219"></tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="142.60735"
+         style="stroke-width:0.26458332"
+         id="tspan221">L'ASN organise des sessions de lock picking (l'art du crochetage de serrures)</tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="149.6629"
+         style="stroke-width:0.26458332"
+         id="tspan223">toutes les deux semaines au sein de l'école. Nous donnerons un coup de main pour</tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="156.71846"
+         style="stroke-width:0.26458332"
+         id="tspan225">l'atelier de ce week-end à Pas Sage en Seine.</tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="163.77402"
+         style="stroke-width:0.26458332"
+         id="tspan227"></tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="170.82957"
+         style="stroke-width:0.26458332"
+         id="tspan229">Nous avons également organisé une conférence d'introduction générale à la</tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="177.88513"
+         style="stroke-width:0.26458332"
+         id="tspan231">sécurité informatique par deux étudiants dont la vidéo a été rendu publique.</tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="184.94069"
+         style="stroke-width:0.26458332"
+         id="tspan233">L'ASN est impliqué dans des évènements extérieurs, avec notamment une quinzaine</tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="191.99625"
+         style="stroke-width:0.26458332"
+         id="tspan235">d'étudiants bénévoles à la Nuit du Hack et une présence à Pas Sage en Seine.</tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="199.05179"
+         style="stroke-width:0.26458332"
+         id="tspan237"></tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="206.10735"
+         style="stroke-width:0.26458332"
+         id="tspan239">l'ASN organisera bientôt pour ses membres des ateliers pour faire une première</tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="213.1629"
+         style="stroke-width:0.26458332"
+         id="tspan241">contribution à un logiciel libre.</tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="220.21846"
+         style="stroke-width:0.26458332"
+         id="tspan243">Elle fournira également bientôt à ses membres des services basés sur des</tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="227.27402"
+         style="stroke-width:0.26458332"
+         id="tspan245">logiciels libres, gérés par une équipe issue de ses membres (etherpad,</tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="234.32957"
+         style="stroke-width:0.26458332"
+         id="tspan247">mastodon…).</tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="241.38513"
+         style="stroke-width:0.26458332"
+         id="tspan249"></tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="248.44069"
+         style="stroke-width:0.26458332"
+         id="tspan251">L'ASN a organisé un mini CTF (jeu à base de challenges de sécurités,</tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="255.49623"
+         style="stroke-width:0.26458332"
+         id="tspan253">cryptographie et stéganographie où il faut trouver des &quot;flags&quot;) et est en</tspan><tspan
+         sodipodi:role="line"
+         x="13.380744"
+         y="262.55179"
+         style="stroke-width:0.26458332"
+         id="tspan255">discussion avec d'autres écoles pour en organiser en commun..</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:7.05555534px;font-family:'Liberation Sans';-inkscape-font-specification:'Liberation Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="115.42564"
+       y="95.857979"
+       id="text101"><tspan
+         sodipodi:role="line"
+         id="tspan99"
+         x="115.42564"
+         y="95.857979"
+         style="stroke-width:0.26458332">Libre et Sécurité à 42</tspan></text>
+  </g>
+</svg>

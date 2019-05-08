@@ -42,6 +42,12 @@ l'[utilisation des
 services](./documentation/association/utiliser_les_services/index.md) méritent
 sans doute quelques éclaircissement.
 
+Vous pouvez consulter les [affiches, flyers et autres supports de
+communication](./documentation/association/flyers/index.md) ou regarder les
+[visuels, logos et images
+animées](./documentation/association/visuels/index.md) utilisés pour
+communiquer autours de l'Association Sans Nom.
+
 {{ new_section() }}
 
 ## Les services
