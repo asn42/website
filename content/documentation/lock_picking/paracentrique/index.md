@@ -379,11 +379,11 @@ description = "Ouvrir un cadenas ou une serrure à clé paracentrique à l'aide 
         document.getElementById('passive2').style.animation = undefined;
         document.getElementById('springbottom2').style.animation = undefined;
         document.getElementById('active3').style.animation = undefined;
-        document.getElementById('hook-pick').style.animation = 'moveFromPinThreeToPinTwo 1s forwards, tryToPushPinTwo 1s 1s 2 forwards';
-        document.getElementById('springbottom2').style.animation = 'smallLift 1s 1s 2 forwards';
-        document.getElementById('passive2').style.animation = 'smallLift 1s 1s 2 forwards';
-        document.getElementById('active2').style.animation = 'smallLift 1s 1s 2 forwards';
-        document.getElementById('spring2').style.animation = 'smallLiftSpringTwo 1s 1s 2 forwards';
+        document.getElementById('hook-pick').style.animation = 'moveFromPinThreeToPinTwo 1s forwards, tryToPushPinTwo 1s 1s 1 forwards';
+        document.getElementById('springbottom2').style.animation = 'smallLift 1s 1s 1 forwards';
+        document.getElementById('passive2').style.animation = 'smallLift 1s 1s 1 forwards';
+        document.getElementById('active2').style.animation = 'smallLift 1s 1s 1 forwards';
+        document.getElementById('spring2').style.animation = 'smallLiftSpringTwo 1s 1s 1 forwards';
         break;
 
       case 9:
