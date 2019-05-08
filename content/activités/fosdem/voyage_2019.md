@@ -14,3 +14,6 @@ Nous avons fait le trajet en FlixBus.
 Nous sommes venu un jour et demi avant le FOSDEM et reparti le dimanche soir.
 
 Nous avons dormi à l'Hotel Manhattan, dans le centre de Bruxelles.
+
+Nous avons profité du voyage pour faire un détour par [le
+19](https://www.s19.be/).
