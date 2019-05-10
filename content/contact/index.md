@@ -57,7 +57,7 @@ vice-président
 </div>
 
 <div>
-<img src="anonymous.png" class="img-circle" />
+<img src="walter.png" class="img-circle" />
 
 ### Walter
 
