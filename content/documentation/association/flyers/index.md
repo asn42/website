@@ -13,6 +13,10 @@ logos](./documentation/association/visuels/index.md).
 
 ## Flyers et affiches
 
+### Petite affiche pour la première install party à 42 (mai 2019)
+
+{{ picture(file="documentation/association/flyers/flyer_asn_première_install_party.svg" width=200) }}
+
 ### Petite affiche pour la conférence de présentation (novembre 2018)
 
 {{ picture(file="documentation/association/flyers/flyer_asn_conf_presentation.svg" width=200) }}
