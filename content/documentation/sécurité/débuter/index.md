@@ -21,7 +21,7 @@ Vous pouvez aussi aller à des évènements autours de la sécurité, comme [leH
 Un bon point d'entrée peut être de faire des CTFs. Ce sont des jeux basés sur des challenges de sécurité, parfois avec un scénario, où il faut trouver des flags (des chaînes de caractères spécifiques) pour gagner des points.
 Synacktiv nous avait envoyé un ancien étudiant et un stagiaire de 42 pour en parler : [Comment qu'est ce qu'on flag ? Introduction aux CTF](./activités/conférences/introduction_ctf/index.md).
 
-Il existe des sites comme [root-me.org](https://www.root-me.org/) où les challenges restent disponibles assez longtemps, mais il y a aussi des CTFs ponctuels que l'on peut généralement trouver sur [CTFtime.org](https://ctftime.org/).
+Il existe [des sites pour s'entrainer](./documentation/sécurité/ressources/index.md#challenges-et-entrainement) où les challenges restent disponibles assez longtemps, mais il y a aussi des CTFs ponctuels que l'on peut généralement trouver sur [CTFtime.org](https://ctftime.org/).
 
 Si vous avez un compte étudiant de 42, vous pouvez essayer [les 5 challenges que nous avions proposé en 2017](https://wargame2017.sansnom.org/).
 Nous devrions en proposer d'autres bientôt.
