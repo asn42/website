@@ -88,9 +88,9 @@ Libres](./documentation/logiciel_libre/contribution_rémunérée/index.md)<!-- o
 comment [gérer votre projet de logiciel libre et trouver des
 contributeurs](./documentation/logiciel_libre/mon_logiciel_libre/index.md).
 Mais peut-être cherchez vous simplement [des logiciels libres à
-utiliser](./documentation/logiciel_libre/utiliser/index.md), ou [des ressources
+utiliser](./documentation/logiciel_libre/utiliser/index.md)-->, ou [des ressources
 et des informations sur le logiciel
-libre](./documentation/logiciel_libre/ressources/index.md)-->.
+libre](./documentation/logiciel_libre/ressources/index.md).
 
 {{ new_section() }}
 
