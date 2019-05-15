@@ -20,6 +20,8 @@ environ un samedi sur deux à 42 (annoncés sur <a href="{{
 slack42(channel="asn-lockpicking") }}">#asn-lockpicking</a>). Des [ateliers
 d'initiation au pentesting](./activités/ateliers-pentest/_index.md) ont
 commencé début 2018.
+Nous commençons à organiser des [install
+parties](./activités/install_party/_index.md) à 42.
 
 {{ new_section() }}
 
