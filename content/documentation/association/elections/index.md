@@ -14,6 +14,10 @@ Les membres qui le souhaitent se proposent pour un poste du Bureau. S'il y a
 plus de volontaires que de places à ce poste, un vote des membres désigne qui
 occupera ce poste.
 
+Tous les adhérents peuvent se présenter mais la loi pose des restrictions pour
+certaines catégories de personnes, comme [les
+mineurs](https://www.associations.gouv.fr/capacite-de-creer-et-d-administrer-une-association.html).
+
 ## Déclaration en ligne
 
 La déclaration du nouveau Bureau doit se faire dans les 3 mois qui suivent la
