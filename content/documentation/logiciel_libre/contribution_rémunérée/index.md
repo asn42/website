@@ -47,7 +47,7 @@ La [fondation NLnet](https://nlnet.nl/) propose des bourses pour des projets et 
 
 ## Travail rémunéré
 
-Vous pouvez chercher des offres sur [Lolix](http://fr.lolix.org/) ([code](https://gitlab.com/rodo/lolyx)) ou [LinuxJobs.fr](https://www.linuxjobs.fr/) (basé sur [Jobskee](https://jobskee.com/)).
+Vous pouvez chercher des offres sur [LinuxJobs.fr](https://www.linuxjobs.fr/) (basé sur [Jobskee](https://jobskee.com/)).
 
 ## Pourboire / patronage pour son propre travail
 
