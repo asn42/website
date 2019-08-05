@@ -17,7 +17,7 @@ Il est encadré par pk.
 C'est une journée portes ouvertes de 42, donc des personnes extérieures à 42
 peuvent participer, et on préente aussi les activités de l'Association Sans
 Nom. À part ça, rien de spécial, des [serrures à clé
-paracentrique](./documentation/lock_picking/paracentrique/index.md) et des kits
+paracentrique](@/documentation/lock_picking/paracentrique/index.md) et des kits
 de crochetage pour les ouvrir.
 
 Il est toujours possible que quelqu'un amène du matériel particulier (pick gun,

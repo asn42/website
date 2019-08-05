@@ -16,7 +16,7 @@ installant un système d'exploitation et des logiciels Libres, tout en discutant
 autour d'une pizza lors de la **première install party de l'[Association Sans
 Nom](https://sansnom.org/)**, association pour le Libre et Sécurité à 42.
 
-Une [Install Party](./activités/install_party/_index.md) est un évènement
+Une [Install Party](@/activités/install_party/_index.md) est un évènement
 festif qui permet de rencontrer des utilisateurs expérimentés de systèmes ou de
 logiciels Libres (tels que Linux) qui pourront aider à installer un système
 Libre sur sa propre machine et/ou à le configurer, et à partager leur

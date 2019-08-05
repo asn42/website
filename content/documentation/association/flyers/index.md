@@ -9,7 +9,7 @@ Vous trouverez ici des affiches, flyers et autres supports de communications
 ayant été utilisés ou non par l'Association Sans Nom.
 Qui sait, ils pourraient servir d'inspiration ou de base pour les suivants.
 Il y a aussi une page [visuels et
-logos](./documentation/association/visuels/index.md).
+logos](@/documentation/association/visuels/index.md).
 
 ## Flyers et affiches
 

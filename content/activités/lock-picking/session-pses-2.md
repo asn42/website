@@ -10,8 +10,8 @@ place = "Médiathèque Aragon, Choisy-le-Roi"
 
 L'Association Sans Nom, et plus précisément dbourdon et pk, ont aidé cm-t
 (arudy) à organiser l'atelier d'initiation au lockpicking proposé à [Pas Sage
-en Seine 2017](./activités/passage_en_seine/pses_2017.md)
-[samedi](./activités/lock-picking/session-pses-1.md) et dimanche.
+en Seine 2017](@/activités/passage_en_seine/pses_2017.md)
+[samedi](@/activités/lock-picking/session-pses-1.md) et dimanche.
 
 ### Spécificités de la session
 

@@ -9,55 +9,55 @@ subsections_title = "Activités de l'ASN"
 ## Proposer une activité
 
 Vous avez [une idée à proposer, un atelier, une conférence, un
-partenariat…](./documentation/activités/proposer_une_activité/index.md) ?
+partenariat…](@/documentation/activités/proposer_une_activité/index.md) ?
 
 {{ new_section() }}
 
 ## Ateliers
 
-Des [ateliers lock picking](./activités/lock-picking/_index.md) ont lieu
+Des [ateliers lock picking](@/activités/lock-picking/_index.md) ont lieu
 environ un samedi sur deux à 42 (annoncés sur <a href="{{
 slack42(channel="asn-lockpicking") }}">#asn-lockpicking</a>). Des [ateliers
-d'initiation au pentesting](./activités/ateliers-pentest/_index.md) ont
+d'initiation au pentesting](@/activités/ateliers-pentest/_index.md) ont
 commencé début 2018.
 Nous commençons à organiser des [install
-parties](./activités/install_party/_index.md) à 42.
+parties](@/activités/install_party/_index.md) à 42.
 
 {{ new_section() }}
 
 ## Conférences
 
 Nous avons organisé une [conférence d'introduction générale à la
-sécurité](./activités/conférences/introduction_securité_informatique/index.md)
+sécurité](@/activités/conférences/introduction_securité_informatique/index.md)
 par deux étudiants de 42, ainsi qu'une [conférence d'initiation à la
-cryptographie](./activités/conférences/introduction_cryptographie/index.md) par
+cryptographie](@/activités/conférences/introduction_cryptographie/index.md) par
 un étudiant et un invité, et donné une conférence d'[introduction au Logiciel
 Libre et à l'Open
-Source](./activités/conférences/introduction_libre_open_source/index.md).
+Source](@/activités/conférences/introduction_libre_open_source/index.md).
 Nous avons invité Synacktiv pour donner une [conférence sur le
-CTF](./activités/conférences/introduction_ctf/index.md), Stéphane Bortzmeyer
+CTF](@/activités/conférences/introduction_ctf/index.md), Stéphane Bortzmeyer
 pour en donner une [sur DNS et de
-sécurité](./activités/conférences/dns_bortzmeyer/index.md), et Frédéric Urbain
+sécurité](@/activités/conférences/dns_bortzmeyer/index.md), et Frédéric Urbain
 pour nous parler de [Framasoft, Dégooglisons et
-Contributopia](./activités/conférences/framasoft_contributopia/index.md).
+Contributopia](@/activités/conférences/framasoft_contributopia/index.md).
 
 {{ new_section() }}
 
 ## Partenariats et évènements extérieurs
 
 Comme chaque année depuis 2017, nous participons en tant que bénévoles à
-[leHack](./activités/le_hack/_index.md) (anciennement Nuit du Hack).
+[leHack](@/activités/le_hack/_index.md) (anciennement Nuit du Hack).
 Nous tiendrons un stand et proposerons une initiation au lock picking à [Pas
-Sage en Seine](./activités/passage_en_seine/_index.md) cette année, comme nous
+Sage en Seine](@/activités/passage_en_seine/_index.md) cette année, comme nous
 l'avions fait en 2017.
-Nous organisons un voyage groupé au [FOSDEM](./activités/fosdem/_index.md) pour
+Nous organisons un voyage groupé au [FOSDEM](@/activités/fosdem/_index.md) pour
 les étudiants de 42 tous les ans.
 
 {{ new_section() }}
 
 ## Réunions
 
-Nous essayons d'organiser des [réunions](./activités/réunions/_index.md) plus
+Nous essayons d'organiser des [réunions](@/activités/réunions/_index.md) plus
 ou moins régulièrement pour discuter de l'association.
 
 {{ new_section() }}

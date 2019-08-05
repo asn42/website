@@ -15,7 +15,7 @@ Il est encadré par pk.
 ## Spécificités de la session
 
 Rien de spécial, des [serrures à clé
-paracentrique](./documentation/lock_picking/paracentrique/index.md) et des kits
+paracentrique](@/documentation/lock_picking/paracentrique/index.md) et des kits
 de crochetage pour les ouvrir.
 
 Il est toujours possible que quelqu'un amène du matériel particulier (pick gun,

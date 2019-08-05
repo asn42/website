@@ -70,7 +70,7 @@ description = "Ressources sur le Logiciel Libre rassemblées par l'"
 
 - [Paris Open Source Summit](https://www.opensourcesummit.paris/)
 - [Maker Faire Paris](https://paris.makerfaire.com/)
-- [Pas Sage en Seine (PSES)](./activités/passage_en_seine/_index.md)
+- [Pas Sage en Seine (PSES)](@/activités/passage_en_seine/_index.md)
 - [Free Silicon Conference](https://f-si.org/) à Paris ([vidéos](https://peertube.f-si.org/video-channels/fsic2019/videos))
 
 ##### Loin de Paris

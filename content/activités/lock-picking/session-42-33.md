@@ -15,7 +15,7 @@ Il est encadré par pk.
 
 Cette session était assez courte mais trois ou quatre personnes sont quand même
 passé, auxquelles nous avons expliqué le fonctionnement de l'ouverture fine et
-que nous avons laissé ouvrir un ou deux [cadenas et serrures](./documentation/lock_picking/paracentrique/index.md).
+que nous avons laissé ouvrir un ou deux [cadenas et serrures](@/documentation/lock_picking/paracentrique/index.md).
 
 ## Généralités
 

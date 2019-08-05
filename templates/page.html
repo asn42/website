@@ -4,12 +4,12 @@
 {% block nav %}
   {% for ancestor_path in page.ancestors %}
     {% set ancestor = get_section(path=ancestor_path) %}
-    <a href="{{ancestor.permalink | safe}}">{{ancestor.title | safe | lower}}</a>
+    <a href="{{ancestor.permalink | safe}}">{{ancestor.title | lower | safe}}</a>
   {% endfor %}
   {% if page.section %}
-    <a href="{{page.section.permalink | safe}}">{{page.section.title | safe | lower}}</a>
+    <a href="{{page.section.permalink | safe}}">{{page.section.title | lower | safe}}</a>
   {% endif %}
-    <a>{{page.title | safe | lower}}</a>
+    <a>{{page.title | lower | safe}}</a>
 {% endblock nav %}
 {% block content %}
 {% if page.date %}

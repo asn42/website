@@ -15,8 +15,8 @@ semaine, il y a des conférences à propos de technique, de politique, de Libre,
 de bidouille, de sécurité, d'Internet, etc.
 
 Nous essayons d'y faire un tour et, les années où
-[leHack](./activités/le_hack/_index.md) ne tombe pas exactement en même temps
+[leHack](@/activités/le_hack/_index.md) ne tombe pas exactement en même temps
 et que nos membres sont disponibles, nous essayons même d'y participer un peu
 plus activement (faire une initiation au [lock
-picking](./activités/lock-picking/_index.md), tenir un stand pour présenter
+picking](@/activités/lock-picking/_index.md), tenir un stand pour présenter
 l'Association Sans Nom…).

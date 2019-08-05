@@ -14,7 +14,7 @@ Il est encadré par dbourdon.
 ## Spécificités de la session
 
 En plus des [serrures à clé
-paracentrique](./documentation/lock_picking/paracentrique/index.md) et des kits
+paracentrique](@/documentation/lock_picking/paracentrique/index.md) et des kits
 de crochetage pour les ouvrir, un arduino capable de lire du RFID/NFC sera
 disponible.
 

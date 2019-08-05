@@ -13,7 +13,7 @@ Il est encadré par pk.
 
 ## Spécificités de la session
 
-En plus du [lock picking](./documentation/lock_picking/paracentrique/index.md),
+En plus du [lock picking](@/documentation/lock_picking/paracentrique/index.md),
 nous avons aussi joué avec des cartes et badges RFID avec un lecteur/ecriveur
 RFID 13,56MHz, quelques cartes/badges réinscriptibles et un ChameleonMini RevG.
 

@@ -33,5 +33,5 @@ pentest.
 
 - [Chiffrofêtes et Cafés Vie Privée à Paris](https://www.cryptoparty.in/paris)
 - [Pass the SALT](https://pass-the-salt.org) (Security And Libre Talks)
-- [leHACK](./activités/le_hack/_index.md)
-- [Pas Sage en Seine (PSES)](./activités/passage_en_seine/_index.md)
+- [leHACK](@/activités/le_hack/_index.md)
+- [Pas Sage en Seine (PSES)](@/activités/passage_en_seine/_index.md)

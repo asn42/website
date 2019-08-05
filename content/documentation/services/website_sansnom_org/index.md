@@ -14,7 +14,7 @@ celles-ci](#footer).
 ## Soumettre une contribution
 
 Pour proposer une modification, faites une [pull request sur
-github](./documentation/logiciel_libre/pull_request/index.md).
+github](@/documentation/logiciel_libre/pull_request/index.md).
 
 ## Prérequis
 

@@ -6,7 +6,7 @@ description = "Documentation à propos des voyages groupés organisés par l'"
 ## Voyages groupés
 
 L'Association Sans Nom a organisé un voyage groupé au
-[FOSDEM](./activités/fosdem/_index.md) depuis plusieurs années.
+[FOSDEM](@/activités/fosdem/_index.md) depuis plusieurs années.
 
 Jusqu'ici, nous avons fait le voyage en car (OuiBus ou FlixBus) ou en voiture.
 Il vaut mieux prévoir de la marge pour arriver avant l'heure demandé par le

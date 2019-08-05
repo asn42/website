@@ -4,9 +4,9 @@
 {% block nav %}
   {% for ancestor_path in section.ancestors %}
     {% set ancestor = get_section(path=ancestor_path) %}
-    <a href="{{ancestor.permalink | safe}}">{{ancestor.title | safe | lower}}</a>
+    <a href="{{ancestor.permalink | safe}}">{{ancestor.title | lower | safe}}</a>
   {% endfor %}
-    <a>{{section.title | safe | lower}}</a>
+    <a>{{section.title | lower | safe}}</a>
 {% endblock nav %}
 {% block content %}
 <section id="section">

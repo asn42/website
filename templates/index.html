@@ -2,7 +2,7 @@
 {% block title %}{{config.title | safe}}{% endblock title %}
 {% block description %}{{config.description | safe}}{% endblock description %}
 {% block nav %}
-    <a>{{section.title | safe | lower}}</a>
+    <a>{{section.title | lower | safe}}</a>
 {% endblock nav %}
 {% block content %}
 <section id="index">

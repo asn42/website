@@ -22,11 +22,11 @@ doute vous conseiller sur la marche à suivre pour le faire de votre côté.
 
 ### En discuter
 
-[Envoyez-nous un message](./contact/index.md) en précisant le sujet de la
+[Envoyez-nous un message](@/contact/index.md) en précisant le sujet de la
 conférence et le ou les intervenant.
 Nous pouvons aussi en discuter lors d'une des
-[réunions](./activités/réunions/_index.md) de l'association, d'un [évènement ou
-d'un atelier](./activités/_index.md).
+[réunions](@/activités/réunions/_index.md) de l'association, d'un [évènement ou
+d'un atelier](@/activités/_index.md).
 
 ### Le rôle de l'ASN
 

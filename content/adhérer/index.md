@@ -10,12 +10,12 @@ n'acceptons comme adhérents que des personnes ayant un lien avec 42 (étudiants
 anciens étudiants, staff…).
 
 Pour nous rejoindre, commencez par [nous envoyer une demande par courrier
-électronique](./contact/index.md). Par exemple :
+électronique](@/contact/index.md). Par exemple :
 
 > Bonjour,
 > 
 > Je souhaite rejoindre l'Association Sans Nom et j'accepte de respecter
-> [ses statuts](./statuts/index.md).
+> [ses statuts](@/statuts/index.md).
 > 
 > --
 > Prénom Nom
@@ -32,4 +32,4 @@ L'adhésion est valable jusqu'au 31 janvier de l'année suivant le paiement de l
 cotisation, ou de l'année suivante si elle est payée pendant les deux derniers
 mois de l'année. Si ce n'est pas clair, vous pouvez consulter [la page de
 documentation sur les adhésions et
-cotisations](./documentation/association/adhésion_et_cotisation/index.md).
+cotisations](@/documentation/association/adhésion_et_cotisation/index.md).

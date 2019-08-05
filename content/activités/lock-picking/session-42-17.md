@@ -15,7 +15,7 @@ Il est encadré par dbourdon.
 
 Une commande groupée de kits de lock picking est lancée.
 À part ça, comme d'habitude, il y aura des [serrures à clé
-paracentrique](./documentation/lock_picking/paracentrique/index.md) et des kits
+paracentrique](@/documentation/lock_picking/paracentrique/index.md) et des kits
 de crochetage pour les ouvrir.
 
 Il est toujours possible que quelqu'un amène du matériel particulier (pick gun,

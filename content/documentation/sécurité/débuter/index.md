@@ -7,21 +7,21 @@ description = "Des pistes pour bien commencer dans la sécurité informatique av
 
 ### S'informer
 
-Discutez avec des gens qui s'intéressent à la sécurité ([nous](./contact/index.md), par exemple :D). Posez des questions, mais ne croyez pas tout ce qu'on vous dit.
+Discutez avec des gens qui s'intéressent à la sécurité ([nous](@/contact/index.md), par exemple :D). Posez des questions, mais ne croyez pas tout ce qu'on vous dit.
 
 Vous pouvez aller à des meetings (discussions autours d'un verre). Ceux de RTFM ont lieu à Paris ([annoncés sur Twitter](https://twitter.com/sigsegv_event)). Ceux de HZV sont à l'Electrolab de Nanterre (annoncés [sur leur site](https://hackerzvoice.net/) et/ou [sur Twitter](https://twitter.com/asso_hzv)) les premiers samedis du mois, et des présentations y sont données de temps en temps.
 
 Allez voir des conférences, et regardez en sur Internet. Lisez des blogs, des journaux spécialisés, des zines…
 
-Vous pouvez aussi aller à des évènements autours de la sécurité, comme [leHack](./activités/le_hack/_index.md) (pour lequel on gère le bénévolat d'étudiants de 42) ou l'[ESE](https://ese.esiea.fr/) vers Paris, [GreHack](https://grehack.fr/), le [Sthack](https://www.sthack.fr/), [Ins'Hack](https://inshack.insecurity-insa.fr/) et autres aux quatre coins de la France, ou si vous pouvez vous déplacer en Europe, les [Sécurity BSides](https://www.securitybsides.com/w/page/12194156/FrontPage#Europe) ou [Brucon](https://www.brucon.org/) par exemple.
+Vous pouvez aussi aller à des évènements autours de la sécurité, comme [leHack](@/activités/le_hack/_index.md) (pour lequel on gère le bénévolat d'étudiants de 42) ou l'[ESE](https://ese.esiea.fr/) vers Paris, [GreHack](https://grehack.fr/), le [Sthack](https://www.sthack.fr/), [Ins'Hack](https://inshack.insecurity-insa.fr/) et autres aux quatre coins de la France, ou si vous pouvez vous déplacer en Europe, les [Sécurity BSides](https://www.securitybsides.com/w/page/12194156/FrontPage#Europe) ou [Brucon](https://www.brucon.org/) par exemple.
 Évidemment, vous avez tout intérêt à profiter des évènements qui se passent à 42.
 
 ### Capture the flag (CTF) / Wargame
 
 Un bon point d'entrée peut être de faire des CTFs. Ce sont des jeux basés sur des challenges de sécurité, parfois avec un scénario, où il faut trouver des flags (des chaînes de caractères spécifiques) pour gagner des points.
-Synacktiv nous avait envoyé un ancien étudiant et un stagiaire de 42 pour en parler : [Comment qu'est ce qu'on flag ? Introduction aux CTF](./activités/conférences/introduction_ctf/index.md).
+Synacktiv nous avait envoyé un ancien étudiant et un stagiaire de 42 pour en parler : [Comment qu'est ce qu'on flag ? Introduction aux CTF](@/activités/conférences/introduction_ctf/index.md).
 
-Il existe [des sites pour s'entrainer](./documentation/sécurité/ressources/index.md#challenges-et-entrainement) où les challenges restent disponibles assez longtemps, mais il y a aussi des CTFs ponctuels que l'on peut généralement trouver sur [CTFtime.org](https://ctftime.org/).
+Il existe [des sites pour s'entrainer](@/documentation/sécurité/ressources/index.md#challenges-et-entrainement) où les challenges restent disponibles assez longtemps, mais il y a aussi des CTFs ponctuels que l'on peut généralement trouver sur [CTFtime.org](https://ctftime.org/).
 
 Si vous avez un compte étudiant de 42, vous pouvez essayer [les 5 challenges que nous avions proposé en 2017](https://wargame2017.sansnom.org/).
 Nous devrions en proposer d'autres bientôt.

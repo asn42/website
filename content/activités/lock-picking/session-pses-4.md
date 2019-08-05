@@ -9,8 +9,8 @@ place = "Médiathèque Aragon, Choisy-le-Roi"
 ## Troisième atelier lock picking à Pas Sage en Seine
 
 Nous proposons un atelier initiation au lock picking [samedi
-29](./activités/lock-picking/session-pses-3.md) et/ou dimanche 30 juin dans le
-cadre de [Pas Sage en Seine 2019](./activités/passage_en_seine/pses_2019.md).
+29](@/activités/lock-picking/session-pses-3.md) et/ou dimanche 30 juin dans le
+cadre de [Pas Sage en Seine 2019](@/activités/passage_en_seine/pses_2019.md).
 
 ### Spécificités de la session
 
