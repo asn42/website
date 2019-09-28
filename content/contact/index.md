@@ -8,11 +8,7 @@ description = "Contacter l'"
 Il y a plusieurs moyens possibles de nous contacter&nbsp;:
 
 - Par messagerie électronique&nbsp;: <a href="mailto:{{ mail(to="bureau") }}" class="{{ button(type="success") }}">nous envoyer un courrier électronique</a>
-- Sur le slack de 42&nbsp;:
-  - L'association&nbsp;:<a href="{{ slack42(channel="association-sans-nom") }}" class="{{ button() }}">/open #association-sans-nom</a>
-  - Le Libre&nbsp;:<a href="{{ slack42(channel="asn-libre") }}" class="{{ button() }}">/open #asn-Libre</a>
-  - La sécurité physique&nbsp;:<a href="{{ slack42(channel="asn-lockpicking") }}" class="{{ button() }}">/open #asn-lockpicking</a>
-  - La sécurité informatique&nbsp;:<a href="{{ slack42(channel="asn-secu") }}" class="{{ button() }}">/open #asn-secu</a>
+- Sur le slack de 42 <a href="{{ slack42(channel="42paris_asso_association-sans-nom") }}" class="{{ button() }}">/open #42paris_asso_association-sans-nom</a> (#asn-libre, #asn-secu et #asn-lockpicking ont été archivés)
 - Sur Github&nbsp;: <a href="https://github.com/asn42" class="{{ button() }}">@asn42</a>
 
 {{ new_section() }}
