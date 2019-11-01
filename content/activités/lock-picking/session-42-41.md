@@ -1,7 +1,7 @@
 +++
 title = "Quarante-et-unième atelier lock picking à 42"
 description = "Atelier pratique autours de la sécurité physique organisé par l'"
-date = 2019-10-19
+date = 2019-10-29
 [extra]
 place = "Heart of Code (42)"
 +++
