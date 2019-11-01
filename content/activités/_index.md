@@ -37,7 +37,8 @@ Source](@/activités/conférences/introduction_libre_open_source/index.md).
 Nous avons invité Synacktiv pour donner une [conférence sur le
 CTF](@/activités/conférences/introduction_ctf/index.md), Stéphane Bortzmeyer
 pour en donner une [sur DNS et de
-sécurité](@/activités/conférences/dns_bortzmeyer/index.md), et Frédéric Urbain
+sécurité](@/activités/conférences/dns_bortzmeyer/index.md) et [la
+suite](@/activités/conférences/dns_bortzmeyer_2/index.md), et Frédéric Urbain
 pour nous parler de [Framasoft, Dégooglisons et
 Contributopia](@/activités/conférences/framasoft_contributopia/index.md).
 
