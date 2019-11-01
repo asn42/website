@@ -24,6 +24,9 @@ Captation vidéo et montage par [Studios_42](https://studios.42.fr/).
 > MyEtherWallet, les pannes et problèmes des résolveurs DNS d'Orange, la panne
 > d'un domaine de tête entier, .pf, le détournement de linux.org, etc.
 
+Si cette conférence vous a plu, n'hésitez pas à [aller voir la
+suite](@/activités/conférences/dns_bortzmeyer_2/index.md).
+
 {{ youtube(id="LHv6uU9Gpos") }}
 
 Cette vidéo est sous licence
