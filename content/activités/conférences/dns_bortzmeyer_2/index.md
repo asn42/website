@@ -21,8 +21,10 @@ Captation vidéo et montage (à venir) par [Studios_42](https://studios.42.fr/).
 > domaines, comme le protocole DoH (et le problème plus général de la vie
 > privée), DANE, les détournements de noms et leurs conséquences.
 
-La vidéo de la conférence sera disponible (sous licence [Creative Commons BY-SA
-4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) prochainement).
+{{ youtube(id="wyPlAD-1u1k") }}
+
+Cette vidéo est sous licence
+[Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).
 
 Les [diapos](bortzmeyer-securite-noms-domaines-bis.pdf) sont partagés sous
 la licence [Creative Commons BY-SA
