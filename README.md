@@ -56,11 +56,11 @@ At 42, it should work on `/sgoinfre/goinfre/Perso/xlogin/`.
     
     asn-website is distributed in the hope that it will be useful,
     but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+    GNU Affero General Public License for more details.
     
-    You should have received a copy of the GNU Affero Public License
-    along with asn-website.  If not, see <https://www.gnu.org/licenses/>.
+    You should have received a copy of the GNU Affero Graduate Public License
+    along with asn-website. If not, see <https://www.gnu.org/licenses/>.
 
 ### Cadman font
 

@@ -283,11 +283,12 @@ server {
 > 
 > asn-website et distribué dans l'espoir qu'il soit utile, mais **sans aucune
 > garantie** ; sans même la garantie implicite de **qualité marchande** ou
-> d'**adaptation** à un **usage particulier**. Voir la GNU General Public
-> License pour plus de détails.
+> d'**adaptation** à un **usage particulier**. Voir la GNU Affero General
+> Public License pour plus de détails.
 > 
-> Vous devriez avoir reçu un exemplaire de la GNU Affero Public License avec
-> asn-website. Dans le cas contraire, voir <https://www.gnu.org/licenses/>.
+> Vous devriez avoir reçu un exemplaire de la GNU Affero General Public License
+> avec asn-website. Dans le cas contraire, voir
+> <https://www.gnu.org/licenses/>.
 
 ## Cadman font
 
