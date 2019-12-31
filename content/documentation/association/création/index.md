@@ -21,7 +21,7 @@ fourni un justificatif pour domicilier l'association chez eux. Ainsi, nous
 avons une boîte aux lettres à 42.
 
 Une fois la publication faite, on peut [la retrouver en
-ligne](https://www.journal-officiel.gouv.fr/association/index.php?ACTION=Rechercher&JTY_WALDEC=W751242070)
+ligne](https://www.journal-officiel.gouv.fr/associations/detail-annonce/associations_b/20170048/1323)
 et télécharger [le témoin de
-publication](https://www.journal-officiel.gouv.fr/publications/assoc/pdf/2017/0048/JOAFE_PDF_Unitaire_20170048_01323.pdf)
+publication](https://www.journal-officiel.gouv.fr/document/associations_b/201700481323)
 qui sera demandé pour certaines démarches.
