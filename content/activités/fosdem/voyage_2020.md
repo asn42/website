@@ -10,11 +10,12 @@ place = "ULB, Bruxelles, Belgique"
 
 [Version française plus bas](#frenchversion)
 
-Like every year, we are organizing a group trip to FOSDEM for students.
+Like every year, we are organizing a group trip to
+[FOSDEM](https://fosdem.org/2020/) for students.
 This year, our communication is quite late, but there are more options and more
 payment methods available.
-We also plan to attend CopyleftConf (the registration is not gratis, but it is
-affordable).
+We also plan to attend [CopyleftConf](https://2020.copyleftconf.org/) (the
+registration is not gratis, but it is relatively cheap).
 
 To take part in this trip, you have to [fill this
 form](https://fosdem.sansnom.org) and pay 150€ (it usually cost about 100€; we
@@ -31,11 +32,12 @@ We will probably travel by FlixBus and sleep in a hotel or youth hostel.
 
 <span id="frenchversion"></span>
 
-Comme tous les ans, nous proposons un voyage groupé au FOSDEM pour les
-étudiants. Cette année, nous communiquons plus tardivement mais il y a plus
-d'options et de moyens de paiement possibles.
-Nous comptons aussi aller à la CopyleftConf (l'inscription est payante mais peu
-chère).
+Comme tous les ans, nous proposons un voyage groupé au
+[FOSDEM](https://fosdem.org/2020/) pour les étudiants.
+Cette année, nous communiquons plus tardivement mais il y a plus d'options et
+de moyens de paiement possibles.
+Nous comptons aussi aller à la [CopyleftConf](https://2020.copyleftconf.org/)
+(l'inscription est payante mais relativement peu chère).
 
 Pour participer à ce voyage groupé, vous devez [remplir ce
 formulaire](https://fosdem.sansnom.org) et payer 150€ (ça coute généralement
