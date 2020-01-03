@@ -5,12 +5,18 @@ description = "Adhérer à l'"
 
 ## Devenir membre
 
-Bien que certaines activités de l'association soient ouvertes au public, nous
-n'acceptons comme adhérents que des personnes ayant un lien avec 42 (étudiants,
-anciens étudiants, staff…).
+Pour nous rejoindre, il faut
 
-Pour nous rejoindre, commencez par [nous envoyer une demande par courrier
-électronique](@/contact/index.md). Par exemple :
+- **nous soumettre une demande d'adhésion** [par courrier électronique](@/contact/index.md) ou sur papier,
+- **et payez une cotisation de 15 euros**
+  - soit en la donnant à un membre du Bureau,
+  - soit en faisant un virement sur le compte bancaire de l'association ([RIB disponible ici](https://rib.sansnom.org)),
+  - soit par carte bancaire [en passant par helloasso](https://www.helloasso.com/associations/association-sans-nom/adhesions/adhesion-2020).
+
+Le Bureau valide ensuite (sauf exception) l'adhésion et vous faites partie de
+l'association !
+
+Exemple de courrier de demande d'adhésion :
 
 > Bonjour,
 > 
@@ -20,16 +26,12 @@ Pour nous rejoindre, commencez par [nous envoyer une demande par courrier
 > --
 > Prénom Nom
 
-Ensuite, il reste à verser une cotisation de 15 euros. Deux possibilités :
+Bien que certaines activités de l'association soient ouvertes au public, nous
+n'acceptons comme adhérents que **des personnes ayant un lien avec un campus de
+42 Network** (étudiants, alumni, staff…).
 
-- la remettre à un membre du Bureau en lui précisant votre nom
-- faire un virement sur le compte de l'association (demandez-nous un RIB)
-
-Le Bureau valide ensuite (sauf exception) l'adhésion et vous faites partie de
-l'association !
-
-L'adhésion est valable jusqu'au 31 janvier de l'année suivant le paiement de la
-cotisation, ou de l'année suivante si elle est payée pendant les deux derniers
-mois de l'année. Si ce n'est pas clair, vous pouvez consulter [la page de
-documentation sur les adhésions et
+L'adhésion est **valable jusqu'au 31 janvier** de l'année suivant le paiement
+de la cotisation, ou de l'année suivante si elle est payée pendant les deux
+derniers mois de l'année. Si ce n'est pas clair, vous pouvez consulter [la page
+de documentation sur les adhésions et
 cotisations](@/documentation/association/adhésion_et_cotisation/index.md).
