@@ -31,10 +31,10 @@
             </div>
             <div id="menulinks">
                 <a href="{{ get_url(path="@/activités/_index.md") | safe}}">Activités</a>
-                <a href="{{ get_url(path="@/contact/index.md") | safe}}">Discussions</a>
-                <a href="{{ get_url(path="@/adhérer/index.md") | safe}}">Adhésion</a>
+                <a href="{{ get_url(path="@/contact/index.fr.md") | safe}}">Discussions</a>
+                <a href="{{ get_url(path="@/adhérer/index.fr.md") | safe}}">Adhésion</a>
                 <a href="{{ get_url(path="@/documentation/_index.md") | safe}}">Documentation</a>
-                <a href="{{ get_url(path="@/statuts/index.md") | safe}}">Statuts</a>
+                <a href="{{ get_url(path="@/statuts/index.fr.md") | safe}}">Statuts</a>
             </div>
         </nav>
         <nav id="context">
@@ -46,7 +46,7 @@
         </main>
 {% block footer %}
         <footer id="footer">
-            <p><span class="copyleft">Copyleft</span> 2017-2019 Association Sans Nom et contributeurs - <a href="{{ config.extra.source_root | safe }}">code source</a>{%block source %}{% endblock %} - <a href="{{ get_url(path="@/documentation/services/website_sansnom_org/index.md") | safe}}">documentation</a></p>
+            <p><span class="copyleft">Copyleft</span> 2017-2019 Association Sans Nom et contributeurs - <a href="{{ config.extra.source_root | safe }}">code source</a>{%block source %}{% endblock %} - <a href="{{ get_url(path="@/documentation/services/website_sansnom_org/index.fr.md") | safe}}">documentation</a></p>
         </footer>
 {% endblock footer %}
 

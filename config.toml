@@ -5,6 +5,10 @@ title = "Association Sans Nom - Libre et sécurité à 42"
 description = "ASN, l'association étudiante de 42 pour tout ce qui touche au Libre et à la sécurité !"
 
 default_language = "fr"
+languages = [
+    {code = "fr", rss = true, search = false},
+    #{code = "en", rss = true, search = false},
+]
 author = "Association Sans Nom"
 
 highlight_code = true
