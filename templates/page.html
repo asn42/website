@@ -41,29 +41,33 @@
 {% block content %}
 {% if page.date %}
 <section id="date">
+{% if lang == "fr" %}
   {{ page.date
      | date(format="%A %d %B %Y")
-     | replace(from="Monday", to="lundi")
-     | replace(from="Tuesday", to="mardi")
-     | replace(from="Wednesday", to="mercredi")
-     | replace(from="Thursday", to="jeudi")
-     | replace(from="Friday", to="vendredi")
-     | replace(from="Saturday", to="samedi")
-     | replace(from="Sunday", to="dimanche")
-     | replace(from="January", to="janvier")
-     | replace(from="February", to="février")
-     | replace(from="March", to="mars")
-     | replace(from="April", to="avril")
-     | replace(from="May", to="mai")
-     | replace(from="June", to="juin")
-     | replace(from="July", to="juillet")
-     | replace(from="August", to="août")
-     | replace(from="September", to="septembre")
-     | replace(from="October", to="octobre")
-     | replace(from="November", to="novembre")
-     | replace(from="December", to="décembre")
+     | replace(from="Monday", to=trans(key="monday", lang=lang))
+     | replace(from="Tuesday", to=trans(key="tuesday", lang=lang))
+     | replace(from="Wednesday", to=trans(key="wednesday", lang=lang))
+     | replace(from="Thursday", to=trans(key="thursday", lang=lang))
+     | replace(from="Friday", to=trans(key="friday", lang=lang))
+     | replace(from="Saturday", to=trans(key="saturday", lang=lang))
+     | replace(from="Sunday", to=trans(key="sunday", lang=lang))
+     | replace(from="January", to=trans(key="january", lang=lang))
+     | replace(from="February", to=trans(key="february", lang=lang))
+     | replace(from="March", to=trans(key="march", lang=lang))
+     | replace(from="April", to=trans(key="april", lang=lang))
+     | replace(from="May", to=trans(key="may", lang=lang))
+     | replace(from="June", to=trans(key="june", lang=lang))
+     | replace(from="July", to=trans(key="july", lang=lang))
+     | replace(from="August", to=trans(key="august", lang=lang))
+     | replace(from="September", to=trans(key="september", lang=lang))
+     | replace(from="October", to=trans(key="october", lang=lang))
+     | replace(from="November", to=trans(key="november", lang=lang))
+     | replace(from="December", to=trans(key="december", lang=lang))
 	 | capitalize
    }}
+{% else %}
+  {{ page.date | date(format="%A, %B %d, %Y") }}
+{% endif %}
 </section>
 {% endif %}
 
