@@ -44,6 +44,9 @@ cotisation](@/documentation/association/adhésion_et_cotisation/index.fr.md), ou
 l'[utilisation des
 services](@/documentation/association/utiliser_les_services/index.fr.md) méritent
 sans doute quelques éclaircissement.
+Des informations à propos de [la comptabilité de
+l'association](@/documentation/association/comptabilité/index.md) sont aussi
+disponibles.
 
 Vous pouvez consulter les [affiches, flyers et autres supports de
 communication](@/documentation/association/flyers/index.fr.md) ou regarder les
@@ -55,7 +58,7 @@ communiquer autours de l'Association Sans Nom.
 
 ## Les services
 
-Pour l'instant, vous pouvez consuter [la documentation concernant ce
+Pour l'instant, vous pouvez consulter [la documentation concernant ce
 site](@/documentation/services/website_sansnom_org/index.fr.md) et trouver {%
 source_link() %}ses sources sur Github{% end %}.
 
