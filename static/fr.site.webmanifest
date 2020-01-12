@@ -1,0 +1,12 @@
+{
+    "name": "Association Sans Nom",
+    "description": "Association Sans Nom - Libre et sécurité à 42",
+    "short_name": "ASN",
+    "icons": [{
+        "src": "icon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+    }],
+    "background_color": "#444",
+    "start_url": "/"
+}

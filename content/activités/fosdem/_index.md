@@ -5,6 +5,9 @@ sort_by = "date"
 weight = 20
 [extra]
 subpages_title = "Voyages au FOSDEM"
+translations = [
+    "activités/fosdem/_index.en.md"
+]
 +++
 
 ## Free and Open Source (Software) Developper European Meeting

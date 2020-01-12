@@ -3,22 +3,61 @@ base_url = "/"
 
 title = "Association Sans Nom - Libre et sécurité à 42"
 description = "ASN, l'association étudiante de 42 pour tout ce qui touche au Libre et à la sécurité !"
+author = "Association Sans Nom"
 
 default_language = "fr"
-author = "Association Sans Nom"
+languages = [
+    {code = "fr", rss = true, search = false},
+    {code = "en", rss = true, search = false},
+]
+
+#theme = ""
 
 highlight_code = true
 highlight_theme = "base16-ocean-dark"
+#extra_syntaxes = []
 compile_sass = true
 
 generate_rss = true
-taxonomies = [
-    {name = "activities", rss = true},
-]
+#rss_limit = 20
+
+#taxonomies = [
+#    {name = "activities", lang = "fr", rss = true, paginate_by = 20},
+#]
 
 build_search_index = false
 
 ignored_content = []
+
+[translations.fr]
+language_name = "français"
+name = "Association Sans Nom"
+catchphrase = "Libre et sécurité à 42"
+description = "ASN, l'association étudiante de 42 pour tout ce qui touche au Libre et à la sécurité !"
+menu_activities = "activités"
+menu_discussion = "discussions"
+menu_membership = "adhésion"
+menu_documentation = "documentation"
+menu_status = "statuts"
+footer_credits = "Association Sans Nom et contributeurs"
+source_code = "code source"
+this_page = "cette page"
+not_translated_yet = "Désolé, cette page n'est pas disponible en français pour l'instant. Vous trouverez la version anglaise ci-dessous."
+
+[translations.en]
+language_name = "English"
+name = "Association Sans Nom"
+catchphrase = "Libre and security at 42"
+description = "ASN, the 42 student association for everything Free/Libre and security related!"
+menu_activities = "activities"
+menu_discussion = "discussions"
+menu_membership = "membership"
+menu_documentation = "documentation"
+menu_status = "status"
+footer_credits = "Association Sans Nom and contributors"
+source_code = "source code"
+this_page = "this page"
+not_translated_yet = "Sorry, this is not available in English yet. Below is the French version."
 
 [extra]
 

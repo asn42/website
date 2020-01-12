@@ -1,13 +1,23 @@
 {% extends "layout.html" %}
-{% block title %}{{config.title | safe}}{% endblock title %}
-{% block description %}{{config.description | safe}}{% endblock description %}
+
+{% block title %}{{trans(key="name", lang=lang) | safe}}, {{trans(key="catchphrase", lang=lang) | safe}}{% endblock title %}
+
+{% block description %}{{trans(key="description", lang=lang) | safe}}{% endblock description %}
+
 {% block nav %}
     <a>{{section.title | lower | safe}}</a>
 {% endblock nav %}
 {% block content %}
+{% if section.extra.untranslated %}
+{% set original = get_section(path=section.extra.untranslated) %}
+<section id="index">
+{{ original.content | safe }}
+</section>
+{% else %}
 <section id="index">
 {{ section.content | safe }}
 </section>
+{% endif %}
 {% endblock content %}
 
-{%block source %} (<a href="{{ config.extra.source_root | safe }}{{ config.extra.source_path | safe }}/{{ section.relative_path | safe }}">cette page</a>){% endblock %}
+{%block source %} (<a href="{{ config.extra.source_root | safe }}{{ config.extra.source_path | safe }}/{{ section.relative_path | safe }}">{{trans(key="this_page", lang=lang)}}</a>){% endblock %}

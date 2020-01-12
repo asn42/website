@@ -4,4 +4,7 @@ description = "Documentation à propos du crochetage de serrures et de cadenas p
 weight = 10
 [extra]
 subpages_title = "Documentations"
+translations = [
+    "documentation/lock_picking/_index.en.md"
+]
 +++

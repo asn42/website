@@ -1,14 +1,71 @@
 {% extends "layout.html" %}
+
 {% block page_title %}{{ section.title | safe }}{% endblock page_title %}
+
 {% block page_description %}{{ section.description | safe }}{% endblock page_description %}
+
+{% block language %}
+{% if section.extra.translations %}
+{% for translation_path in section.extra.translations %}
+{%set translation = get_section(path=translation_path) %}
+<a href="{{translation.permalink}}">{{ trans(key="language_name", lang=translation.lang) | capitalize }}</a>
+{% endfor %}
+{% else %}
+{% for language in config.languages %}
+{% if language.code != lang %}
+{% if language.code == config.default_language %}
+<a href="/">{{ trans(key="language_name", lang=language.code) | capitalize }}</a>
+{% else %}
+<a href="/{{language.code}}/">{{ trans(key="language_name", lang=language.code) | capitalize }}</a>
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endblock language %}
+
 {% block nav %}
   {% for ancestor_path in section.ancestors %}
+  {% if lang == config.default_language %}
     {% set ancestor = get_section(path=ancestor_path) %}
+  {% else %}
+    {% set ancestor = get_section(path=ancestor_path | replace(from="/_index.md", to="/_index." ~ lang ~ ".md")) %}
+  {% endif %}
     <a href="{{ancestor.permalink | safe}}">{{ancestor.title | lower | safe}}</a>
   {% endfor %}
     <a>{{section.title | lower | safe}}</a>
 {% endblock nav %}
+
 {% block content %}
+{% if section.extra.untranslated %}
+{% set original = get_section(path=section.extra.untranslated) %}
+<section id="untranslated">
+    {{ trans(key="not_translated_yet", lang=lang) }} 
+</section>
+<section id="section">
+{{ original.content | safe }}
+  {% if original.subsections %}
+    {% if original.extra.subsections_title %}
+    <h2>{{ original.extra.subsections_title }}</h2>
+    {% endif %}
+    <ul>
+    {% for subsection_path in original.subsections | reverse %}
+    {% set subsection = get_section(path=subsection_path) %}
+    <li><a href="{{ subsection.permalink | safe }}">{{ subsection.title }}</a>{% if subsection.date %} ({{ subsection.date | date(format="%F") }}){% endif %}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+  {% if original.pages %}
+    {% if original.extra.subpages_title %}
+    <h2>{{ original.extra.subpages_title }}</h2>
+    {% endif %}
+    <ul>
+    {% for page in original.pages %}
+    <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a>{% if page.date %} ({{ page.date | date(format="%F") }}){% endif %}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+</section>
+{% else %}
 <section id="section">
 {{ section.content | safe }}
   {% if section.subsections %}
@@ -33,6 +90,7 @@
     </ul>
   {% endif %}
 </section>
+{% endif %}
 {% endblock content %}
 
-{%block source %} (<a href="{{ config.extra.source_root | safe }}{{ config.extra.source_path | safe }}/{{ section.relative_path | safe }}">cette page</a>){% endblock %}
+{%block source %} (<a href="{{ config.extra.source_root | safe }}{{ config.extra.source_path | safe }}/{{ section.relative_path | safe }}">{{trans(key="this_page", lang=lang)}}</a>){% endblock %}

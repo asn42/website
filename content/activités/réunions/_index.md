@@ -5,4 +5,7 @@ sort_by="date"
 weight = 70
 [extra]
 subpages_title = "Comptes-rendus des réunions de l'Association Sans Nom"
+translations = [
+    "activités/réunions/_index.en.md"
+]
 +++
