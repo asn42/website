@@ -186,6 +186,13 @@ main > section a[href^="http"]:not([href^="http://127.0.0.1:1111"]):not([href^="
   background-color: #aaa;
 }
 
+
+section > blockquote a[href^="http"]:not([href^="http://127.0.0.1:1111"]):not([href^="https://sansnom.org"]):not([href^="https://www.youtube.com"]):after,
+section > blockquote a[href^="http"]:not([href^="http://127.0.0.1:1111"]):not([href^="https://sansnom.org"]):not([href^="https://www.youtube.com"]):after {
+  background-color: #555;
+}
+
+
 main > section blockquote a[href^="http"]:not([href^="http://127.0.0.1:1111"]):not([href^="https://sansnom.org"]):after {
   background-color: #666;
 }

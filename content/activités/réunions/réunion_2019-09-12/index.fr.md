@@ -2,12 +2,17 @@
 title = "Réunion du 2019-09-12"
 description = "Compte rendu de la réunion du 12 septembre 2019 de l'"
 date = 2019-09-12
+[extra]
+translations = [
+    "activités/réunions/réunion_2019-09-12/index.en.md"
+]
 +++
 
 # ASN - Compte rendu de la réunion du 12 septembre 2019
 
 La réunion aura lieu au Valhalla au Heart of Code (42 Paris) à partir de 19h.
-Il sera indiqué le jour même aux membres ne pouvant pas être présents un moyen de suivre et participer par Internet.
+Il sera indiqué le jour même aux membres ne pouvant pas être présents un moyen
+de suivre et participer par Internet.
 
 Nombre de participants : __
 

@@ -4,6 +4,9 @@ description = "La documentation à propos de, ou produite par l'"
 sort_by="weight"
 [extra]
 subsections_title = "Catégories"
+translations = [
+    "documentation/_index.en.md"
+]
 +++
 
 # Documentations

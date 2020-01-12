@@ -1,6 +1,10 @@
 +++
 title = "Assemblées Générales de l'association"
 description = "Documentation à propos des Assemblées Générales de l'"
+[extra]
+translations = [
+    "documentation/association/assemblée_générale/index.en.md"
+]
 +++
 
 ## Préparation

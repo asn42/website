@@ -1,6 +1,10 @@
 +++
 title = "Ressources sur le Logiciel Libre"
 description = "Ressources sur le Logiciel Libre rassemblées par l'"
+[extra]
+translations = [
+    "documentation/logiciel_libre/ressources/index.en.md"
+]
 +++
 
 # Ressources sur le Logiciel Libre

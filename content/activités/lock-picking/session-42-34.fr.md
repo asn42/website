@@ -4,6 +4,9 @@ description = "Atelier pratique autours de la sécurité physique organisé par 
 date = 2019-05-03
 [extra]
 place = "Heart of Code (42)"
+translations = [
+    "activités/lock-picking/session-42-34.en.md"
+]
 +++
 
 # Trente-quatrième atelier lock picking de l'Association Sans Nom à 42
@@ -13,9 +16,10 @@ Il est encadré par pk.
 
 ## Spécificités de la session
 
-En plus du [lock picking](@/documentation/lock_picking/paracentrique/index.fr.md),
-nous avons aussi joué avec des cartes et badges RFID avec un lecteur/ecriveur
-RFID 13,56MHz, quelques cartes/badges réinscriptibles et un ChameleonMini RevG.
+En plus du [lock
+picking](@/documentation/lock_picking/paracentrique/index.fr.md), nous avons
+aussi joué avec des cartes et badges RFID avec un lecteur/ecriveur RFID
+13,56MHz, quelques cartes/badges réinscriptibles et un ChameleonMini RevG.
 
 Il est toujours possible que quelqu'un amène du matériel particulier (pick gun,
 lecteur RFID…).

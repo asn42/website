@@ -1,6 +1,10 @@
 +++
 title = "Communication visuel et logos"
 description = "Images, logos, et autres visuels utilisés pour communiquer autour de l'"
+[extra]
+translations = [
+    "documentation/association/visuels/index.en.md"
+]
 +++
 
 # Visuels et logos

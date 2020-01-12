@@ -4,4 +4,7 @@ description = "Documentation à propos des services gérés par et pour les memb
 weight = 50
 [extra]
 subpages_title = "Documentations"
+translations = [
+    "documentation/services/_index.en.md"
+]
 +++

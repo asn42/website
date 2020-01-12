@@ -4,6 +4,9 @@ description = "Atelier pratique autours de la sécurité physique organisé par 
 date = 2017-04-10
 [extra]
 place = "Heart of Code (42)"
+translations = [
+    "activités/lock-picking/session-42-7.en.md"
+]
 +++
 
 # Septième atelier lock picking de l'Association Sans Nom à 42

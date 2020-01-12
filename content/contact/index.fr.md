@@ -1,6 +1,10 @@
 +++
 title = "Nous contacter"
 description = "Contacter l'"
+[extra]
+translations = [
+    "contact/index.en.md"
+]
 +++
 
 ## Nous Contacter

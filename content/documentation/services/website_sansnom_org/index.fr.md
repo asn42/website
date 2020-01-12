@@ -1,6 +1,10 @@
 +++
 title = "Site web de l'association"
 description = "Documentation à propos du site de l'"
+[extra]
+translations = [
+    "documentation/services/website_sansnom_org/index.en.md"
+]
 +++
 
 # Contribuer au site de l'ASN
@@ -300,10 +304,11 @@ server {
 
 ## Graduate font
 
-> Copyright © 2012 par Eduardo Tunni (<http://www.tipo.net.ar>), avec le Reserved
-> Font Name “Graduate”
+> Copyright © 2012 par Eduardo Tunni (<http://www.tipo.net.ar>), avec le
+> Reserved Font Name “Graduate”
 > 
-> Cette fonte logicielle est licenciée sous la SIL Open Font License, version 1.1.
+> Cette fonte logicielle est licenciée sous la SIL Open Font License, version
+> 1.1.
 > Cette licence est disponible avec une FAQ à : <http://scripts.sil.org/OFL>
 
 ## Inconsolata font
@@ -314,7 +319,8 @@ server {
 > Regular style, Raphael Linus Levien.
 > Bold style par Kirill Tkachev et the Cyreal foundry.
 > 
-> Cette fonte logicielle est licenciée sous la SIL Open Font License, version 1.1.
+> Cette fonte logicielle est licenciée sous la SIL Open Font License, version
+> 1.1.
 > Cette licence est disponible avec une FAQ à : <http://scripts.sil.org/OFL>
 
 ## Salsa font
@@ -322,7 +328,8 @@ server {
 > Copyright © 2011 par John Vargas Beltrán (john.vargasbeltran@gmail.com), avec
 > le Reserved Font Name Salsa.
 > 
-> Cette fonte logicielle est licenciée sous la SIL Open Font License, version 1.1.
+> Cette fonte logicielle est licenciée sous la SIL Open Font License, version
+> 1.1.
 > Cette licence est disponible avec une FAQ à : <http://scripts.sil.org/OFL>
 
 ## Special Elite font
@@ -336,15 +343,16 @@ server {
 
 > Copyright © 2016 par Michal Sahar.
 > 
-> Cette fonte logicielle est licenciée sous la SIL Open Font License, version 1.1.
+> Cette fonte logicielle est licenciée sous la SIL Open Font License, version
+> 1.1.
 > Cette licence est disponible avec une FAQ à : <http://scripts.sil.org/OFL>
 
 ## Normalize.css
 
 > [Normalize.css](http://necolas.github.io/normalize.css/) est publié sous la
 > [MIT
-> license](https://github.com/necolas/normalize.css/blob/master/LICENSE.fr.md) par
-> Nicolas Gallagher et Jonathan Neal.
+> license](https://github.com/necolas/normalize.css/blob/master/LICENSE.fr.md)
+> par Nicolas Gallagher et Jonathan Neal.
 
 ## Icône copyleft
 

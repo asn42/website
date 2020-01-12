@@ -4,6 +4,9 @@ description = "Première install party à 42 organisée par l'"
 date = 2019-05-17
 [extra]
 place = "Heart of Code (42)"
+translations = [
+    "activités/install_party/party-42-1/index.en.md"
+]
 +++
 
 # Première install party à 42 pour les étudiants et le staff

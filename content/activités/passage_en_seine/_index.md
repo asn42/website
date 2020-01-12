@@ -5,6 +5,9 @@ sort_by = "date"
 weight = 10
 [extra]
 subpages_title = "Éditions de PSeS"
+translations = [
+    "activités/passage_en_seine/_index.en.md"
+]
 +++
 
 ## Pas Sage en Seine / PSeSHSF

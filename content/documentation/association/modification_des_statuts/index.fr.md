@@ -1,6 +1,10 @@
 +++
 title = "Modification des statuts de l'association"
 description = "Documentation à propos des modifications des statuts de l'"
+[extra]
+translations = [
+    "documentation/association/modification_des_statuts/index.en.md"
+]
 +++
 
 ## Décision

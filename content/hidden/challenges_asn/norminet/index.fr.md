@@ -2,6 +2,10 @@
 title = "Rend le flag !"
 weight = 0
 path = "vous/ne/me/trouverez/jamais/norminet"
+[extra]
+translations = [
+    "hidden/challenges_asn/norminet/index.en.md"
+]
 +++
 ![Norminet qui dort](https://pbs.twimg.com/media/C7INjJTX0AE4N4A.jpg)
 

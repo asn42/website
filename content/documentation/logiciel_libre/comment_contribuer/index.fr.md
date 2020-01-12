@@ -1,6 +1,10 @@
 +++
 title = "Contribuer à des logiciels Libres"
 description = "Comment contribuer à des logiciels Libres ? des pistes données par l'"
+[extra]
+translations = [
+    "documentation/logiciel_libre/comment_contribuer/index.en.md"
+]
 +++
 
 # Le logiciel Libre
@@ -9,7 +13,9 @@ Si vous voulez en savoir plus sur le logiciel Libre et l'open source, vous
 pouvez voir [notre conférence
 d'introduction](@/activités/conférences/introduction_libre_open_source/index.fr.md).
 
-Il n'y a pas que du code à écrire. On peut contribuer à un projet en écrivant de la documentation, en traduisant le logiciel ou la documentation, en répondant aux questions des utilisateurs, en améliorant le design, etc.
+Il n'y a pas que du code à écrire. On peut contribuer à un projet en écrivant
+de la documentation, en traduisant le logiciel ou la documentation, en
+répondant aux questions des utilisateurs, en améliorant le design, etc.
 
 ## Trouver une contribution à faire
 
@@ -41,6 +47,13 @@ Si le projet utilise Github, [faites une pull request](@/documentation/logiciel_
 
 ## Continuer à contribuer
 
-Vous avez franchi la première étape. Vous avez fait votre pull/merge request et vous pensez qu'elle a tout ce qu'il faut pour être intégrée au projet. Vous avez peut-être envie de continuer à contribuer au même projet, mais peut-être aimeriez-vous aussi avoir des suggestion de contributions à de nouveaux projets.
-[CodeTriage](https://www.codetriage.com/) se propose de vous envoyer une suggestion de contribution par jour dans votre boîte aux lettres électronique.
-[Pull request roulette](http://www.pullrequestroulette.com/) vous propose le même genre de chose mais pour passer en revue des contributions faites d'autres personnes.
+Vous avez franchi la première étape. Vous avez fait votre pull/merge request et
+vous pensez qu'elle a tout ce qu'il faut pour être intégrée au projet. Vous
+avez peut-être envie de continuer à contribuer au même projet, mais peut-être
+aimeriez-vous aussi avoir des suggestion de contributions à de nouveaux
+projets.
+[CodeTriage](https://www.codetriage.com/) se propose de vous envoyer une
+suggestion de contribution par jour dans votre boîte aux lettres électronique.
+[Pull request roulette](http://www.pullrequestroulette.com/) vous propose le
+même genre de chose mais pour passer en revue des contributions faites d'autres
+personnes.

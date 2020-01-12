@@ -1,6 +1,10 @@
 +++
 title = "Être payé pour contribuer"
 description = "Plusieurs manières de gagner de l'argent en contribuant à des logiciels Libres, présentées par l'"
+[extra]
+translations = [
+    "documentation/logiciel_libre/contribution_rémunérée/index.en.md"
+]
 +++
 
 # Se faire payer pour contribuer à des logiciels Libres
@@ -19,7 +23,8 @@ Vous pouvez être payé pour contribuer à des projets et résoudre des problèm
 
 ## Stages rémunérés
 
-Des programmes permettent à des étudiants de contribuer à un projet Libre pendant plusieurs mois en recevant de l'argent :
+Des programmes permettent à des étudiants de contribuer à un projet Libre
+pendant plusieurs mois en recevant de l'argent :
 - [Google Summer of Code](https://summerofcode.withgoogle.com/) et [Season of Docs](https://developers.google.com/season-of-docs/)
 - [Summer of Code in Space](https://socis.esa.int/)
 - [Linux Foundation Networking Internships](https://wiki.lfnetworking.org/display/LN/LF+Networking+Internships)
@@ -42,12 +47,17 @@ Certains ne proposent pas de rémunérations mais d'autres contreparties :
 
 ## Bourses
 
-La fondation Wikimédia distribue [plusieurs types de bourses](https://meta.wikimedia.org/wiki/Grants:Start/fr) pour réaliser des projets.
-La [fondation NLnet](https://nlnet.nl/) propose des bourses pour des projets et liste également [d'autres organismes qui distribuent des bourses](https://nlnet.nl/foundation/network.html).
+La fondation Wikimédia distribue [plusieurs types de
+bourses](https://meta.wikimedia.org/wiki/Grants:Start/fr) pour réaliser des
+projets.
+La [fondation NLnet](https://nlnet.nl/) propose des bourses pour des projets et
+liste également [d'autres organismes qui distribuent des
+bourses](https://nlnet.nl/foundation/network.html).
 
 ## Travail rémunéré
 
-Vous pouvez chercher des offres sur [LinuxJobs.fr](https://www.linuxjobs.fr/) (basé sur [Jobskee](https://jobskee.com/)).
+Vous pouvez chercher des offres sur [LinuxJobs.fr](https://www.linuxjobs.fr/)
+(basé sur [Jobskee](https://jobskee.com/)).
 
 ## Pourboire / patronage pour son propre travail
 

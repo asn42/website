@@ -4,6 +4,9 @@ description = "Conférence d'introduction au CTF (Capture the Flag) par Synackti
 date = 2018-04-23
 [extra]
 place = "Heart of Code (42)"
+translations = [
+    "activités/conférences/introduction_ctf/index.en.md"
+]
 +++
 
 ## Conférence d'introduction au CTF (Capture the Flag)

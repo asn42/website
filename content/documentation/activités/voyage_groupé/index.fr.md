@@ -1,6 +1,10 @@
 +++
 title = "Voyages groupés"
 description = "Documentation à propos des voyages groupés organisés par l'"
+[extra]
+translations = [
+    "documentation/activités/voyage_groupé/index.en.md"
+]
 +++
 
 ## Voyages groupés

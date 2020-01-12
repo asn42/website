@@ -1,9 +1,35 @@
 {% extends "layout.html" %}
+
 {% block page_title %}{{ page.title | safe }}{% endblock page_title %}
+
 {% block page_description %}{{ page.description | safe }}{% endblock page_description %}
+
+{% block language %}
+{% if page.extra.translations %}
+{% for translation_path in page.extra.translations %}
+{%set translation = get_page(path=translation_path) %}
+<a href="{{translation.permalink}}">{{ trans(key="language_name", lang=translation.lang) | capitalize }}</a>
+{% endfor %}
+{% else %}
+{% for language in config.languages %}
+{% if language.code != lang %}
+{% if language.code == config.default_language %}
+<a href="/">{{ trans(key="language_name", lang=language.code) | capitalize }}</a>
+{% else %}
+<a href="/{{language.code}}/">{{ trans(key="language_name", lang=language.code) | capitalize }}</a>
+{% endif %}
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endblock language %}
+
 {% block nav %}
   {% for ancestor_path in page.ancestors %}
+  {% if lang == config.default_language %}
     {% set ancestor = get_section(path=ancestor_path) %}
+  {% else %}
+    {% set ancestor = get_section(path=ancestor_path | replace(from="/_index.md", to="/_index." ~ lang ~ ".md")) %}
+  {% endif %}
     <a href="{{ancestor.permalink | safe}}">{{ancestor.title | lower | safe}}</a>
   {% endfor %}
   {% if page.section %}
@@ -11,6 +37,7 @@
   {% endif %}
     <a>{{page.title | lower | safe}}</a>
 {% endblock nav %}
+
 {% block content %}
 {% if page.date %}
 <section id="date">
@@ -39,9 +66,20 @@
    }}
 </section>
 {% endif %}
+
+{% if page.extra.untranslated %}
+{% set original = get_page(path=page.extra.untranslated) %}
+<section id="untranslated">
+    {{ trans(key="not_translated_yet", lang=lang) }} 
+</section>
+<section id="page">
+{{ original.content | safe }}
+</section>
+{% else %}
 <section id="page">
 {{ page.content | safe }}
 </section>
+{% endif %}
 {% endblock content %}
 
-{%block source %} (<a href="{{ config.extra.source_root | safe }}{{ config.extra.source_path | safe }}/{{ page.relative_path | safe }}">cette page</a>){% endblock %}
+{%block source %} (<a href="{{ config.extra.source_root | safe }}{{ config.extra.source_path | safe }}/{{ page.relative_path | safe }}">{{trans(key="this_page", lang=lang)}}</a>){% endblock %}

@@ -1,6 +1,10 @@
 +++
 title = "Élections du Bureau de l'association"
 description = "Documentation à propos des élections au sein de l'"
+[extra]
+translations = [
+    "documentation/association/elections/index.en.md"
+]
 +++
 
 ## Élection du Bureau

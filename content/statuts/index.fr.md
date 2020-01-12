@@ -1,6 +1,10 @@
 +++
 title = "Statuts"
 description = "Statuts de l'"
+[extra]
+translations = [
+    "statuts/index.en.md"
+]
 +++
 
 Statuts de l’Association Sans Nom

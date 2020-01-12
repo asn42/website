@@ -2,6 +2,10 @@
 title = "Première réunion"
 description = "Compte rendu de la première réunion, avant la création de l'"
 date = 2017-01-17
+[extra]
+translations = [
+    "activités/réunions/réunion_2017-01-17/index.en.md"
+]
 +++
 
 # Première réunion concernant l'Association Sans Nom

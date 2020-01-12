@@ -1,18 +1,17 @@
-{#% import "post_macros.html" as post_macros %#}
 <!doctype html>
-<html lang="{% block lang %}{{ config.default_language }}{% endblock lang %}">
+<html lang="{% block lang %}{{ lang }}{% endblock lang %}">
     <head>
         <meta charset="utf-8">
-        <title>{% block title %}{% block page_title %}{% endblock page_title %} - {{config.title | safe}}{% endblock title %}</title>
-        <meta name="description" content="{% block description %}{% block page_description %}{% endblock page_description %}{{config.description | safe}}{% endblock description %}">
+        <title>{% block title %}{% block page_title %}{% endblock page_title %} - {{ trans(key="name", lang=lang) | safe}}, {{ trans(key="catchphrase", lang=lang) | safe}}{% endblock title %}</title>
+        <meta name="description" content="{% block description %}{% block page_description %}{% endblock page_description %}{{ trans(key="description", lang=lang) | safe}}{% endblock description %}">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="manifest" href="{{ get_url(path="site.webmanifest", trailing_slash=false) | safe}}">
+        <link rel="manifest" href="{{ get_url(path=lang ~ ".site.webmanifest", trailing_slash=false) | safe}}">
         <link rel="apple-touch-icon" href="{{ get_url(path="icon.png", trailing_slash=false) | safe}}">
         <link rel="icon" href="{{ get_url(path="favicon.ico", trailing_slash=false) | safe}}">
-{% if config.generate_rss %}{% block rss %}
-        <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml") }}">
-{% endblock rss %}{% endif %}
+{% block rss %}
+{% if config.generate_rss %}        <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml") }}">{% endif %}
+{% endblock rss %}
 {% block css %}
         <link rel="stylesheet" href="{{ get_url(path="main.css", trailing_slash=false) | safe}}">
 {% endblock css %}
@@ -20,24 +19,28 @@
     <body>
 
         <nav id="menu">
+{% if lang == config.default_language %}{%set section_index = "_index.md" %}{% else %}{%set section_index = "_index." ~ lang ~ ".md" %}{% endif %}
             <div id="logo">
-                <a href="{{ get_url(path="@/_index.md") | safe}}">
+                <a href="{{ get_url(path="@/" ~ section_index) | safe}}">
                     <img src="{{ get_url(path="images/logo.svg", trailing_slash=false) | safe}}" alt="Logo ASN">
                     <div>
                         <h1>Association Sans Nom</h1>
-                        <p>Libre et Sécurité à 42</p>
+                        <p>{{trans(key="catchphrase", lang=lang)}}</p>
                     </div>
                 </a>
             </div>
+
             <div id="menulinks">
-                <a href="{{ get_url(path="@/activités/_index.md") | safe}}">Activités</a>
-                <a href="{{ get_url(path="@/contact/index.fr.md") | safe}}">Discussions</a>
-                <a href="{{ get_url(path="@/adhérer/index.fr.md") | safe}}">Adhésion</a>
-                <a href="{{ get_url(path="@/documentation/_index.md") | safe}}">Documentation</a>
-                <a href="{{ get_url(path="@/statuts/index.fr.md") | safe}}">Statuts</a>
+                <a href="{{ get_url(path="@/activités/" ~ section_index) | safe}}">{{trans(key="menu_activities", lang=lang) | capitalize}}</a>
+                <a href="{{ get_url(path="@/contact/index." ~ lang ~ ".md") | safe}}">{{trans(key="menu_discussion", lang=lang) | capitalize}}</a>
+                <a href="{{ get_url(path="@/adhérer/index." ~ lang ~ ".md") | safe}}">{{trans(key="menu_membership", lang=lang) | capitalize}}</a>
+                <a href="{{ get_url(path="@/documentation/" ~ section_index) | safe}}">{{trans(key="menu_documentation", lang=lang) | capitalize}}</a>
+                <a href="{{ get_url(path="@/statuts/index." ~ lang ~ ".md") | safe}}">{{trans(key="menu_status", lang=lang) | capitalize}}</a>
             </div>
+
         </nav>
         <nav id="context">
+{% block language %}{% for language in config.languages %}{% if language.code != lang %}{% if language.code == config.default_language %}<a href="/">{{ trans(key="language_name", lang=language.code) | capitalize }}</a>{% else %}<a href="/{{language.code}}/">{{ trans(key="language_name", lang=language.code) | capitalize }}</a>{% endif %}{% endif %}{% endfor %}{% endblock language %}
 {% block nav %}{% endblock nav %}
         </nav>
         <main class="container">
@@ -46,7 +49,7 @@
         </main>
 {% block footer %}
         <footer id="footer">
-            <p><span class="copyleft">Copyleft</span> 2017-2019 Association Sans Nom et contributeurs - <a href="{{ config.extra.source_root | safe }}">code source</a>{%block source %}{% endblock %} - <a href="{{ get_url(path="@/documentation/services/website_sansnom_org/index.fr.md") | safe}}">documentation</a></p>
+            <p><span class="copyleft">Copyleft</span> 2017-2020 {{trans(key="footer_credits", lang=lang)}} - <a href="{{ config.extra.source_root | safe }}">{{trans(key="source_code", lang=lang)}}</a>{%block source %}{% endblock %} - <a href="{{ get_url(path="@/documentation/services/website_sansnom_org/index." ~ lang ~ ".md") | safe}}">{{trans(key="menu_documentation", lang=lang)}}</a></p>
         </footer>
 {% endblock footer %}
 

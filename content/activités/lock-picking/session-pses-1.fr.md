@@ -4,6 +4,9 @@ description = "Premier ateliers de sécurité physique à Pas Sage en Seine avec
 date = 2017-07-01
 [extra]
 place = "Médiathèque Aragon, Choisy-le-Roi"
+translations = [
+    "activités/lock-picking/session-pses-1.en.md"
+]
 +++
 
 ## Premier atelier lock picking à Pas Sage en Seine

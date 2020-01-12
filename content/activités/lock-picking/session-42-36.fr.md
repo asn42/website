@@ -4,6 +4,9 @@ description = "Atelier pratique autours de la sécurité physique organisé par 
 date = 2019-08-14
 [extra]
 place = "Heart of Code (42)"
+translations = [
+    "activités/lock-picking/session-42-36.en.md"
+]
 +++
 
 # Trente-sixième atelier lock picking de l'Association Sans Nom à 42
@@ -16,8 +19,8 @@ Il est encadré par pk.
 Cet atelier a lieu pendant les piscines de concours de 42. Les candidats
 peuvent y participer.
 À part ça, rien de spécial, des [serrures à clé
-paracentrique](@/documentation/lock_picking/paracentrique/index.fr.md) et des kits
-de crochetage pour les ouvrir.
+paracentrique](@/documentation/lock_picking/paracentrique/index.fr.md) et des
+kits de crochetage pour les ouvrir.
 Nous nous somme installés devant la Cantina.
 
 Il est toujours possible que quelqu'un amène du matériel particulier (pick gun,

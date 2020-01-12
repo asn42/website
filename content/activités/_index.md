@@ -4,6 +4,9 @@ description = "Les activités de l'"
 sort_by="weight"
 [extra]
 subsections_title = "Activités de l'ASN"
+translations = [
+    "activités/_index.en.md"
+]
 +++
 
 ## Proposer une activité

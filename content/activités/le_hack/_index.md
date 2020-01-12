@@ -5,6 +5,9 @@ sort_by = "date"
 weight = 30
 [extra]
 subpages_title = "leHack / Nuid du Hack"
+translations = [
+    "activités/le_hack/_index.en.md"
+]
 +++
 
 ## leHack (anciennement la Nuit du Hack)

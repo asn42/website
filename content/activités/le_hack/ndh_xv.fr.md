@@ -4,6 +4,9 @@ description = "Bénévolat à la Nuid du Hack XV avec HZV et l'"
 date = 2017-06-24
 [extra]
 place = "Hotel New York, Disneyland Paris"
+translations = [
+    "activités/le_hack/ndh_xv.en.md"
+]
 +++
 
 ## Nuit du Hack XV (2017)

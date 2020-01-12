@@ -1,6 +1,10 @@
 +++
 title = "Proposer une activité"
 description = "Proposer une conférence ou un atelier à l'"
+[extra]
+translations = [
+    "documentation/activités/proposer_une_activité/index.en.md"
+]
 +++
 
 ## Proposer une conférence ou un atelier
@@ -34,15 +38,15 @@ Nous pourrons faire l'intermédiaire avec l'ADM pour réserver une salle à 42 e
 demander une captation vidéo ou une diffusion en direct si vous le souhaites,
 vérifier que tout se passe bien, communiquer à propos de la conférence, etc.
 
-Nous pouvons aussi essayer de trouver d'autres personnes intéressées par le même
-projet pour mettre les idées et les compétences en commun.
+Nous pouvons aussi essayer de trouver d'autres personnes intéressées par le
+même projet pour mettre les idées et les compétences en commun.
 
 #### Évènement sur l'intra 42 pour les étudiants
 
-Si vous voulez que les étudiants s'inscrivent sur l'intra et puissent laisser un
-feedback après l'atelier ou la conférence, il faut un titre et une description
-en markdown, ainsi que le niveau attendu (tout public, intermédiaire, expert)
-et le nombre de places disponibles.
+Si vous voulez que les étudiants s'inscrivent sur l'intra et puissent laisser
+un feedback après l'atelier ou la conférence, il faut un titre et une
+description en markdown, ainsi que le niveau attendu (tout public,
+intermédiaire, expert) et le nombre de places disponibles.
 
 Il faut aussi choisir un lieu. Pour les conférences, l'amphi Hollodeck est
 souvent préférable, mais d'autres endroits peuvent aussi être disponibles dans
@@ -51,13 +55,12 @@ Lothlórien (salle de réunion), ou même les clusters (salles machines).
 
 #### Diffusion en direct et vidéo
 
-Il est souvent possible de filmer et de diffuser en direct les conférences, avec
-l'accord des intervenants.
+Il est souvent possible de filmer et de diffuser en direct les conférences,
+avec l'accord des intervenants.
 
 #### Licence Libre
 
 Nous souhaitons, autant que possible, que les supports et captations puissent
 être partagés et modifiés.
-Nous utilisons généralement la licence
-[Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr)
-pour cela.
+Nous utilisons généralement la licence [Creative Commons BY-SA
+4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) pour cela.

@@ -1,6 +1,10 @@
 +++
 title = "Adhésion"
 description = "Adhérer à l'"
+[extra]
+translations = [
+    "adhérer/index.en.md"
+]
 +++
 
 ## Devenir membre

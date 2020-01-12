@@ -4,6 +4,9 @@ description = "Bénévolat à leHack 19 avec HZV et l'"
 date = 2019-07-06
 [extra]
 place = "Cité des sciences, Paris"
+translations = [
+    "activités/le_hack/lehack_19.en.md"
+]
 +++
 
 ## leHack 19 (2019)

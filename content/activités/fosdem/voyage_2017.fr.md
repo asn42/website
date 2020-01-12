@@ -4,6 +4,9 @@ description = "Voyage groupé au FOSDEM 2017 avec l'"
 date = 2017-02-02
 [extra]
 place = "ULB, Bruxelles, Belgique"
+translations = [
+    "activités/fosdem/voyage_2017.en.md"
+]
 +++
 
 ## Voyage au FOSDEM avec le XLab

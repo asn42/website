@@ -4,6 +4,9 @@ description = "Conférence d'introduction au Logiciel Libre et à l'Open Source 
 date = 2019-01-10
 [extra]
 place = "Heart of Code (42)"
+translations = [
+    "activités/conférences/introduction_libre_open_source/index.en.md"
+]
 +++
 
 ## Conférence d'Introduction au Logiciel Libre et à l'Open Source
@@ -32,5 +35,5 @@ Captation vidéo et montage par [Studios_42](https://studios.42.fr/).
 
 [Les diapos avec des notes un peu
 rédigées](https://slides.com/pandark/logiciel-libre-open-source-00/) sont
-disponibles sous licence
-[Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) :
+disponibles sous licence [Creative Commons BY-SA
+4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr).

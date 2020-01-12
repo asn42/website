@@ -1,6 +1,10 @@
 +++
 title = "Supports de communication de l'association"
 description = "Logo, flyers, et autres documents utiles pour communiquer à propos de l'"
+[extra]
+translations = [
+    "documentation/association/flyers/index.en.md"
+]
 +++
 
 # Supports de communication

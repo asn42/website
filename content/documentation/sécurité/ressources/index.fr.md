@@ -1,6 +1,10 @@
 +++
 title = "Ressources sur la sécurité informatique"
 description = "Ressources sur la sécurité informatique rassemblées par l'"
+[extra]
+translations = [
+    "documentation/sécurité/ressources/index.en.md"
+]
 +++
 
 # Ressources concernant la sécurité informatique

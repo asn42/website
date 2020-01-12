@@ -1,6 +1,10 @@
 +++
 title = "Histoire de l'association"
 description = "Documentation de l'histoire de l'"
+[extra]
+translations = [
+    "documentation/association/historique/index.en.md"
+]
 +++
 
 ## Préhistoire de l'Association Sans Nom
