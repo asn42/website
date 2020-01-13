@@ -1,8 +1,11 @@
 language: minimal
 
+# We need the same libssl version
+dist: bionic
+
 before_script:
   # Download and unzip the zola executable
-  - curl -s -L https://github.com/getzola/zola/releases/download/v0.8.0/zola-v0.8.0-x86_64-unknown-linux-gnu.tar.gz | sudo tar xzf - -C /usr/local/bin
+  - curl -s -L https://github.com/getzola/zola/releases/download/v0.9.0/zola-v0.9.0-x86_64-unknown-linux-gnu.tar.gz | sudo tar xzf - -C /usr/local/bin
 
 script:
   - zola build
