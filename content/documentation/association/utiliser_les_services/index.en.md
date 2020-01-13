@@ -1,6 +1,6 @@
 +++
-title = "Utilisation des services de l'association"
-description = "Documentation à propos de l'utilisation des services de l'"
+title = "Using the association services "
+description = "Documentation about using the services of "
 [extra]
 untranslated = "documentation/association/utiliser_les_services/index.fr.md"
 translations = [

@@ -1,6 +1,6 @@
 +++
 title = "leHack"
-description = "Bénévolat à leHack avec l'"
+description = "Volunteering at leHack with HZV and "
 sort_by = "date"
 weight = 30
 [extra]

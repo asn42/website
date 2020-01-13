@@ -1,6 +1,6 @@
 +++
 title = "Pas Sage en Seine"
-description = "Faire un tour à Pas Sage en Seine avec l'"
+description = "Go for a look around Pas Sage en Seine with"
 sort_by = "date"
 weight = 10
 [extra]

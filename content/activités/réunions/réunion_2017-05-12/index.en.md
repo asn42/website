@@ -1,6 +1,6 @@
 +++
-title = "Réunion du 2017-05-12"
-description = "Compte rendu de la réunion du 12 mai 2017 de l'"
+title = "2017-05-12 meeting"
+description = "Report of the May 12, 2017 meeting of "
 date = 2017-05-12
 [extra]
 untranslated = "activités/réunions/réunion_2017-05-12/index.fr.md"

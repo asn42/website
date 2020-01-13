@@ -1,6 +1,6 @@
 +++
-title = "Création de l'association"
-description = "Documentation à propos de la création de l'"
+title = "Creation of the association"
+description = "Documentation about the creation of "
 [extra]
 untranslated = "documentation/association/création/index.fr.md"
 translations = [

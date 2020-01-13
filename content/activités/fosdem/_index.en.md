@@ -1,6 +1,6 @@
 +++
 title = "FOSDEM"
-description = "Voyages groupés au FOSDEM avec l'"
+description = "Group trip to FOSDEM with "
 sort_by = "date"
 weight = 20
 [extra]

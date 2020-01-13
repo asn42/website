@@ -1,6 +1,6 @@
 +++
-title = "Documentation sur le lock picking"
-description = "Documentation à propos du crochetage de serrures et de cadenas par l'"
+title = "Documentation about lock picking"
+description = "Documentation about lock picking by "
 weight = 10
 [extra]
 subpages_title = "Documentations"

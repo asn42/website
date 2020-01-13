@@ -1,6 +1,6 @@
 +++
-title = "Introduction au Logiciel Libre et à l'Open Source"
-description = "Conférence d'introduction au Logiciel Libre et à l'Open Source par l'"
+title = "Introduction to Free Software and Open Source"
+description = "Introductory talk to Free Software and Open Source by "
 date = 2019-01-10
 [extra]
 place = "Heart of Code (42)"

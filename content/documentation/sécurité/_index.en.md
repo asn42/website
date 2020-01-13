@@ -1,6 +1,6 @@
 +++
-title = "Documentation sur la sécurité informatique"
-description = "Documentation à propos de sécurité informatique par l'"
+title = "Documentation about computer security"
+description = "Documentation about computer security by "
 weight = 20
 [extra]
 subpages_title = "Documentations"

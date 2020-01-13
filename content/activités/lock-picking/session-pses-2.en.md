@@ -1,6 +1,6 @@
 +++
-title = "Session de lock picking à PSeS"
-description = "Deuxième ateliers de sécurité physique à Pas Sage en Seine avec l'"
+title = "PSeS lock picking session"
+description = "Second physical security workshop organized at Pas Sage en Seine by "
 date = 2017-07-02
 [extra]
 place = "Médiathèque Aragon, Choisy-le-Roi"

@@ -1,6 +1,6 @@
 +++
-title = "FOSDEM 2019"
-description = "Voyage groupé au FOSDEM 2019 avec l'"
+title = "2019 FOSDEM"
+description = "Group trip to 2019 FOSDEM with "
 date = 2019-01-31
 [extra]
 place = "ULB, Bruxelles, Belgique"

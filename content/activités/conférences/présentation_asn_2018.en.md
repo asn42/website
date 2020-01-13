@@ -1,6 +1,6 @@
 +++
-title = "Présentation ASN 2018"
-description = "Présentation, pour les étudiants, de l'"
+title = "2018 ASN introduction"
+description = "Introduction, for students, of"
 date = 2018-11-21
 [extra]
 place = "Heart of Code (42)"

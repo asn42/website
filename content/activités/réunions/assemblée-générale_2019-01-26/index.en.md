@@ -1,6 +1,6 @@
 +++
-title = "Réunion AG du 2019-01-26"
-description = "Compte rendu de l'Assemblée Génerale du 26 janvier 2019 de l'"
+title = "2019-01-26 general assembly meeting"
+description = "Report of the January 26, 2019 general assembly of"
 date = 2019-01-26
 [extra]
 untranslated = "activités/réunions/assemblée-générale_2019-01-26/index.fr.md"

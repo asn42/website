@@ -1,6 +1,6 @@
 +++
-title = "Réunions et AG"
-description = "Réunions et Assemblées Générales de l'"
+title = "Meetings and General Assemblies"
+description = "Meetings and General Assemblies of "
 sort_by="date"
 weight = 70
 [extra]

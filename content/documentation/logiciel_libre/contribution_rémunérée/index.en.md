@@ -1,6 +1,6 @@
 +++
-title = "Être payé pour contribuer"
-description = "Plusieurs manières de gagner de l'argent en contribuant à des logiciels Libres, présentées par l'"
+title = "Getting paid to contribute"
+description = "Several ways to earn money by contributing to Free software, introduced by "
 [extra]
 untranslated = "documentation/logiciel_libre/contribution_rémunérée/index.fr.md"
 translations = [

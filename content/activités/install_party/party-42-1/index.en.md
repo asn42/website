@@ -1,6 +1,6 @@
 +++
-title = "Première install party"
-description = "Première install party à 42 organisée par l'"
+title = "First install party"
+description = "First install party at 42 organized by "
 date = 2019-05-17
 [extra]
 place = "Heart of Code (42)"

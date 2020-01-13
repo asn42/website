@@ -1,6 +1,6 @@
 +++
-title = "Cadenas et canette"
-description = "Ouvrir un cadenas à l'aide d'un simple bout de canette avec l'"
+title = "Padlocks and can"
+description = "Open a padlock with a simple piece of can"
 [extra]
 untranslated = "documentation/lock_picking/canette/index.fr.md"
 translations = [

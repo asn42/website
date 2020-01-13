@@ -1,6 +1,6 @@
 +++
 title = "leHack 19"
-description = "Bénévolat à leHack 19 avec HZV et l'"
+description = "Volunteering at leHack 19 with HZV and "
 date = 2019-07-06
 [extra]
 place = "Cité des sciences, Paris"

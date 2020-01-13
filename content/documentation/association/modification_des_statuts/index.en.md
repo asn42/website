@@ -1,6 +1,6 @@
 +++
-title = "Modification des statuts de l'association"
-description = "Documentation à propos des modifications des statuts de l'"
+title = "Modification of the association status"
+description = "Documentation about changing the status of "
 [extra]
 untranslated = "documentation/association/modification_des_statuts/index.fr.md"
 translations = [

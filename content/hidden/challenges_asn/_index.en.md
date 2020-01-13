@@ -1,6 +1,6 @@
 +++
-title = "Pages cachées des challenges ASN"
-description = "Pages cachées des challenges de l'"
+title = "Hidden pages for ASN challenges"
+description = "Hidden pages for challenges by "
 date = 2019-06-26
 sort_by="weight"
 render = false

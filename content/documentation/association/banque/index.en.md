@@ -1,6 +1,6 @@
 +++
-title = "Compte bancaire de l'association"
-description = "Documentation à propos du compte bancaire ouvert par l'"
+title = "Bank account of the association"
+description = "Documentation about the bank account opend by "
 [extra]
 untranslated = "documentation/association/banque/index.fr.md"
 translations = [

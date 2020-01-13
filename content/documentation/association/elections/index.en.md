@@ -1,6 +1,6 @@
 +++
-title = "Élections du Bureau de l'association"
-description = "Documentation à propos des élections au sein de l'"
+title = "Association Board elections"
+description = "Documentation about the elections at "
 [extra]
 untranslated = "documentation/association/elections/index.fr.md"
 translations = [

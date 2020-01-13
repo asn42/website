@@ -1,6 +1,6 @@
 +++
-title = "Documentation sur le logiciel Libre"
-description = "Documentation à propos du logiciel Libre par l'"
+title = "Documentation about Free software"
+description = "Documentation about Free software by "
 weight = 30
 [extra]
 subpages_title = "Documentations"

@@ -1,6 +1,6 @@
 +++
-title = "Nuit du Hack XV"
-description = "Bénévolat à la Nuid du Hack XV avec HZV et l'"
+title = "Night da Hack XV"
+description = "Volunteering at Night da Hack XV with HZV and "
 date = 2017-06-24
 [extra]
 place = "Hotel New York, Disneyland Paris"

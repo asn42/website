@@ -1,6 +1,6 @@
 +++
-title = "La cryptographie, car « on a rien à cacher »"
-description = "Conférence d'introduction à la cryptographie avec l'"
+title = "Cryptography, because \"we have nothing to hide\""
+description = "Introductory talk to cryptography, with"
 date = 2018-06-06
 [extra]
 place = "Heart of Code (42)"
