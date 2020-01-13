@@ -1,6 +1,6 @@
 +++
-title = "DNS, quand il y a encore des problèmes (Bortzmeyer)"
-description = "Deuxième conférence de Stéphane Bortzmeyer sur DNS et la sécurité, pour l'"
+title = "DNS, when there are still problems (Bortzmeyer)"
+description = "Second conference by Stéphane Bortzmeyer about DNS and security, for "
 date = 2019-10-28
 [extra]
 place = "Heart of Code (42)"

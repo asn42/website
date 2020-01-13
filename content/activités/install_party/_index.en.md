@@ -1,6 +1,6 @@
 +++
 title = "Install party"
-description = "Install parties organisées par l'"
+description = "Install parties organized by "
 sort_by = "date"
 weight = 55
 [extra]

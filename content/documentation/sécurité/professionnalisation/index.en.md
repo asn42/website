@@ -1,6 +1,6 @@
 +++
-title = "Professionnalisation en sécurité informatique"
-description = "Se professionnaliser en sécurité informatique avec l'"
+title = "Professionalization in computer security"
+description = "Professionalizing in computer security with "
 [extra]
 untranslated = "documentation/sécurité/professionnalisation/index.fr.md"
 translations = [

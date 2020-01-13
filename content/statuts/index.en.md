@@ -8,7 +8,7 @@ translations = [
 ]
 +++
 
-Status de l’Association Sans Nom
+Status of Association Sans Nom
 =================================
 
 ## Constitution ##

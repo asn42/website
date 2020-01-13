@@ -1,6 +1,6 @@
 +++
 title = "Histoire de l'association"
-description = "Documentation de l'histoire de l'"
+description = "Documentation de l'évolution de l'"
 [extra]
 translations = [
     "documentation/association/historique/index.en.md"

@@ -1,6 +1,6 @@
 +++
-title = "Introduction générale à la sécurité informatique"
-description = "Conférence d'introduction générale à la sécurité informatique par l'"
+title = "General introduction to computer security"
+description = "General introductory talk about software security by "
 date = 2017-02-10
 [extra]
 place = "Heart of Code (42)"

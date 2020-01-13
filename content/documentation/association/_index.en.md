@@ -1,6 +1,6 @@
 +++
-title = "Documentation sur l'association"
-description = "Documentation concerant le fonctionnement de l'"
+title = "Documentation about the association"
+description = "Documentation regarding the functionning of "
 weight = 60
 [extra]
 subpages_title = "Documentations"

@@ -1,6 +1,6 @@
 +++
-title = "Activités extérieures"
-description = "Documentation à propos des activités extérieures de l'"
+title = "External activities"
+description = "Documentation about external activities of "
 [extra]
 untranslated = "documentation/activités/évènement_extérieur/index.fr.md"
 translations = [

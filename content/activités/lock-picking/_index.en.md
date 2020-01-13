@@ -1,6 +1,6 @@
 +++
-title = "Lock picking / crochetage"
-description = "Ateliers lock picking pour s'initier l'art du crochetage avec l'"
+title = "Lock picking"
+description = "Lock picking workshop to be initiated to the art of lock picking with "
 sort_by = "date"
 weight = 60
 [extra]

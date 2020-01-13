@@ -1,6 +1,6 @@
 +++
-title = "Documentation sur nos services"
-description = "Documentation à propos des services gérés par et pour les membres de l'"
+title = "Documentation about our services"
+description = "Documentation about our services managed by and for the membres of "
 weight = 50
 [extra]
 subpages_title = "Documentations"

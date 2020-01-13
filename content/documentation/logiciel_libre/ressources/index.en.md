@@ -1,6 +1,6 @@
 +++
-title = "Ressources sur le Logiciel Libre"
-description = "Ressources sur le Logiciel Libre rassemblées par l'"
+title = "Ressources about Free Software"
+description = "Ressources about Free Software gathered by "
 [extra]
 untranslated = "documentation/logiciel_libre/ressources/index.fr.md"
 translations = [

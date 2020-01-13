@@ -1,6 +1,6 @@
 +++
-title = "Trente-septième atelier lock picking à 42"
-description = "Atelier pratique autours de la sécurité physique organisé par l'"
+title = "Thirty-seventh lock picking workshop at 42"
+description = "Practical physical security workshop organized by "
 date = 2019-09-26
 [extra]
 place = "Heart of Code (42)"

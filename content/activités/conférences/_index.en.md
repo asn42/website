@@ -1,6 +1,6 @@
 +++
-title = "Conférences"
-description = "Conférences organisées par ou avec l'"
+title = "Conferences"
+description = "Conferences organized by or with "
 sort_by = "date"
 weight = 40
 [extra]

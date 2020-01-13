@@ -1,6 +1,6 @@
 +++
-title = "Contributopia avec Framasoft"
-description = "Contributopia, l'utopie de la contribution, avec Framasoft, invité par l'"
+title = "Contributopia with Framasoft"
+description = "Contributopia, the utopia of contribution, with Framasoft, invited by "
 date = 2019-02-28
 [extra]
 place = "Heart of Code (42)"

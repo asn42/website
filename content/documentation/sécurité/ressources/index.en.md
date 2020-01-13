@@ -1,6 +1,6 @@
 +++
-title = "Ressources sur la sécurité informatique"
-description = "Ressources sur la sécurité informatique rassemblées par l'"
+title = "Ressources about computer security"
+description = "Ressources about computer security gathered by "
 [extra]
 untranslated = "documentation/sécurité/ressources/index.fr.md"
 translations = [
