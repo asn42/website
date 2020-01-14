@@ -2,7 +2,7 @@
 title = "Install party"
 description = "Install parties organisées par l'"
 sort_by = "date"
-weight = 55
+weight = 40
 aliases = ["activités/install_party"]
 [extra]
 subpages_title = "Nos install parties"
