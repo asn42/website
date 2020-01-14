@@ -12,7 +12,7 @@ translations = [
 Il y a plusieurs moyens possibles de nous contacter&nbsp;:
 
 - Par messagerie électronique&nbsp;: <a href="mailto:{{ mail(to="bureau") }}" class="{{ button(type="success") }}">nous envoyer un courrier électronique</a>
-- Sur le slack de 42 <a href="{{ slack42(channel="42paris_asso_association-sans-nom") }}" class="{{ button() }}">/open #42paris_asso_association-sans-nom</a> (#asn-libre, #asn-secu et #asn-lockpicking ont été archivés)
+- Sur le slack de 42 <a href="{{ slack42(channel="42paris_club_association-sans-nom") }}" class="{{ button() }}">/open #42paris_club_association-sans-nom</a> (#asn-libre, #asn-secu et #asn-lockpicking ont été archivés)
 - Sur Github&nbsp;: <a href="https://github.com/asn42" class="{{ button() }}">@asn42</a>
 
 {{ new_section() }}

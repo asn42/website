@@ -1,5 +1,6 @@
 +++
 title = "ASN"
+[extra]
 translations = [
     "_index.en.md"
 ]
@@ -15,8 +16,8 @@ l'Association Sans Nom à travers des ateliers, des conférences et d'autres
 activités internes ou publiques, ainsi que la gestion de services pour et par
 les membres eux-mêmes.
 
-<a href="/activités" class="{{ button() }}">Qu'est-ce qu'on y fait&nbsp;?</a>
-<a href="/adherer/" class="{{ button(type="success") }}">Où est-ce que je
+<a href="/activities" class="{{ button() }}">Qu'est-ce qu'on y fait&nbsp;?</a>
+<a href="/membership/" class="{{ button(type="success") }}">Où est-ce que je
 signe&nbsp;?</a>
 
 {{ new_section() }}
@@ -56,8 +57,9 @@ conférences et d'ateliers pratiques.
 
 La sécurité ne se limite pas aux logiciels, n'oublions pas la sécurité
 physique. Nous nous intéressons par exemple au fonctionnement des serrures
-physiques, électroniques ou biométriques. Des ateliers de lock picking (l'art
-du crochetage de serrure) sont organisés régulièrement.
+physiques, électroniques ou biométriques.
+Des ateliers de <span title="l'art du crochetage de serrure">lock
+picking</span> sont organisés régulièrement.
 
 </div>
 </div>

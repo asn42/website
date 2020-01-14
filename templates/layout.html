@@ -10,16 +10,15 @@
         <link rel="apple-touch-icon" href="{{ get_url(path="icon.png", trailing_slash=false) | safe}}">
         <link rel="icon" href="{{ get_url(path="favicon.ico", trailing_slash=false) | safe}}">
 {% block rss %}
-{% if config.generate_rss %}        <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml") }}">{% endif %}
+{% if config.generate_rss %}        <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path=lang ~ "/rss.xml") }}">{% endif %}
 {% endblock rss %}
 {% block css %}
         <link rel="stylesheet" href="{{ get_url(path="main.css", trailing_slash=false) | safe}}">
 {% endblock css %}
     </head>
     <body>
-
-        <nav id="menu">
 {% if lang == config.default_language %}{%set section_index = "_index.md" %}{% else %}{%set section_index = "_index." ~ lang ~ ".md" %}{% endif %}
+        <nav id="menu">
             <div id="logo">
                 <a href="{{ get_url(path="@/" ~ section_index) | safe}}">
                     <img src="{{ get_url(path="images/logo.svg", trailing_slash=false) | safe}}" alt="Logo ASN">
@@ -31,11 +30,10 @@
             </div>
 
             <div id="menulinks">
-                <a href="{{ get_url(path="@/activités/" ~ section_index) | safe}}">{{trans(key="menu_activities", lang=lang) | capitalize}}</a>
+                <a href="{{ get_url(path="@/activities/" ~ section_index) | safe}}">{{trans(key="menu_activities", lang=lang) | capitalize}}</a>
                 <a href="{{ get_url(path="@/contact/index." ~ lang ~ ".md") | safe}}">{{trans(key="menu_discussion", lang=lang) | capitalize}}</a>
-                <a href="{{ get_url(path="@/adhérer/index." ~ lang ~ ".md") | safe}}">{{trans(key="menu_membership", lang=lang) | capitalize}}</a>
-                <a href="{{ get_url(path="@/documentation/" ~ section_index) | safe}}">{{trans(key="menu_documentation", lang=lang) | capitalize}}</a>
-                <a href="{{ get_url(path="@/statuts/index." ~ lang ~ ".md") | safe}}">{{trans(key="menu_status", lang=lang) | capitalize}}</a>
+                <a href="{{ get_url(path="@/membership/index." ~ lang ~ ".md") | safe}}">{{trans(key="menu_membership", lang=lang) | capitalize}}</a>
+                <a href="{{ get_url(path="@/status/index." ~ lang ~ ".md") | safe}}">{{trans(key="menu_status", lang=lang) | capitalize}}</a>
             </div>
 
         </nav>
@@ -48,8 +46,9 @@
 {% endblock content %}
         </main>
 {% block footer %}
+{% if lang == config.default_language %}{%set section_index = "_index.md" %}{% else %}{%set section_index = "_index." ~ lang ~ ".md" %}{% endif %}
         <footer id="footer">
-            <p><span class="copyleft">Copyleft</span> 2017-2020 {{trans(key="footer_credits", lang=lang)}} - <a href="{{ config.extra.source_root | safe }}">{{trans(key="source_code", lang=lang)}}</a>{%block source %}{% endblock %} - <a href="{{ get_url(path="@/documentation/services/website_sansnom_org/index." ~ lang ~ ".md") | safe}}">{{trans(key="menu_documentation", lang=lang)}}</a></p>
+            <p><span class="copyleft">Copyleft</span> 2017-2020 {{trans(key="footer_credits", lang=lang)}} - <a href="{{ config.extra.source_root | safe }}">{{trans(key="source_code", lang=lang)}}</a>{%block source %}{% endblock %} - <a href="{{ get_url(path="@/activities/services/website-sansnom-org/" ~ section_index) | safe}}">{{trans(key="menu_documentation", lang=lang)}}</a></p>
         </footer>
 {% endblock footer %}
 

@@ -16,7 +16,7 @@ through workshops, conferences and other internal and public activities, as
 well as the management of services by and for the members themselves.
 
 <a href="/en/activities" class="{{ button() }}">What kind of things do we
-do?</a> <a href="/en/subscribe/" class="{{ button(type="success") }}">Where do
+do?</a> <a href="/en/membership/" class="{{ button(type="success") }}">Where do
 I sign?</a>
 
 {{ new_section() }}

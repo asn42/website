@@ -39,6 +39,8 @@ $inverted-bg-overlay: rgba(255, 255, 255, .5);
 $selected-bg: #eee;
 $inverted-border-color: #666;
 
+$alt-text-decoration: underline dotted #b73;
+
 html {
   color: $text-color;
   font-size: 1em;
@@ -175,6 +177,11 @@ a:hover {
 a[href^="mailto:"]:before {
   content: "📧";
   padding-right: .5em;
+}
+
+span[title] {
+    text-decoration: $alt-text-decoration;
+    text-decoration-thickness: 0.2em;
 }
 
 main > article a[href^="http"]:not([href^="http://127.0.0.1:1111"]):not([href^="https://sansnom.org"]):not([href^="https://www.youtube.com"]):after,
