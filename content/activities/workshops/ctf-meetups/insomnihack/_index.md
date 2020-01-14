@@ -12,6 +12,8 @@ translations = [
 
 ## Insomni'Hack Teaser CTF
 
+![Premier rendez-vous CTF à 42](header_ctf_meetup_1.png)
+
 Pour bien commencer l'année, l'[Association Sans Nom](https://sansnom.org) te
 propose de t'essayer à la sécurité informatique avec un challenge en ligne : le
 [Teaser
