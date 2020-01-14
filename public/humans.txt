@@ -1,0 +1,23 @@
+# https://sansnom.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Dev & second design & content & ASN logo:
+    Adrien "pandark" Pachkoff
+    Site: https://adrien.pachkoff.com/
+    Location: Paris, France
+
+    Dev & first design & content:
+    Dylan "dbourdon" Bourdon
+    Site: https://dylanbourdon.fr/
+    Location: Paris, France
+
+# THANKS
+
+# TECHNOLOGY COLOPHON
+
+    Standards: HTML5, CSS3, EcmaScript
+    Tools: zola static site generator (rust)
+    Server: Nginx, Debian Linux
+    Editors: Neovim, Notepad++, Inkscape, Gimp

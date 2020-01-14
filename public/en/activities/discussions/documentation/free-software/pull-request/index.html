@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Github pull request - Association Sans Nom, Libre and security at 42</title>
+        <meta name="description" content="Make a pull request on with the help of ASN, the 42 student association for everything Free/Libre and security related!">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="manifest" href="/en.site.webmanifest">
+        <link rel="apple-touch-icon" href="/icon.png">
+        <link rel="icon" href="/favicon.ico">
+
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="&#x2F;en&#x2F;rss.xml">
+
+
+        <link rel="stylesheet" href="/main.css">
+
+    </head>
+    <body>
+
+        <nav id="menu">
+            <div id="logo">
+                <a href="/en/">
+                    <img src="/images/logo.svg" alt="Logo ASN">
+                    <div>
+                        <h1>Association Sans Nom</h1>
+                        <p>Libre and security at 42</p>
+                    </div>
+                </a>
+            </div>
+
+            <div id="menulinks">
+                <a href="/en/activities/">Activities</a>
+                <a href="/en/contact/">Discussions</a>
+                <a href="/en/membership/">Membership</a>
+                <a href="/en/status/">Status</a>
+            </div>
+
+        </nav>
+        <nav id="context">
+
+
+
+
+<a href="&#x2F;activities&#x2F;discussions&#x2F;documentation&#x2F;free-software&#x2F;pull-request&#x2F;">Français</a>
+
+
+
+
+  
+  
+    
+  
+    <a href="/en/">asn</a>
+  
+  
+    
+  
+    <a href="/en/activities/">our activities</a>
+  
+  
+    
+  
+    <a href="/en/activities/discussions/">discussions</a>
+  
+  
+    
+  
+    <a href="/en/activities/discussions/documentation/">documentation</a>
+  
+  
+    
+  
+    <a href="/en/activities/discussions/documentation/free-software/">free software</a>
+  
+  
+    <a>github pull request</a>
+
+        </nav>
+        <main class="container">
+
+
+
+
+
+<section id="untranslated">
+    Sorry, this is not available in English yet. Below is the French version. 
+</section>
+<section id="page">
+<h1 id="faire-une-pull-request-sur-github">Faire une pull request sur Github</h1>
+<p>Nous prendrons comme exemple le site de l'Association Sans Nom.</p>
+<h2 id="fork">Fork</h2>
+<p>Faites un fork du <a href="https://github.com/asn42/website/">dépôt original</a> en utilisant le
+bouton <em>Fork</em>.</p>
+<p><img src="/activities/discussions/documentation/free-software/pull-request/fork_button.png" alt="Bouton fork sur Github" /></p>
+<h2 id="clone">Clone</h2>
+<p><a href="https://www.git-scm.com/docs/git-clone">Clonez</a> votre nouveau dépôt (le fork).</p>
+<h3 id="ssh">SSH</h3>
+<p>Si vous avez <a href="https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account">ajouté une clé ssh à votre compte
+Github</a> :</p>
+<p><img src="/activities/discussions/documentation/free-software/pull-request/clone_ssh.png" alt="Copier le lien ssh vers le dépôt Github" /></p>
+<pre style="background-color:#2b303b;">
+<span style="color:#bf616a;">git</span><span style="color:#c0c5ce;"> clone git@github.com:username/website.git
+</span></pre><h3 id="https">HTTPS</h3>
+<p>Sinon :</p>
+<p><img src="/activities/discussions/documentation/free-software/pull-request/clone_https.png" alt="Copier le lien https vers le dépôt Github" /></p>
+<pre style="background-color:#2b303b;">
+<span style="color:#bf616a;">git</span><span style="color:#c0c5ce;"> clone https://github.com/username/website.git
+</span></pre><h2 id="remote">Remote</h2>
+<p>Ajoutez comme remote l'adresse HTTPS du dépôt original (on l'appellera
+<em>upstream</em>) :</p>
+<pre style="background-color:#2b303b;">
+<span style="color:#bf616a;">git</span><span style="color:#c0c5ce;"> add remote upstream https://github.com/asn42/website.git
+</span></pre><h2 id="branche">Branche</h2>
+<p>Après avoir <a href="https://git-scm.com/docs/git-fetch">synchronisé</a> la branch
+<em>master</em> du remote <em>upstream</em>, créez <a href="https://git-scm.com/docs/git-branch">une nouvelle
+branche</a> depuis celle-ci et <a href="https://git-scm.com/docs/git-checkout">passez
+dessus</a> pour travailler sur un bug ou
+une fonctionnalité :</p>
+<pre style="background-color:#2b303b;">
+<span style="color:#bf616a;">git</span><span style="color:#c0c5ce;"> fetch upstream master
+</span><span style="color:#bf616a;">git</span><span style="color:#c0c5ce;"> checkout upstream/master
+</span><span style="color:#bf616a;">git</span><span style="color:#c0c5ce;"> checkout</span><span style="color:#bf616a;"> -b</span><span style="color:#c0c5ce;"> photo_de_chat
+</span></pre><h2 id="modifications">Modifications</h2>
+<p>Modifiez ensuite le contenu ou le code en essayant de faire des messages de
+<a href="https://git-scm.com/docs/git-commit">commit</a> explicites.</p>
+<pre style="background-color:#2b303b;">
+<span style="color:#bf616a;">cp ~</span><span style="color:#c0c5ce;">/Téléchargements/chaton.jpg content/chaton.jpg
+</span><span style="color:#bf616a;">vi</span><span style="color:#c0c5ce;"> content/_index.md
+</span><span style="color:#bf616a;">git</span><span style="color:#c0c5ce;"> add content/_index.md content/chaton.jpg
+</span><span style="color:#bf616a;">git</span><span style="color:#c0c5ce;"> commit</span><span style="color:#bf616a;"> -m </span><span style="color:#c0c5ce;">&quot;</span><span style="color:#a3be8c;">ajoute une photo de chaton sur la page d&#39;accueil</span><span style="color:#c0c5ce;">&quot;
+</span></pre><h2 id="garder-la-branche-a-jour">Garder la branche à jour</h2>
+<p>Si des modifications ont été fait sur le dépôt original pendant que vous
+travailliez dans votre branche, vous pouvez mettre à jour votre branche
+<em>master</em> et les récupérer dans votre branche :</p>
+<pre style="background-color:#2b303b;">
+<span style="color:#bf616a;">git</span><span style="color:#c0c5ce;"> checkout master
+</span><span style="color:#bf616a;">git</span><span style="color:#c0c5ce;"> pull upstream master
+</span><span style="color:#bf616a;">git</span><span style="color:#c0c5ce;"> push origin master
+</span><span style="color:#bf616a;">git</span><span style="color:#c0c5ce;"> checkout photo_de_chat
+</span><span style="color:#bf616a;">git</span><span style="color:#c0c5ce;"> rebase master
+</span></pre><h3 id="conflits">Conflits</h3>
+<p>Si des modifications qui ont été faites sur la branche master entrent en
+conflit avec vos modifications, <a href="https://help.github.com/en/articles/resolving-a-merge-conflict-using-the-command-line">résolvez les
+conflits</a>,
+puis continuez le <em>rebase</em>.</p>
+<pre style="background-color:#2b303b;">
+<span style="color:#bf616a;">git</span><span style="color:#c0c5ce;"> rebase</span><span style="color:#bf616a;"> --continue
+</span></pre><h2 id="push">Push</h2>
+<p>Quand vous êtes satisfait de vos modifications, envoyez les sur votre dépôt :</p>
+<pre style="background-color:#2b303b;">
+<span style="color:#bf616a;">git</span><span style="color:#c0c5ce;"> push origin photo_de_chat
+</span></pre><h2 id="pull-request">Pull request</h2>
+<p>Enfin, faites une pull request sur Github.</p>
+<p>Si vous avez poussé vos commits sur la branche récemment, un bouton <em>Compare &amp;
+pull request</em> pour cette branche est directement visible.</p>
+<p><img src="/activities/discussions/documentation/free-software/pull-request/recent_change.png" alt="Bouton pull request pour une branche récemment poussée sur Github" /></p>
+<p>Sinon, passez sur la branche en question et utilisez le bouton <em>New pull
+request</em>.</p>
+<p><img src="/activities/discussions/documentation/free-software/pull-request/branch_photo_de_chat.png" alt="Voir la branche photo_de_chat sur Github" /></p>
+<p><img src="/activities/discussions/documentation/free-software/pull-request/pull_request_button.png" alt="Bouton pull request sur Github" /></p>
+<p>Vous pouvez ajouter des commentaires à la pull request, puis la soumettre en
+cliquant sur le bouton <em>Create pull request</em>.</p>
+<p><img src="/activities/discussions/documentation/free-software/pull-request/pull_request.png" alt="Formulaire de pull request sur Github" /></p>
+<h2 id="corrections">Corrections</h2>
+<p>Si vous avez des améliorations ou des corrections à faire à votre pull request,
+ou si on vous demande d'y changer quelque chose pour qu'elle puisse être
+acceptée, vous pouvez ajouter des commits ou en modifier sur la branche sur
+laquelle vous avez travaillé. Cela sera appliqué à la pull request.</p>
+
+</section>
+
+
+        </main>
+
+
+        <footer id="footer">
+            <p><span class="copyleft">Copyleft</span> 2017-2020 Association Sans Nom and contributors - <a href="https://github.com/asn42/website">source code</a> (<a href="https://github.com/asn42/website/blob/master/content/activities/discussions/documentation/free-software/pull-request/index.en.md">this page</a>) - <a href="/en/activities/services/website-sansnom-org/">documentation</a></p>
+        </footer>
+
+
+
+<script src="/js/youtube.js"></script>
+
+    </body>
+</html>

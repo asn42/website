@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Réunion du 2019-03-19 - Association Sans Nom, Libre et sécurité à 42</title>
+        <meta name="description" content="Compte rendu de la réunion du 19 mars 2019 de l'ASN, l'association étudiante de 42 pour tout ce qui touche au Libre et à la sécurité !">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="manifest" href="/fr.site.webmanifest">
+        <link rel="apple-touch-icon" href="/icon.png">
+        <link rel="icon" href="/favicon.ico">
+
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="&#x2F;fr&#x2F;rss.xml">
+
+
+        <link rel="stylesheet" href="/main.css">
+
+    </head>
+    <body>
+
+        <nav id="menu">
+            <div id="logo">
+                <a href="/">
+                    <img src="/images/logo.svg" alt="Logo ASN">
+                    <div>
+                        <h1>Association Sans Nom</h1>
+                        <p>Libre et sécurité à 42</p>
+                    </div>
+                </a>
+            </div>
+
+            <div id="menulinks">
+                <a href="/activities/">Activités</a>
+                <a href="/contact/">Discussions</a>
+                <a href="/membership/">Adhésion</a>
+                <a href="/status/">Statuts</a>
+            </div>
+
+        </nav>
+        <nav id="context">
+
+
+
+
+<a href="&#x2F;en&#x2F;activities&#x2F;association&#x2F;meetings&#x2F;meeting-2019-03-19&#x2F;">English</a>
+
+
+
+
+  
+  
+    
+  
+    <a href="/">asn</a>
+  
+  
+    
+  
+    <a href="/activities/">nos activités</a>
+  
+  
+    
+  
+    <a href="/activities/association/">vie et évolution de l'association</a>
+  
+  
+    
+  
+    <a href="/activities/association/meetings/">réunions et ag</a>
+  
+  
+    <a>réunion du 2019-03-19</a>
+
+        </nav>
+        <main class="container">
+
+
+<section id="date">
+
+  Mardi 19 mars 2019
+
+</section>
+
+
+
+<section id="page">
+<h1 id="asn-compte-rendu-de-la-reunion-du-19-mars-2019">ASN - Compte rendu de la réunion du 19 mars 2019</h1>
+<p>Nombre de participants : une douzaine dont 2 ou 3 en remote</p>
+<h2 id="1-avancement-des-demarches-administratives">1) Avancement des démarches administratives</h2>
+<p>Nous avons une assurance (comme demandé par 42 pour pouvoir réserver des salles
+dans l'établissement).
+Nous avons choisi une police d'assurance de la MAE qui coute environ 32€, soit
+environ 28€ et quelque pour cette année parce qu'elle ne commençait pas en
+janvier.</p>
+<p>Il faudra ajouter la signature du trésorier au compte en banque.</p>
+<h2 id="2-serveur">2) Serveur</h2>
+<p>Nous allons essayer de nous faire sponsoriser notre serveur.</p>
+<ul>
+<li>Soit par OVH (en recontactant le type avec qui pk avait parlé)</li>
+<li>Soit par Free (le contact de Charly ne répond pas, mais il y a d'autres pistes)</li>
+<li>Soit par Octopuce (@thifranc se propose de demander)</li>
+</ul>
+<p>Nous avons défini une config de base qui pourrait nous aller pour le serveur :</p>
+<ul>
+<li>server dédié</li>
+<li>4 cœurs</li>
+<li>8 / 16 Go RAM</li>
+<li>2 * 500 Go HDD</li>
+</ul>
+<h2 id="3-documentation">3) Documentation</h2>
+<p>pk est en train d'écrire de la documentation directement sur le site. Ce n'est
+pas encore prêt mais il va le mettre en ligne quelques jours après la réunion.
+Tout le monde pourra proposer des modifications via Github.</p>
+<h2 id="4-adminsys">4) AdminSys</h2>
+<p>Il faudra noter les gens intéressés pour participer à l'installation et
+l'administration du serveur.
+On pourra se retrouver en cluster pour bosser dessus ensemble. Ça permettra que
+tout le monde comprenne à peu près comment ça fonctionne, et on pourra écrire
+la documentation en même temps.</p>
+<p>Il y a aussi quelques choix techniques à faire pour lesquels les décisions
+seront prises entre les gens qui vont s'en occuper (et éventuellement la
+maitrise qu'ils ont des technos en question). On a par exemple discuté de
+l'utilisation de conteneurs ou de VMs.</p>
+<h2 id="5-services">5) Services</h2>
+<p>Nous allons aussi faire une liste de services qu'on voudrait sur le serveur.
+Lorsqu'on a parlé de serveur mail et de LDAP, certains ont revu Roger Skyline 2
+passer devant leurs yeux avec un rictus de souffrance :P</p>
+<ul>
+<li>DNS (?)</li>
+<li>Mail (OpenSMTPd/Postfix/Exim, Dovecote (?), DKIM, spamd/SpamAssassin, clamav (?) …)</li>
+<li>LDAP (OpenLDAP) ?</li>
+<li>Le site statique</li>
+<li>Git Web (Gitea/Gitlab…)</li>
+<li>CTF (CTFd + challenges)</li>
+<li>Partage de fichiers (Nextcloud/Owncloud…)</li>
+<li>Agenda (Nextcloud/Radical…)</li>
+<li>Gestion des membres (Galette… ou un truc mieux)</li>
+<li>Gestion d'une base de liens et ressources dans laquelle on peut chercher</li>
+<li>Discussion en direct (Matrix.org/jabber/IRC)</li>
+<li>Discussion pas en direct (Mailman 3/Sympa, Flarum/Discourse)</li>
+</ul>
+<h2 id="6-lock-picking">6) Lock picking</h2>
+<p>pk s'occupe seul des ateliers lock picking.
+Il préfèrerait partager cette tache avec d'autres et pouvoir s'engager sur
+d'autres activités (et que ça ne s'arrête pas quand il ne sera plus là).
+Plusieurs membres ont proposé d'alterner. pk peut faire une séance de formation
+des organisateurs (rien de bien compliqué, il n'y a pas besoin d'arriver à
+ouvrir une serrure pour expliquer comment on fait :P).</p>
+<h2 id="7-pas-sage-en-seine">7) Pas Sage en Seine</h2>
+<p>Il y a eu un appel pour organiser un atelier lock picknig à Pas Sage en Seine,
+comme il y a 2 ans (où nous avions aidé à le faire avec Dylan). pk pense que ça
+pourrait être intéressant, mais pas tout seul.</p>
+<p>Il voudrait aussi avoir un stand pour présenter l'ASN (comme il y a deux ans
+également) mais… il faudrait qu'il y ait plusieurs personnes. Il n'y a pas
+d'obligation de rester sur le stand tout le temps mais ça ne sert à rien d'en
+avoir un si il est vide en permanence.</p>
+<p>L'évènement dure 5 jours, mais on peut y être un seul jour, ou deux, trois,
+quatre, cinq… comme on veut ; il faut juste le dire.</p>
+<p>Il y a une salle de conf, la salle en bas avec les stands et des ateliers, et
+des food truck à côté. C'est assez dans l'esprit hacker / fait main. Ça parle
+autant de technique que de politique ou de comment faire son pain :D.</p>
+<h2 id="8-lehack">8) leHACK</h2>
+<p>pk et Kara s'en occupent et attendent que les choses se débloquent au niveau de
+l'orga/l'ADM pour lancer les choses.</p>
+<p>On aura encore des étudiants bénévoles, mais cette année, on s'occupera de
+peupler le stand de 42 avec des membres de l'ASN, ou au moins intéressés par la
+sécu et capables d'en parler.</p>
+
+</section>
+
+
+        </main>
+
+
+        <footer id="footer">
+            <p><span class="copyleft">Copyleft</span> 2017-2020 Association Sans Nom et contributeurs - <a href="https://github.com/asn42/website">code source</a> (<a href="https://github.com/asn42/website/blob/master/content/activities/association/meetings/meeting-2019-03-19/index.fr.md">cette page</a>) - <a href="/activities/services/website-sansnom-org/">documentation</a></p>
+        </footer>
+
+
+
+<script src="/js/youtube.js"></script>
+
+    </body>
+</html>

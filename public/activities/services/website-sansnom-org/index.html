@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Site web de l'association - Association Sans Nom, Libre et sécurité à 42</title>
+        <meta name="description" content="Documentation à propos du site de l'ASN, l'association étudiante de 42 pour tout ce qui touche au Libre et à la sécurité !">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="manifest" href="/fr.site.webmanifest">
+        <link rel="apple-touch-icon" href="/icon.png">
+        <link rel="icon" href="/favicon.ico">
+
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="&#x2F;fr&#x2F;rss.xml">
+
+
+        <link rel="stylesheet" href="/main.css">
+
+    </head>
+    <body>
+
+        <nav id="menu">
+            <div id="logo">
+                <a href="/">
+                    <img src="/images/logo.svg" alt="Logo ASN">
+                    <div>
+                        <h1>Association Sans Nom</h1>
+                        <p>Libre et sécurité à 42</p>
+                    </div>
+                </a>
+            </div>
+
+            <div id="menulinks">
+                <a href="/activities/">Activités</a>
+                <a href="/contact/">Discussions</a>
+                <a href="/membership/">Adhésion</a>
+                <a href="/status/">Statuts</a>
+            </div>
+
+        </nav>
+        <nav id="context">
+
+
+
+
+<a href="&#x2F;en&#x2F;activities&#x2F;services&#x2F;website-sansnom-org&#x2F;">English</a>
+
+
+
+
+  
+  
+    
+  
+    <a href="/">asn</a>
+  
+  
+    
+  
+    <a href="/activities/">nos activités</a>
+  
+  
+    
+  
+    <a href="/activities/services/">nos services</a>
+  
+    <a>site web de l'association</a>
+
+        </nav>
+        <main class="container">
+
+
+  <section id="section">
+  <h1 id="contribuer-au-site-de-l-asn">Contribuer au site de l'ASN</h1>
+<h2 id="code-source">Code source</h2>
+<p>Le code source de ce site web est <a href="https://github.com/asn42/website/">disponible sur Github</a>. Il y a un lien vers la source des différentes pages <a href="/activities/services/website-sansnom-org/#footer">en bas de
+celles-ci</a>.</p>
+<h2 id="soumettre-une-contribution">Soumettre une contribution</h2>
+<p>Pour proposer une modification, faites une <a href="/activities/discussions/documentation/free-software/pull-request/">pull request sur
+github</a>.</p>
+<h2 id="prerequis">Prérequis</h2>
+<p>Récupérez la dernière version du générateur de site statique <em>zola</em> <a href="https://www.getzola.org/documentation/getting-started/installation/">depuis son
+site
+officiel</a>.</p>
+<h2 id="generer-le-site-statique">Générer le site statique</h2>
+<p>Note: Le système de fichier HFS+ d'Apple gère bizarrement les caractères
+accentués dans les noms de fichiers.
+À 42, ça devrait fonctionner en clonant le dépôt du site dans un
+sous-répertoire de <code>/sgoinfre/goinfre/Perso/xlogin/</code>.</p>
+<h3 id="essayer-le-site-web-localement">Essayer le site web localement</h3>
+<pre style="background-color:#2b303b;">
+<span style="color:#bf616a;">zola</span><span style="color:#c0c5ce;"> serve
+</span></pre>
+<p>et ouvrez <a href="http://127.0.0.1:1111/">127.0.0.1:1111</a> dans un navigateur.
+Le site devrait être régénéré et rechargé automatiquement à chaque modification
+de fichiers.</p>
+<h3 id="generer-le-site-statique-manuellement">Générer le site statique manuellement</h3>
+<h4 id="mettre-a-jour-les-statuts-optionnel">Mettre à jour les statuts (optionnel)</h4>
+<pre style="background-color:#2b303b;">
+<span style="color:#bf616a;">git</span><span style="color:#c0c5ce;"> submodule update</span><span style="color:#bf616a;"> --init
+git</span><span style="color:#c0c5ce;"> submodule update</span><span style="color:#bf616a;"> --remote
+remote-sources/statuts-update.sh
+</span></pre><h4 id="generer-les-fichiers-dans-public">Générer les fichiers dans <code>/public</code></h4>
+<pre style="background-color:#2b303b;">
+<span style="color:#bf616a;">zola</span><span style="color:#c0c5ce;"> build
+</span></pre><h2 id="zola-et-tera">zola et Tera</h2>
+<p>La documentation de zola <a href="https://www.getzola.org/documentation/content/overview/">à propos des fichiers
+markdown</a>, ainsi que
+<a href="https://www.getzola.org/documentation/templates/overview/">celle à propos des
+templates</a> et <a href="https://tera.netlify.com/docs/templates/#templates">celle
+de Tera</a> peuvent être
+utiles (beaucoup de fonctions de Tera ne sont pas explicitées dans la
+documentation de zola mais elles peuvent être utilisées directement dans les
+templates).</p>
+</section><section>
+<h1 id="mise-a-jour-automatique-du-site">Mise à jour automatique du site</h1>
+<p>Le site est mis à jour lorsqu'un commit est poussé sur la branche <code>static</code> sur
+Github, ce qui déclenche un <a href="https://developer.github.com/webhooks/">webhook</a>.
+<a href="https://travis-ci.com/">TravisCI</a> se charge de pousser ce commit sur la
+branche <code>static</code> lorsqu'un commit valide est poussé sur la branche <code>master</code>.</p>
+<p>Configuration de travis :</p>
+<pre style="background-color:#2b303b;">
+<span style="color:#c0c5ce;">language: minimal
+
+before_script:
+  # Download and unzip the zola executable
+  - curl -s -L https://github.com/getzola/zola/releases/download/v0.6.0/zola-v0.6.0-x86_64-unknown-linux-gnu.tar.gz | sudo tar xzf - -C /usr/local/bin
+
+script:
+  - zola build
+
+after_success: |
+  [ $TRAVIS_BRANCH = master ] &amp;&amp;
+  [ $TRAVIS_PULL_REQUEST = false ] &amp;&amp;
+  zola build &amp;&amp;
+  git checkout --orphan static &amp;&amp;
+  git rm --cached -r . &amp;&amp;
+  git add -f public &amp;&amp;
+  git commit -m &#39;Site statique&#39;
+  git push -fq https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git static
+</span></pre>
+<p>Script chargé de réceptionner le webhook :</p>
+<pre style="background-color:#2b303b;">
+<span style="color:#65737e;">#!/usr/bin/env python3
+
+</span><span style="color:#b48ead;">from </span><span style="color:#c0c5ce;">os </span><span style="color:#b48ead;">import </span><span style="color:#c0c5ce;">getenv </span><span style="color:#b48ead;">as </span><span style="color:#c0c5ce;">os_getenv
+</span><span style="color:#b48ead;">from </span><span style="color:#c0c5ce;">subprocess </span><span style="color:#b48ead;">import </span><span style="color:#c0c5ce;">run </span><span style="color:#b48ead;">as </span><span style="color:#c0c5ce;">run_subp
+
+</span><span style="color:#b48ead;">from </span><span style="color:#c0c5ce;">http.server </span><span style="color:#b48ead;">import </span><span style="color:#c0c5ce;">BaseHTTPRequestHandler, HTTPServer
+</span><span style="color:#b48ead;">from </span><span style="color:#c0c5ce;">urllib.parse </span><span style="color:#b48ead;">import </span><span style="color:#c0c5ce;">urlparse
+</span><span style="color:#b48ead;">import </span><span style="color:#c0c5ce;">json
+
+</span><span style="color:#b48ead;">import </span><span style="color:#c0c5ce;">base64
+</span><span style="color:#b48ead;">import </span><span style="color:#c0c5ce;">hmac
+</span><span style="color:#b48ead;">import </span><span style="color:#c0c5ce;">string
+</span><span style="color:#b48ead;">from </span><span style="color:#c0c5ce;">hashlib </span><span style="color:#b48ead;">import </span><span style="color:#c0c5ce;">sha1
+
+</span><span style="color:#b48ead;">def </span><span style="color:#8fa1b3;">create_hex_hmac</span><span style="color:#c0c5ce;">(</span><span style="color:#bf616a;">secret</span><span style="color:#c0c5ce;">, </span><span style="color:#bf616a;">message</span><span style="color:#c0c5ce;">):
+    new_hmac = hmac.</span><span style="color:#bf616a;">new</span><span style="color:#c0c5ce;">(</span><span style="color:#bf616a;">bytes</span><span style="color:#c0c5ce;">(secret, &#39;</span><span style="color:#a3be8c;">utf-8</span><span style="color:#c0c5ce;">&#39;), </span><span style="color:#bf616a;">digestmod</span><span style="color:#c0c5ce;">=sha1)
+    new_hmac.</span><span style="color:#bf616a;">update</span><span style="color:#c0c5ce;">(</span><span style="color:#bf616a;">bytes</span><span style="color:#c0c5ce;">(message, &#39;</span><span style="color:#a3be8c;">utf-8</span><span style="color:#c0c5ce;">&#39;))
+    </span><span style="color:#b48ead;">return </span><span style="color:#c0c5ce;">new_hmac.</span><span style="color:#bf616a;">hexdigest</span><span style="color:#c0c5ce;">()
+
+</span><span style="color:#b48ead;">class </span><span style="color:#ebcb8b;">RequestHandler</span><span style="color:#eff1f5;">(</span><span style="color:#a3be8c;">BaseHTTPRequestHandler</span><span style="color:#eff1f5;">):
+    </span><span style="color:#b48ead;">def </span><span style="color:#8fa1b3;">do_POST</span><span style="color:#c0c5ce;">(</span><span style="color:#bf616a;">self</span><span style="color:#c0c5ce;">):
+        content_len = </span><span style="color:#bf616a;">int</span><span style="color:#c0c5ce;">(</span><span style="color:#bf616a;">self</span><span style="color:#c0c5ce;">.headers.</span><span style="color:#bf616a;">get</span><span style="color:#c0c5ce;">(&#39;</span><span style="color:#a3be8c;">content-length</span><span style="color:#c0c5ce;">&#39;))
+        post_body = </span><span style="color:#bf616a;">self</span><span style="color:#c0c5ce;">.rfile.</span><span style="color:#bf616a;">read</span><span style="color:#c0c5ce;">(content_len)
+
+        header_hash = </span><span style="color:#bf616a;">self</span><span style="color:#c0c5ce;">.headers.</span><span style="color:#bf616a;">get</span><span style="color:#c0c5ce;">(&#39;</span><span style="color:#a3be8c;">X-Hub-Signature</span><span style="color:#c0c5ce;">&#39;)
+        computed_hash = &#39;</span><span style="color:#a3be8c;">sha1=</span><span style="color:#c0c5ce;">&#39; + </span><span style="color:#bf616a;">create_hex_hmac</span><span style="color:#c0c5ce;">(</span><span style="color:#bf616a;">os_getenv</span><span style="color:#c0c5ce;">(&#39;</span><span style="color:#a3be8c;">SECRET</span><span style="color:#c0c5ce;">&#39;, &#39;&#39;),
+                                                  post_body.</span><span style="color:#bf616a;">decode</span><span style="color:#c0c5ce;">(&quot;</span><span style="color:#a3be8c;">utf-8</span><span style="color:#c0c5ce;">&quot;))
+
+        </span><span style="color:#b48ead;">if </span><span style="color:#c0c5ce;">header_hash != computed_hash :
+            </span><span style="color:#96b5b4;">print</span><span style="color:#c0c5ce;">(&#39;</span><span style="color:#a3be8c;">Wrong hash</span><span style="color:#c0c5ce;">&#39;)
+            </span><span style="color:#bf616a;">self</span><span style="color:#c0c5ce;">.</span><span style="color:#bf616a;">send_response</span><span style="color:#c0c5ce;">(</span><span style="color:#d08770;">403</span><span style="color:#c0c5ce;">)
+            </span><span style="color:#bf616a;">self</span><span style="color:#c0c5ce;">.</span><span style="color:#bf616a;">end_headers</span><span style="color:#c0c5ce;">()
+            </span><span style="color:#b48ead;">return
+
+        else </span><span style="color:#c0c5ce;">:
+            </span><span style="color:#96b5b4;">print</span><span style="color:#c0c5ce;">(&#39;</span><span style="color:#a3be8c;">Wright hash</span><span style="color:#c0c5ce;">&#39;)
+            </span><span style="color:#bf616a;">self</span><span style="color:#c0c5ce;">.</span><span style="color:#bf616a;">send_response</span><span style="color:#c0c5ce;">(</span><span style="color:#d08770;">200</span><span style="color:#c0c5ce;">)
+            </span><span style="color:#bf616a;">self</span><span style="color:#c0c5ce;">.</span><span style="color:#bf616a;">end_headers</span><span style="color:#c0c5ce;">()
+            data = json.</span><span style="color:#bf616a;">loads</span><span style="color:#c0c5ce;">(post_body.</span><span style="color:#bf616a;">decode</span><span style="color:#c0c5ce;">(&quot;</span><span style="color:#a3be8c;">utf-8</span><span style="color:#c0c5ce;">&quot;))
+            </span><span style="color:#b48ead;">if </span><span style="color:#c0c5ce;">(data.</span><span style="color:#bf616a;">get</span><span style="color:#c0c5ce;">(&#39;</span><span style="color:#a3be8c;">ref</span><span style="color:#c0c5ce;">&#39;, &#39;&#39;) == &#39;</span><span style="color:#a3be8c;">refs/heads/static</span><span style="color:#c0c5ce;">&#39;) :
+                </span><span style="color:#96b5b4;">print</span><span style="color:#c0c5ce;">(&#39;</span><span style="color:#a3be8c;">Updating ASN website…</span><span style="color:#c0c5ce;">&#39;)
+                </span><span style="color:#bf616a;">run_subp</span><span style="color:#c0c5ce;">([&#39;</span><span style="color:#a3be8c;">git</span><span style="color:#c0c5ce;">&#39;, &#39;</span><span style="color:#a3be8c;">fetch</span><span style="color:#c0c5ce;">&#39;, &#39;</span><span style="color:#a3be8c;">origin</span><span style="color:#c0c5ce;">&#39;, &#39;</span><span style="color:#a3be8c;">static</span><span style="color:#c0c5ce;">&#39;])
+                </span><span style="color:#bf616a;">run_subp</span><span style="color:#c0c5ce;">([&#39;</span><span style="color:#a3be8c;">git</span><span style="color:#c0c5ce;">&#39;, &#39;</span><span style="color:#a3be8c;">checkout</span><span style="color:#c0c5ce;">&#39;, &#39;</span><span style="color:#a3be8c;">origin/static</span><span style="color:#c0c5ce;">&#39;])
+            </span><span style="color:#b48ead;">return
+
+if </span><span style="color:#c0c5ce;">__name__ == &#39;</span><span style="color:#a3be8c;">__main__</span><span style="color:#c0c5ce;">&#39;:
+    server = </span><span style="color:#bf616a;">HTTPServer</span><span style="color:#c0c5ce;">((&#39;</span><span style="color:#a3be8c;">localhost</span><span style="color:#c0c5ce;">&#39;, </span><span style="color:#d08770;">21901</span><span style="color:#c0c5ce;">), RequestHandler)
+    </span><span style="color:#96b5b4;">print</span><span style="color:#c0c5ce;">(&#39;</span><span style="color:#a3be8c;">Starting server at http://localhost:21901</span><span style="color:#c0c5ce;">&#39;)
+server.</span><span style="color:#bf616a;">serve_forever</span><span style="color:#c0c5ce;">()
+</span></pre>
+<p>Il est géré par le <a href="https://www.freedesktop.org/software/systemd/man/systemd.service.html">service
+systemd</a>
+ci-dessous :</p>
+<pre style="background-color:#2b303b;">
+<span style="color:#b48ead;">[Unit]
+</span><span style="color:#bf616a;">Description</span><span style="color:#c0c5ce;">=a server to update ASN website </span><span style="color:#d08770;">on</span><span style="color:#c0c5ce;"> Github webhook trigger
+</span><span style="color:#bf616a;">After</span><span style="color:#c0c5ce;">=nginx.service
+</span><span style="color:#b48ead;">
+[Service]
+</span><span style="color:#bf616a;">Type</span><span style="color:#c0c5ce;">=simple
+</span><span style="color:#bf616a;">Environment</span><span style="color:#c0c5ce;">=</span><span style="color:#a3be8c;">&quot;SECRET=MyFavoriteColorIsOrange&quot;
+</span><span style="color:#bf616a;">WorkingDirectory</span><span style="color:#c0c5ce;">=/path/to/sites/sansnom.org
+</span><span style="color:#bf616a;">Environment</span><span style="color:#c0c5ce;">=</span><span style="color:#a3be8c;">&quot;PATH=/bin:/usr/bin&quot;
+</span><span style="color:#bf616a;">ExecStart</span><span style="color:#c0c5ce;">=/usr/bin/python3 /path/to/sites/website-update.sansnom.org/server.py
+</span><span style="color:#bf616a;">User</span><span style="color:#c0c5ce;">=www-data
+</span><span style="color:#bf616a;">Group</span><span style="color:#c0c5ce;">=www-data
+</span><span style="color:#bf616a;">PrivateTmp</span><span style="color:#c0c5ce;">=</span><span style="color:#d08770;">true
+</span><span style="color:#bf616a;">ProtectSystem</span><span style="color:#c0c5ce;">=full
+</span><span style="color:#bf616a;">ProtectHome</span><span style="color:#c0c5ce;">=</span><span style="color:#d08770;">true
+</span><span style="color:#b48ead;">
+[Install]
+</span><span style="color:#bf616a;">WantedBy</span><span style="color:#c0c5ce;">=multi-user.target
+</span></pre>
+<p><a href="https://nginx.org/">Nginx</a> est utilisé comme reverse proxy devant le serveur
+avec cette configuration :</p>
+<pre style="background-color:#2b303b;">
+<span style="color:#c0c5ce;"># website-update.sansnom.org server configuration
+#
+
+upstream asn-website-update {
+    server localhost:21901 max_fails=0;
+}
+
+server {
+    include snippets/https-listen.conf;
+
+    access_log /var/log/nginx/website-update.sansnom.org.access.log;
+    error_log /var/log/nginx/website-update.sansnom.org.error.log;
+
+    root /path/to/sites/website-update.sansnom.org/public;
+
+    index index.html;
+    autoindex on;
+
+    server_name website-update.sansnom.org;
+
+    ssl_certificate /path/to/certs/website-update.sansnom.org/fullchain.pem;
+    ssl_certificate_key /path/to/certs/website-update.sansnom.org/privkey.pem;
+
+    ssl_trusted_certificate /path/to/certs/website-update.sansnom.org/fullchain.pem;
+    ssl_stapling_file /path/to/certs/website-update.sansnom.org/ocsp.der;
+
+    location / {
+        proxy_pass http://asn-website-update;
+        proxy_redirect off;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto https;
+    }
+
+    include snippets/letsencrypt-location.conf;
+}
+
+server {
+    include snippets/http-listen.conf;
+
+    access_log /var/log/nginx/website-update.sansnom.org.access.log;
+    error_log /var/log/nginx/website-update.sansnom.org.error.log;
+
+    root /path/to/sites/website-update.sansnom.org/public;
+
+    server_name website-update.sansnom.org;
+
+    include snippets/letsencrypt-location.conf;
+
+    include snippets/https-redirect.conf;
+}
+</span></pre>
+<p>/etc/nginx/snippets/https-listen.conf</p>
+<pre style="background-color:#2b303b;">
+<span style="color:#c0c5ce;">    listen 443 ssl http2;
+    listen [::]:443 ssl http2;
+</span></pre>
+<p>/etc/nginx/snippets/https-redirect.conf</p>
+<pre style="background-color:#2b303b;">
+<span style="color:#c0c5ce;">    location / {
+        return 301 https://$host$request_uri;
+        access_log off;
+    }
+</span></pre>
+<p>/etc/nginx/snippets/http-listen.conf</p>
+<pre style="background-color:#2b303b;">
+<span style="color:#c0c5ce;">    listen 80;
+    listen [::]:80;
+</span></pre>
+<p>/etc/nginx/snippets/letsencrypt-location.conf</p>
+<pre style="background-color:#2b303b;">
+<span style="color:#c0c5ce;">    location ^~ /.well-known/acme-challenge {
+        default_type &#39;text/plain&#39;;
+        alias /path/to/sites/dehydrated/public;
+    }
+</span></pre></section><section>
+<h1 id="licences">Licences</h1>
+<h2 id="site-de-l-association-sans-nom">Site de l'Association Sans Nom</h2>
+<blockquote>
+<p>asn-website - site web de l'Association Sans Nom
+Copyright © 2017-2019 Association Sans Nom et contributeurs</p>
+<p>asn-website est un logiciel libre : vous pouvez le redistribuer et/ou le
+modifier conformément aux dispositions de la licence GNU Affero General
+Public License telle que publiée par la Free Software Foundation, soit la
+version 3 de la Licence, soit (selon votre choix) toute version ultérieure.</p>
+<p>asn-website et distribué dans l'espoir qu'il soit utile, mais <strong>sans aucune
+garantie</strong> ; sans même la garantie implicite de <strong>qualité marchande</strong> ou
+d'<strong>adaptation</strong> à un <strong>usage particulier</strong>. Voir la GNU Affero General
+Public License pour plus de détails.</p>
+<p>Vous devriez avoir reçu un exemplaire de la GNU Affero General Public License
+avec asn-website. Dans le cas contraire, voir
+<a href="https://www.gnu.org/licenses/">https://www.gnu.org/licenses/</a>.</p>
+</blockquote>
+<h2 id="cadman-font">Cadman font</h2>
+<blockquote>
+<p>Copyright © 2018, Paul Miller.</p>
+<p>Cette fonte logicielle est licenciée sous la SIL Open Font License, version
+1.1.
+Cette licence est disponible avec une FAQ à : <a href="http://scripts.sil.org/OFL">http://scripts.sil.org/OFL</a></p>
+</blockquote>
+<h2 id="graduate-font">Graduate font</h2>
+<blockquote>
+<p>Copyright © 2012 par Eduardo Tunni (<a href="http://www.tipo.net.ar">http://www.tipo.net.ar</a>), avec le
+Reserved Font Name “Graduate”</p>
+<p>Cette fonte logicielle est licenciée sous la SIL Open Font License, version
+1.1.
+Cette licence est disponible avec une FAQ à : <a href="http://scripts.sil.org/OFL">http://scripts.sil.org/OFL</a></p>
+</blockquote>
+<h2 id="inconsolata-font">Inconsolata font</h2>
+<blockquote>
+<p>Copyright © 2006 (regular style) and 2012 (bold style) par The Inconsolata
+Project Authors.</p>
+<p>Regular style, Raphael Linus Levien.
+Bold style par Kirill Tkachev et the Cyreal foundry.</p>
+<p>Cette fonte logicielle est licenciée sous la SIL Open Font License, version
+1.1.
+Cette licence est disponible avec une FAQ à : <a href="http://scripts.sil.org/OFL">http://scripts.sil.org/OFL</a></p>
+</blockquote>
+<h2 id="salsa-font">Salsa font</h2>
+<blockquote>
+<p>Copyright © 2011 par John Vargas Beltrán (john.vargasbeltran@gmail.com), avec
+le Reserved Font Name Salsa.</p>
+<p>Cette fonte logicielle est licenciée sous la SIL Open Font License, version
+1.1.
+Cette licence est disponible avec une FAQ à : <a href="http://scripts.sil.org/OFL">http://scripts.sil.org/OFL</a></p>
+</blockquote>
+<h2 id="special-elite-font">Special Elite font</h2>
+<blockquote>
+<p>Copyright © 2010 by Brian J. Bonislawsky and Astigmatic (astigmatic.com)</p>
+<p>Cette fonte logicielle est licenciée sous la Apache License, version 2.0.
+Cette licence est disponible à <a href="http://www.apache.org/licenses/LICENSE-2.0">http://www.apache.org/licenses/LICENSE-2.0</a></p>
+</blockquote>
+<h2 id="suez-one-font">Suez One font</h2>
+<blockquote>
+<p>Copyright © 2016 par Michal Sahar.</p>
+<p>Cette fonte logicielle est licenciée sous la SIL Open Font License, version
+1.1.
+Cette licence est disponible avec une FAQ à : <a href="http://scripts.sil.org/OFL">http://scripts.sil.org/OFL</a></p>
+</blockquote>
+<h2 id="normalize-css">Normalize.css</h2>
+<blockquote>
+<p><a href="http://necolas.github.io/normalize.css/">Normalize.css</a> est publié sous la
+<a href="https://github.com/necolas/normalize.css/blob/master/LICENSE.fr.md">MIT
+license</a>
+par Nicolas Gallagher et Jonathan Neal.</p>
+</blockquote>
+<h2 id="icone-copyleft">Icône copyleft</h2>
+<blockquote>
+<p>L'icône copyleft est une version modifiée d'<a href="https://fontawesome.com/icons/copyright?style=regular">une icône de Font Awesome
+Free</a>.
+Elle est publiée sous la <a href="https://creativecommons.org/licenses/by/4.0/deed.fr">licence Creative Commons BY
+4.0</a>.</p>
+</blockquote>
+
+  
+  
+  </section>
+
+
+        </main>
+
+
+        <footer id="footer">
+            <p><span class="copyleft">Copyleft</span> 2017-2020 Association Sans Nom et contributeurs - <a href="https://github.com/asn42/website">code source</a> (<a href="https://github.com/asn42/website/blob/master/content/activities/services/website-sansnom-org/_index.md">cette page</a>) - <a href="/activities/services/website-sansnom-org/">documentation</a></p>
+        </footer>
+
+
+
+<script src="/js/youtube.js"></script>
+
+    </body>
+</html>

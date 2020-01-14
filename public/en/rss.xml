@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Association Sans Nom - Libre et sécurité à 42</title>
+        <link>/</link>
+        <description>ASN, l&#x27;association étudiante de 42 pour tout ce qui touche au Libre et à la sécurité !</description>
+        <generator>Zola</generator>
+        <language>fr</language>
+        <atom:link href="/en/rss.xml" rel="self" type="application/rss+xml"/>
+        <lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0000</lastBuildDate>
+        
+            <item>
+                <title>2020 FOSDEM</title>
+                <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+                <link>/en/activities/trips/fosdem/trip-2020/</link>
+                <guid>/en/activities/trips/fosdem/trip-2020/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Forty-second lock picking workshop at 42</title>
+                <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-42/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-42/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Fourty-fourth lock picking workshop at 42</title>
+                <pubDate>Tue, 29 Oct 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-41/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-41/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>DNS, when there are still problems (Bortzmeyer)</title>
+                <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/conferences/dns-bortzmeyer-2/</link>
+                <guid>/en/activities/conferences/dns-bortzmeyer-2/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Fortieth lock picking workshop at 42</title>
+                <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-40/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-40/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Thirty-ninth lock picking workshop at 42</title>
+                <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-39/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-39/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Second install party</title>
+                <pubDate>Wed, 16 Oct 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/install-party/party-42-2/</link>
+                <guid>/en/activities/workshops/install-party/party-42-2/</guid>
+                <description>&lt;h1 id=&quot;second-install-party-at-42-for-students-and-staff-members&quot;&gt;Second install party at 42 for students and staff members&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;en&#x2F;activities&#x2F;workshops&#x2F;install-party&#x2F;party-42-2&#x2F;header_install_party_2.svg&quot; alt=&quot;Second Association Sans Nom install party&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The &lt;a href=&quot;https:&#x2F;&#x2F;sansnom.org&quot;&gt;Association Sans Nom&lt;&#x2F;a&gt;, association about &lt;em&gt;Free-&lt;&#x2F;em&gt; (as
+in Freedom) and &lt;em&gt;security-related&lt;&#x2F;em&gt; stuff at 42, invites you to its second
+&lt;a href=&quot;&#x2F;en&#x2F;activities&#x2F;workshops&#x2F;install-party&#x2F;&quot;&gt;Install Party&lt;&#x2F;a&gt;.
+You want to &lt;strong&gt;install a Free operating system and Free Software on one your
+devices&lt;&#x2F;strong&gt; (computer, phone, raspberry pi…) ? We want to help you!
+&lt;strong&gt;Requests for advice&lt;&#x2F;strong&gt; and &lt;strong&gt;discussions&lt;&#x2F;strong&gt; are obviously welcome.
+If you want to &lt;strong&gt;lend a helping hand&lt;&#x2F;strong&gt;, it would also be greatly appreciated;
+let us know.
+&lt;em&gt;We encourage you to bring a little something to eat or drink, so that we can
+all share it together (sorry, we&#x27;re not offering pizza this time).&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;practical-information&quot;&gt;Practical information&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;em&gt;By&lt;&#x2F;em&gt; &lt;strong&gt;Association Sans Nom&lt;&#x2F;strong&gt; and people of goodwill who want to help,&lt;br &#x2F;&gt;
+&lt;em&gt;for&lt;&#x2F;em&gt; &lt;strong&gt;42 students and staff&lt;&#x2F;strong&gt;,&lt;br &#x2F;&gt;
+&lt;em&gt;on&lt;&#x2F;em&gt; &lt;strong&gt;Saturday, November 16&lt;&#x2F;strong&gt;, from 14:00 to 18:00,&lt;br &#x2F;&gt;
+&lt;em&gt;in&lt;&#x2F;em&gt; &lt;strong&gt;Terre du Milieu&lt;&#x2F;strong&gt;, 42 Paris.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;why-come&quot;&gt;Why come ?&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;To choose a system that satisfies you and free your device&lt;&#x2F;li&gt;
+&lt;li&gt;To share a moment together and talk, a (soft) drink in one hand&lt;&#x2F;li&gt;
+&lt;li&gt;To discover Free and Open Source Software, find interesting pieces of software and projects&lt;&#x2F;li&gt;
+&lt;li&gt;To meet Association Sans Nom, et maybe join us&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;You can ask your questions &lt;a href=&quot;&#x2F;en&#x2F;contact&#x2F;&quot;&gt;on slack&lt;&#x2F;a&gt; or &lt;a
+href=&quot;mailto:bureau@sansnom.org&quot;&gt;send an e-mail to the board of the
+association&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;If you can give us a few pieces of information beforehand by filling &lt;a href=&quot;https:&#x2F;&#x2F;framaforms.org&#x2F;install-party-2-avec-lassociation-sans-nom-1572862082#endprelude&quot;&gt;this
+form&lt;&#x2F;a&gt;,
+it would greatly help…&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+</description>
+            </item>
+        
+            <item>
+                <title>Thirty-eighth lock picking workshop at 42</title>
+                <pubDate>Thu, 03 Oct 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-38/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-38/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Thirty-seventh lock picking workshop at 42</title>
+                <pubDate>Thu, 26 Sep 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-37/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-37/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>2019-09-12 meeting</title>
+                <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/association/meetings/meeting-2019-09-12/</link>
+                <guid>/en/activities/association/meetings/meeting-2019-09-12/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Thirty-sixth lock picking workshop at 42</title>
+                <pubDate>Wed, 14 Aug 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-36/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-36/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>leHack 19</title>
+                <pubDate>Sat, 06 Jul 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/booth/le-hack/lehack-19/</link>
+                <guid>/en/activities/booth/le-hack/lehack-19/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>leHack 19</title>
+                <pubDate>Sat, 06 Jul 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/volunteering/le-hack/lehack-19/</link>
+                <guid>/en/activities/volunteering/le-hack/lehack-19/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Lock picking session at PSeS</title>
+                <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-pses-4/</link>
+                <guid>/en/activities/workshops/lock-picking/session-pses-4/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>2019 Passage en Seine</title>
+                <pubDate>Sat, 29 Jun 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/booth/passage-en-seine/pses-2019/</link>
+                <guid>/en/activities/booth/passage-en-seine/pses-2019/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Lock picking session at PSeS</title>
+                <pubDate>Sat, 29 Jun 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-pses-3/</link>
+                <guid>/en/activities/workshops/lock-picking/session-pses-3/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Thirty-fifth lock picking workshop at 42</title>
+                <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-35/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-35/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>First install party</title>
+                <pubDate>Fri, 17 May 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/install-party/party-42-1/</link>
+                <guid>/en/activities/workshops/install-party/party-42-1/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Thirty-fourth lock picking workshop at 42</title>
+                <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-34/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-34/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Thirty-third lock picking workshop at 42</title>
+                <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-33/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-33/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>2019-03-19 meeting</title>
+                <pubDate>Tue, 19 Mar 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/association/meetings/meeting-2019-03-19/</link>
+                <guid>/en/activities/association/meetings/meeting-2019-03-19/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Thirty-second lock picking workshop at 42</title>
+                <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-32/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-32/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Contributopia with Framasoft</title>
+                <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/conferences/framasoft-contributopia/</link>
+                <guid>/en/activities/conferences/framasoft-contributopia/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>2019 FOSDEM</title>
+                <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/trips/fosdem/trip-2019/</link>
+                <guid>/en/activities/trips/fosdem/trip-2019/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>2019-01-26 general assembly meeting</title>
+                <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/association/meetings/general-assembly-2019-01-26/</link>
+                <guid>/en/activities/association/meetings/general-assembly-2019-01-26/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>DNS, when there are problems (Bortzmeyer)</title>
+                <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/conferences/dns-bortzmeyer/</link>
+                <guid>/en/activities/conferences/dns-bortzmeyer/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Thirty-first lock picking workshop at 42</title>
+                <pubDate>Sat, 19 Jan 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-31/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-31/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Introduction to Free Software and Open Source</title>
+                <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
+                <link>/en/activities/conferences/introduction-libre-open-source/</link>
+                <guid>/en/activities/conferences/introduction-libre-open-source/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Thirtieth lock picking workshop at 42</title>
+                <pubDate>Tue, 18 Dec 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-30/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-30/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Twenty-ninth lock picking workshop at 42</title>
+                <pubDate>Thu, 29 Nov 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-29/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-29/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>2018 ASN introduction</title>
+                <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/conferences/asn-introduction-2018/</link>
+                <guid>/en/activities/conferences/asn-introduction-2018/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>2018-11-03 meeting</title>
+                <pubDate>Sat, 03 Nov 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/association/meetings/meeting-2018-11-03/</link>
+                <guid>/en/activities/association/meetings/meeting-2018-11-03/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Twenty-eighth lock picking workshop at 42</title>
+                <pubDate>Thu, 25 Oct 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-28/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-28/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Twenty-seventieth lock picking workshop at 42</title>
+                <pubDate>Sat, 20 Oct 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-27/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-27/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Night da Hack XVI</title>
+                <pubDate>Sat, 30 Jun 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/volunteering/le-hack/ndh-xvi/</link>
+                <guid>/en/activities/volunteering/le-hack/ndh-xvi/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Cryptography, because &quot;we have nothing to hide&quot;</title>
+                <pubDate>Wed, 06 Jun 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/conferences/introduction-cryptography/</link>
+                <guid>/en/activities/conferences/introduction-cryptography/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Twenty-sixth lock picking workshop at 42</title>
+                <pubDate>Mon, 04 Jun 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-26/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-26/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Twenty-fifth lock picking workshop at 42</title>
+                <pubDate>Sat, 19 May 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-25/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-25/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Twenty-fourth lock picking workshop at 42</title>
+                <pubDate>Sat, 28 Apr 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-24/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-24/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>CTF : how do you flag? (Synacktiv)</title>
+                <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/conferences/introduction-ctf/</link>
+                <guid>/en/activities/conferences/introduction-ctf/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Twenty-third lock picking workshop at 42</title>
+                <pubDate>Sat, 14 Apr 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-23/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-23/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>2018-04-07 meeting</title>
+                <pubDate>Sat, 07 Apr 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/association/meetings/meeting-2018-04-07/</link>
+                <guid>/en/activities/association/meetings/meeting-2018-04-07/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Twenty-second lock picking workshop at 42</title>
+                <pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-22/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-22/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Twenty-first lock picking workshop at 42</title>
+                <pubDate>Wed, 28 Mar 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-21/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-21/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Twentieth lock picking workshop at 42</title>
+                <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-20/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-20/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Nineteenth lock picking workshop at 42</title>
+                <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-19/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-19/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Eighteenth lock picking workshop at 42</title>
+                <pubDate>Sat, 03 Feb 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-18/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-18/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>2018 FOSDEM</title>
+                <pubDate>Thu, 01 Feb 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/trips/fosdem/trip-2018/</link>
+                <guid>/en/activities/trips/fosdem/trip-2018/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Seventeenth lock picking workshop at 42</title>
+                <pubDate>Sat, 20 Jan 2018 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-17/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-17/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Sixteenth lock picking workshop at 42</title>
+                <pubDate>Sat, 09 Dec 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-16/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-16/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Fiftieth lock picking workshop at 42</title>
+                <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-15/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-15/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Fortieth lock picking workshop at 42</title>
+                <pubDate>Sat, 11 Nov 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-14/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-14/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Thirteenth lock picking workshop at 42</title>
+                <pubDate>Thu, 19 Oct 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-13/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-13/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Twelfth lock picking workshop at 42</title>
+                <pubDate>Tue, 17 Oct 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-12/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-12/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>2017-10-07 meeting</title>
+                <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/association/meetings/meeting-2017-10-07/</link>
+                <guid>/en/activities/association/meetings/meeting-2017-10-07/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Eleventh lock picking workshop at 42</title>
+                <pubDate>Sat, 07 Oct 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-11/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-11/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Tenth lock picking workshop at 42</title>
+                <pubDate>Sat, 22 Jul 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-10/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-10/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>PSeS lock picking session</title>
+                <pubDate>Sun, 02 Jul 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-pses-2/</link>
+                <guid>/en/activities/workshops/lock-picking/session-pses-2/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Lock picking session at PSeS</title>
+                <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-pses-1/</link>
+                <guid>/en/activities/workshops/lock-picking/session-pses-1/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>2017 Passage en Seine</title>
+                <pubDate>Thu, 29 Jun 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/booth/passage-en-seine/pses-2017/</link>
+                <guid>/en/activities/booth/passage-en-seine/pses-2017/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Night da Hack XV</title>
+                <pubDate>Sat, 24 Jun 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/volunteering/le-hack/ndh-xv/</link>
+                <guid>/en/activities/volunteering/le-hack/ndh-xv/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Ninth lock picking workshop at 42</title>
+                <pubDate>Fri, 02 Jun 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-9/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-9/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>2017-05-12 meeting</title>
+                <pubDate>Fri, 12 May 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/association/meetings/meeting-2017-05-12/</link>
+                <guid>/en/activities/association/meetings/meeting-2017-05-12/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Eighth lock picking workshop at 42</title>
+                <pubDate>Mon, 24 Apr 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-8/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-8/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>2017-04-17 meeting</title>
+                <pubDate>Mon, 17 Apr 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/association/meetings/meeting-2017-04-17/</link>
+                <guid>/en/activities/association/meetings/meeting-2017-04-17/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Seventh lock picking workshop at 42</title>
+                <pubDate>Mon, 10 Apr 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-7/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-7/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Sixth lock picking workshop at 42</title>
+                <pubDate>Mon, 27 Mar 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-6/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-6/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Fifth lock picking workshop at 42</title>
+                <pubDate>Mon, 27 Feb 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-5/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-5/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>Fourth lockpicking workshop at 42</title>
+                <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/workshops/lock-picking/session-42-4/</link>
+                <guid>/en/activities/workshops/lock-picking/session-42-4/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>General introduction to computer security</title>
+                <pubDate>Fri, 10 Feb 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/conferences/introduction-computer-security/</link>
+                <guid>/en/activities/conferences/introduction-computer-security/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>2017 FOSDEM</title>
+                <pubDate>Thu, 02 Feb 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/trips/fosdem/trip-2017/</link>
+                <guid>/en/activities/trips/fosdem/trip-2017/</guid>
+                <description></description>
+            </item>
+        
+            <item>
+                <title>First meeting</title>
+                <pubDate>Tue, 17 Jan 2017 00:00:00 +0000</pubDate>
+                <link>/en/activities/association/meetings/meeting-2017-01-17/</link>
+                <guid>/en/activities/association/meetings/meeting-2017-01-17/</guid>
+                <description></description>
+            </item>
+        
+    </channel>
+</rss>
